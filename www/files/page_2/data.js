@@ -1,10 +1,10 @@
 ﻿$axure.loadCurrentPage({
   "url":"page_2.html",
-  "generationDate":new Date(1387305292438.03),
+  "generationDate":new Date(1387317657445.95),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
-    "packageId":"0f73b076b19947b2b9844eec1a97793e",
+    "packageId":"447cd80fff4e472c9c06743bc7540427",
     "type":"Axure:Page",
     "name":"Page 2",
     "notes":{
@@ -25,7 +25,14 @@
       "fontName":"Applied Font",
       "borderWidth":"0"},
     "adaptiveStyles":{
+      "a":{
 },
+      "b":{
+},
+      "c":{
+},
+      "d":{
+}},
     "interactionMap":{
 },
     "diagram":{

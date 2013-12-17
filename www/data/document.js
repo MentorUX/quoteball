@@ -9,7 +9,10 @@
     "hideAddress":false,
     "preventScroll":false,
     "useLabels":false,
-    "enabledViewIds":[],
+    "enabledViewIds":["a",
+"b",
+"c",
+"d"],
     "loadFeedbackPlugin":false},
   "sitemap":{
     "rootNodes":[{
@@ -17,41 +20,17 @@
         "type":"Wireframe",
         "url":"home.html",
         "children":[{
-            "pageName":"humor",
+            "pageName":"Page 1",
             "type":"Wireframe",
-            "url":"humor.html"},
+            "url":"page_1.html"},
 {
-            "pageName":"inspiration",
+            "pageName":"Page 2",
             "type":"Wireframe",
-            "url":"inspiration.html"},
+            "url":"page_2.html"},
 {
-            "pageName":"friendship",
+            "pageName":"Page 3",
             "type":"Wireframe",
-            "url":"friendship.html"},
-{
-            "pageName":"love",
-            "type":"Wireframe",
-            "url":"love.html"},
-{
-            "pageName":"change",
-            "type":"Wireframe",
-            "url":"change.html"},
-{
-            "pageName":"Folder",
-            "type":"Folder",
-            "url":"",
-            "children":[{
-                "pageName":"Page 3",
-                "type":"Wireframe",
-                "url":"page_3.html"},
-{
-                "pageName":"Page 2",
-                "type":"Wireframe",
-                "url":"page_2.html"},
-{
-                "pageName":"New Page 4",
-                "type":"Wireframe",
-                "url":"new_page_4.html"}]}]}]},
+            "url":"page_3.html"}]}]},
   "globalVariables":{
     "onloadvariable":""},
   "defaultAdaptiveView":{
@@ -60,11 +39,41 @@
       "width":0,
       "height":0},
     "condition":"<="},
-  "adaptiveViews":[],
+  "adaptiveViews":[{
+      "id":"a",
+      "name":"Portrait Phone",
+      "size":{
+        "width":320,
+        "height":0},
+      "condition":"<="},
+{
+      "id":"b",
+      "name":"Landscape Phone",
+      "baseViewId":"a",
+      "size":{
+        "width":480,
+        "height":0},
+      "condition":"<="},
+{
+      "id":"c",
+      "name":"Portrait Tablet",
+      "baseViewId":"b",
+      "size":{
+        "width":768,
+        "height":0},
+      "condition":"<="},
+{
+      "id":"d",
+      "name":"Landscape Tablet",
+      "baseViewId":"c",
+      "size":{
+        "width":1024,
+        "height":0},
+      "condition":"<="}],
   "stylesheet":{
     "defaultStyles":{
       "buttonShape":{
-        "id":"a42356ec058d489a825afe8110f6811e",
+        "id":"90d3dc00c3fb4bbda38f556a6c0dd7ef",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -123,7 +132,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "paragraph":{
-        "id":"9e2d6977c05c4ba4b28f37895e2af79a",
+        "id":"df23cc7ddd4143df80305ddad3489d87",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -182,7 +191,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "h1":{
-        "id":"d7e93f213e7c490ebf95c33efc7b0070",
+        "id":"ae42e9b293c04a4e95d4caefd5280fc8",
         "fontName":"'Arial Bold', 'Arial'",
         "fontSize":"32px",
         "fontWeight":"700",
@@ -241,7 +250,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "h2":{
-        "id":"25efe1f5e6e648298d7ff7b005102564",
+        "id":"205c3827ae574a4caf5e9c1c80a13400",
         "fontName":"'Arial Bold', 'Arial'",
         "fontSize":"24px",
         "fontWeight":"700",
@@ -300,7 +309,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "h3":{
-        "id":"c360c4d0b6f04daeaecd7e4f6b2eb8e9",
+        "id":"30720b32fa274755a4dd625b20ea6cf4",
         "fontName":"'Arial Bold', 'Arial'",
         "fontSize":"18px",
         "fontWeight":"700",
@@ -359,7 +368,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "h4":{
-        "id":"812fced3808249e9bcccca9ff7c453d9",
+        "id":"0f53d5b956364b39aa3a490f609ee1b2",
         "fontName":"'Arial Bold', 'Arial'",
         "fontSize":"14px",
         "fontWeight":"700",
@@ -418,7 +427,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "h5":{
-        "id":"984fdcc0cd5e4597995c666934140355",
+        "id":"e0dff6279f8f4346ac70090e8d0eab9c",
         "fontName":"'Arial Bold', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"700",
@@ -477,7 +486,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "h6":{
-        "id":"e5c7d9c9dd2f42199ed5510c23848ae7",
+        "id":"4fb2540e4a8249bea7e9bc48dc442c2d",
         "fontName":"'Arial Bold', 'Arial'",
         "fontSize":"10px",
         "fontWeight":"700",
@@ -536,7 +545,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "imageBox":{
-        "id":"2652f5ed37dd41e691a3a4a70bccb8bf",
+        "id":"973e6ee73d35417fa13c84b3b553341c",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -595,7 +604,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "hyperlink":{
-        "id":"e29bb65848da41db84cffae5f3cdb0eb",
+        "id":"25d4d7f925684f389d8f5e0f0e9f0ad7",
         "foreGroundFill":{
           "fillType":"solid",
           "color":0xFF0000FF,
@@ -609,7 +618,7 @@
         "visible":true,
         "limbo":false},
       "hyperlinkMouseOver":{
-        "id":"ff50b8b7a120457ca7363343449eb329",
+        "id":"750185d349c94487867b5bc7ecd1f50d",
         "underline":true,
         "location":{
           "x":0,
@@ -620,7 +629,7 @@
         "visible":true,
         "limbo":false},
       "hyperlinkMouseDown":{
-        "id":"d09f0a03dd05462e910af0622e1e01a3",
+        "id":"99ad0110208c4031b84efcfed20f08c9",
         "location":{
           "x":0,
           "y":0},
@@ -630,7 +639,7 @@
         "visible":true,
         "limbo":false},
       "textBox":{
-        "id":"2265f48c2e4d4fb4960014f704e81f34",
+        "id":"debc30eccf7c4fe7a0e04b6959bc9b94",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -689,7 +698,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "textArea":{
-        "id":"ae0327c3a20a4f90a8dcaf3922f2327b",
+        "id":"1a1be25c46b547b58b2a03b7d036b320",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -748,7 +757,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "comboBox":{
-        "id":"afc49a91e5d046c5894186b0744d43e9",
+        "id":"4249d09712bf405ba7b02e8a37ada292",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -807,7 +816,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "listBox":{
-        "id":"1f42e4c150d7451fa60bb6a8b2264b2f",
+        "id":"77aeaab4f3ee4c28b6908f11520e8b60",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -866,7 +875,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "checkbox":{
-        "id":"187880d4e0fe44d58e4f9acdd94cb995",
+        "id":"f552f9b8e3fb4ed89620f4c40a0a143d",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -925,7 +934,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "radioButton":{
-        "id":"3cce741a3e41418eafcaec7aff21a42d",
+        "id":"a510cd1abb4c412a9b91cdc55ebfdbed",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -984,7 +993,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "flowShape":{
-        "id":"ba9b42bc092d49cda5338d98ab334358",
+        "id":"b43e7b3a07bf40ae88537669794573e6",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -1050,7 +1059,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "treeNodeObject":{
-        "id":"7ca128c6106a4a06b80d4459be2fb0a4",
+        "id":"85b35cd2c4664cadb1dfec394ea2451a",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -1109,7 +1118,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "button":{
-        "id":"e86c3bea519c4aedb9150a4ace06fbd1",
+        "id":"cbc562dcdbd445968d07665737c157f4",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -1168,7 +1177,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "imageMapRegion":{
-        "id":"b6f0f89b447a48ab9239a00fc382b524",
+        "id":"b4f30ff0137147fbbe6c196b009d38a9",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -1227,7 +1236,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "inlineFrame":{
-        "id":"fdd22c7f5eeb4725ac29c0af424abc79",
+        "id":"e6b1dbc8b3a94ef3a5480087b3e960ae",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -1286,7 +1295,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "dynamicPanel":{
-        "id":"9d259559aa82428c97249b017ac42074",
+        "id":"df290b2c6f554375be086391cad5c995",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -1345,7 +1354,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "referenceDiagramObject":{
-        "id":"55b2dc04a3664215a8476903ff705d09",
+        "id":"89505886d0104b7eaddda9f8e1b3ef50",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -1404,7 +1413,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "repeater":{
-        "id":"608efb6cbacc4405b7fdb04cf8bbb185",
+        "id":"d2920877a5474727a38c298b8942ec68",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -1463,7 +1472,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "table":{
-        "id":"27bc09e240124c3fad8d48024c6b7e91",
+        "id":"6398d6b43dbb4b76ab5857bcaa014dc8",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -1522,7 +1531,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "tableCell":{
-        "id":"84ad47cbd6f74370a2c483e1e335f7fd",
+        "id":"3bf3e6993a164350ab9760fcf8345e38",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -1581,7 +1590,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "menuObject":{
-        "id":"7628331fbea34baea9784dafb0da4f67",
+        "id":"afda581e545249889216f3199cbeb1ff",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -1640,7 +1649,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "horizontalLine":{
-        "id":"87873f62d21443718a3ea4b242de2ee5",
+        "id":"db4f1e7de8874a499ddf36ac8cd48955",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -1699,7 +1708,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "verticalLine":{
-        "id":"9b38be78b48c4a409cddc4b59f0adabe",
+        "id":"312887e6b6224e85a68df66424c9c92d",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
@@ -1758,7 +1767,7 @@
             "b":0,
             "a":0.349019607843137}}},
       "connector":{
-        "id":"a995f6f34420403897a0e37417eef5ef",
+        "id":"fc541eb719d547d5b25d37817ac1b961",
         "fontName":"'Arial Regular', 'Arial'",
         "fontSize":"13px",
         "fontWeight":"400",
