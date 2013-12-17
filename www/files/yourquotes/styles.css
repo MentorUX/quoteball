@@ -751,13 +751,13 @@
 #u55 {
   position:absolute;
   left:2px;
-  top:24px;
+  top:16px;
   width:60px;
   word-wrap:break-word;
 }
 #u56 {
   position:absolute;
-  left:64px;
+  left:192px;
   top:7px;
   width:64px;
   height:64px;
@@ -803,7 +803,7 @@
 }
 #u60 {
   position:absolute;
-  left:192px;
+  left:64px;
   top:7px;
   width:64px;
   height:64px;

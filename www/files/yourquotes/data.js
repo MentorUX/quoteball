@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"yourquotes.html",
-  "generationDate":new Date(1387319439046.85),
+  "generationDate":new Date(1387321099177.81),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -1654,7 +1654,7 @@
                         "d":{
 }}}],
                   "images":{
-                    "normal~":"images/home/u54.png"}},
+                    "normal~":"images/home/u52.png"}},
 {
                   "id":"ec4125fcb8e74373813a2ce543fdf272",
                   "label":"",
@@ -1713,7 +1713,7 @@
                         "d":{
 }}}],
                   "images":{
-                    "normal~":"images/home/u56.png"}},
+                    "normal~":"images/home/u54.png"}},
 {
                   "id":"6c6239022df24f8a8c0a11018ca40995",
                   "label":"",
@@ -1728,7 +1728,7 @@
                       "fillType":"solid",
                       "color":0xFFD6EEEF},
                     "location":{
-                      "x":64,
+                      "x":192,
                       "y":7},
                     "size":{
                       "width":64,
@@ -1757,7 +1757,7 @@
                           "fillType":"solid",
                           "color":0xFFD6EEEF},
                         "location":{
-                          "x":64,
+                          "x":192,
                           "y":7},
                         "size":{
                           "width":64,
@@ -1772,7 +1772,7 @@
                         "d":{
 }}}],
                   "images":{
-                    "normal~":"images/home/u56.png"}},
+                    "normal~":"images/home/u54.png"}},
 {
                   "id":"34cfa7fa2c11497286478d285a40cae8",
                   "label":"",
@@ -1831,7 +1831,7 @@
                         "d":{
 }}}],
                   "images":{
-                    "normal~":"images/home/u56.png"}},
+                    "normal~":"images/home/u54.png"}},
 {
                   "id":"e28b0095af6f4e36b065a4d700c0d101",
                   "label":"",
@@ -1846,7 +1846,7 @@
                       "fillType":"solid",
                       "color":0xFFD6EEEF},
                     "location":{
-                      "x":192,
+                      "x":64,
                       "y":7},
                     "size":{
                       "width":64,
@@ -1875,7 +1875,7 @@
                           "fillType":"solid",
                           "color":0xFFD6EEEF},
                         "location":{
-                          "x":192,
+                          "x":64,
                           "y":7},
                         "size":{
                           "width":64,
@@ -1890,7 +1890,7 @@
                         "d":{
 }}}],
                   "images":{
-                    "normal~":"images/home/u56.png"}},
+                    "normal~":"images/home/u54.png"}},
 {
                   "id":"ceb1a4bc397043848587b6c01a4cb62a",
                   "label":"",
@@ -1958,7 +1958,7 @@
                               "panelsToStates":[]}]}]}},
                   "tabbable":true,
                   "images":{
-                    "normal~":"images/home/u64.png"}}]}]}]}},
+                    "normal~":"images/home/u62.png"}}]}]}]}},
   "masters":{
 },
   "objectPaths":{
