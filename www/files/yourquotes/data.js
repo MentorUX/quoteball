@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"yourquotes.html",
-  "generationDate":new Date(1387319387818.92),
+  "generationDate":new Date(1387319439046.85),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -112,7 +112,7 @@
                   "isNewIfGroup":false,
                   "actions":[{
                       "action":"setPanelState",
-                      "description":"Set quoteBox_yourQuotes to Next fade out 2000ms fade in 2000ms",
+                      "description":"Set quoteBox_yourQuotes to Next fade out 2000ms fade in 2000ms wrap",
                       "panelsToStates":[{
                           "panelPath":["4b8348c5d333455bbc6093580cd28e62"],
                           "stateInfo":{
@@ -122,7 +122,7 @@
                               "exprType":"stringLiteral",
                               "value":"1",
                               "stos":[]},
-                            "loop":false,
+                            "loop":true,
                             "showWhenSet":false,
                             "options":{
                               "animateOut":{
