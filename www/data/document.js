@@ -20,9 +20,9 @@
         "type":"Wireframe",
         "url":"home.html",
         "children":[{
-            "pageName":"Page 1",
+            "pageName":"yourQuotes",
             "type":"Wireframe",
-            "url":"page_1.html"},
+            "url":"yourquotes.html"},
 {
             "pageName":"Page 2",
             "type":"Wireframe",
