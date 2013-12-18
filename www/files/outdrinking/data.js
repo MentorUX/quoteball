@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"outdrinking.html",
-  "generationDate":new Date(1387401327884.91),
+  "generationDate":new Date(1387401974836.91),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{

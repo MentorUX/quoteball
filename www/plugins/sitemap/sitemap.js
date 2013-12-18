@@ -21,7 +21,7 @@
 
         generateSitemap();
 
-        $('.sitemapPlusMinusLink').toggle(collapse_click, expand_click);
+        $('.sitemapPlusMinusLink').toggle(expand_click, collapse_click);
         $('.sitemapPageLink').click(node_click);
 
         $('#sitemapLinksAndOptionsContainer').hide();
@@ -496,7 +496,7 @@
     function generateNode(node, level) {
         var hasChildren = (node.children && node.children.length > 0);
         if(hasChildren) {
-            var returnVal = "<li class='sitemapNode sitemapExpandableNode'><div><div class='sitemapPageLinkContainer' style='margin-left:" + (15 + level * 17) + "px'><a class='sitemapPlusMinusLink'><span class='sitemapMinus'></span></a>";
+            var returnVal = "<li class='sitemapNode sitemapExpandableNode'><div><div class='sitemapPageLinkContainer' style='margin-left:" + (15 + level * 17) + "px'><a class='sitemapPlusMinusLink'><span class='sitemapPlus'></span></a>";
         } else {
             var returnVal = "<li class='sitemapNode sitemapLeafNode'><div><div class='sitemapPageLinkContainer' style='margin-left:" + (27 + level * 17) + "px'>";
         }
@@ -517,7 +517,7 @@
         returnVal += "</div></div>";
 
         if(hasChildren) {
-            returnVal += "<ul>";
+            returnVal += "<ul style="display:none;'>";
             for(var i = 0; i < node.children.length; i++) {
                 var child = node.children[i];
                 returnVal += generateNode(child, level + 1);
