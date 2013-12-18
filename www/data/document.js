@@ -18,12 +18,12 @@
     "rootNodes":[{
         "pageName":"Home",
         "type":"Wireframe",
-        "url":"home.html",
-        "children":[{
-            "pageName":"yourQuotes",
-            "type":"Wireframe",
-            "url":"yourquotes.html"},
+        "url":"home.html"},
 {
+        "pageName":"yourQuotes",
+        "type":"Wireframe",
+        "url":"yourquotes.html",
+        "children":[{
             "pageName":"triMus",
             "type":"Wireframe",
             "url":"trimus.html"},
