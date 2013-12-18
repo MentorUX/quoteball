@@ -239,18 +239,18 @@
 #u19 {
   position:absolute;
   left:40px;
-  top:256px;
+  top:40px;
   width:240px;
-  height:24px;
-  font-size:20px;
-  color:#999999;
+  height:160px;
+  font-size:28px;
+  color:#4F8AAE;
 }
 #u19_img {
   position:absolute;
   left:0px;
   top:0px;
   width:240px;
-  height:24px;
+  height:160px;
 }
 #u20 {
   position:absolute;
@@ -261,30 +261,30 @@
 }
 #u21 {
   position:absolute;
-  left:40px;
-  top:40px;
-  width:240px;
-  height:160px;
-  font-size:28px;
-  color:#4F8AAE;
+  left:10px;
+  top:36px;
+  width:24px;
+  height:57px;
+  font-size:48px;
+  color:#E4E4E4;
 }
 #u21_img {
   position:absolute;
   left:0px;
   top:0px;
-  width:240px;
-  height:160px;
+  width:24px;
+  height:57px;
 }
 #u22 {
   position:absolute;
   left:0px;
   top:0px;
-  width:240px;
-  word-wrap:break-word;
+  width:24px;
+  white-space:nowrap;
 }
 #u23 {
   position:absolute;
-  left:10px;
+  left:286px;
   top:36px;
   width:24px;
   height:57px;
@@ -307,26 +307,26 @@
 }
 #u25 {
   position:absolute;
-  left:286px;
-  top:201px;
-  width:24px;
-  height:57px;
-  font-size:48px;
-  color:#E4E4E4;
+  left:40px;
+  top:96px;
+  width:240px;
+  height:24px;
+  font-size:20px;
+  color:#999999;
 }
 #u25_img {
   position:absolute;
   left:0px;
   top:0px;
-  width:24px;
-  height:57px;
+  width:240px;
+  height:24px;
 }
 #u26 {
   position:absolute;
   left:0px;
   top:0px;
-  width:24px;
-  white-space:nowrap;
+  width:240px;
+  word-wrap:break-word;
 }
 #u18_state1 {
   position:absolute;
@@ -420,7 +420,7 @@
 #u33 {
   position:absolute;
   left:286px;
-  top:103px;
+  top:73px;
   width:24px;
   height:57px;
   font-size:48px;
@@ -532,7 +532,7 @@
 #u41 {
   position:absolute;
   left:286px;
-  top:234px;
+  top:73px;
   width:24px;
   height:57px;
   font-size:48px;
@@ -667,7 +667,7 @@
 #u51 {
   position:absolute;
   left:40px;
-  top:200px;
+  top:96px;
   width:240px;
   height:24px;
   font-size:20px;
@@ -736,7 +736,7 @@
 #u57 {
   position:absolute;
   left:286px;
-  top:136px;
+  top:36px;
   width:24px;
   height:57px;
   font-size:48px;

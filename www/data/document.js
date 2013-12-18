@@ -24,13 +24,21 @@
             "type":"Wireframe",
             "url":"yourquotes.html"},
 {
-            "pageName":"Page 2",
+            "pageName":"triMus",
             "type":"Wireframe",
-            "url":"page_2.html"},
+            "url":"trimus.html"},
 {
-            "pageName":"Page 3",
+            "pageName":"outDrinking",
             "type":"Wireframe",
-            "url":"page_3.html"}]}]},
+            "url":"outdrinking.html"},
+{
+            "pageName":"laFamilia",
+            "type":"Wireframe",
+            "url":"lafamilia.html"}]},
+{
+        "pageName":"AddQuote",
+        "type":"Wireframe",
+        "url":"addquote.html"}]},
   "globalVariables":{
     "onloadvariable":""},
   "defaultAdaptiveView":{
