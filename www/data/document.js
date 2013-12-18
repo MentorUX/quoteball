@@ -24,17 +24,17 @@
         "type":"Wireframe",
         "url":"yourquotes.html",
         "children":[{
-            "pageName":"triMus",
-            "type":"Wireframe",
-            "url":"trimus.html"},
-{
             "pageName":"outDrinking",
             "type":"Wireframe",
             "url":"outdrinking.html"},
 {
             "pageName":"laFamilia",
             "type":"Wireframe",
-            "url":"lafamilia.html"}]},
+            "url":"lafamilia.html"},
+{
+            "pageName":"triMus",
+            "type":"Wireframe",
+            "url":"trimus.html"}]},
 {
         "pageName":"AddQuote",
         "type":"Wireframe",

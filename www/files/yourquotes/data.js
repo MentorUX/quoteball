@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"yourquotes.html",
-  "generationDate":new Date(1387399374616.19),
+  "generationDate":new Date(1387399943304.71),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -367,7 +367,7 @@
                       "opacity":1},
                     "location":{
                       "x":40,
-                      "y":200},
+                      "y":226},
                     "size":{
                       "width":240,
                       "height":24}},
@@ -396,7 +396,7 @@
                           "opacity":1},
                         "location":{
                           "x":40,
-                          "y":200},
+                          "y":226},
                         "size":{
                           "width":240,
                           "height":24}},
@@ -544,7 +544,7 @@
                       "opacity":1},
                     "location":{
                       "x":286,
-                      "y":103},
+                      "y":170},
                     "size":{
                       "width":24,
                       "height":57}},
@@ -573,7 +573,7 @@
                           "opacity":1},
                         "location":{
                           "x":286,
-                          "y":103},
+                          "y":170},
                         "size":{
                           "width":24,
                           "height":57}},
@@ -1083,7 +1083,7 @@
                       "opacity":1},
                     "location":{
                       "x":40,
-                      "y":200},
+                      "y":266},
                     "size":{
                       "width":240,
                       "height":24}},
@@ -1112,7 +1112,7 @@
                           "opacity":1},
                         "location":{
                           "x":40,
-                          "y":200},
+                          "y":266},
                         "size":{
                           "width":240,
                           "height":24}},
