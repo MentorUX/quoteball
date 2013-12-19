@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"mqdrinking.html",
-  "generationDate":new Date(1387492488307.76),
+  "generationDate":new Date(1387492706696.25),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
