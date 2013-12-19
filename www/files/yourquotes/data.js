@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"yourquotes.html",
-  "generationDate":new Date(1387401974615.9),
+  "generationDate":new Date(1387489590247),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -37,24 +37,6 @@
 },
     "diagram":{
       "objects":[{
-          "id":"f935cd95152e4076a5bc3fe47b69bb80",
-          "label":"",
-          "type":"referenceDiagramObject",
-          "styleType":"referenceDiagramObject",
-          "visible":true,
-          "style":{
-},
-          "adaptiveStyles":{
-            "a":{
-},
-            "b":{
-},
-            "c":{
-},
-            "d":{
-}},
-          "masterId":"fe0b42e896b2477c8108f03699164393"},
-{
           "id":"4b8348c5d333455bbc6093580cd28e62",
           "label":"quoteBox_yourQuotes",
           "type":"dynamicPanel",
@@ -1069,24 +1051,6 @@
                   "images":{
                     "normal~":"resources/images/transparent.gif"}}]}]},
 {
-          "id":"5b6b6c0eb0f34ff6bb379c0e774e7c64",
-          "label":"",
-          "type":"referenceDiagramObject",
-          "styleType":"referenceDiagramObject",
-          "visible":true,
-          "style":{
-},
-          "adaptiveStyles":{
-            "a":{
-},
-            "b":{
-},
-            "c":{
-},
-            "d":{
-}},
-          "masterId":"fe0b42e896b2477c8108f03699164393"},
-{
           "id":"afacf6dfac9f4444bd98583609be224b",
           "label":"catDropdown",
           "type":"comboBox",
@@ -1214,12 +1178,30 @@
                         "targetType":"page",
                         "url":"yourquotes.html",
                         "includeVariables":true},
-                      "linkType":"current"}]}]}}}]}},
+                      "linkType":"current"}]}]}}},
+{
+          "id":"b7c0a7e2d9a2438fae64ec6ac1a2408e",
+          "label":"",
+          "type":"referenceDiagramObject",
+          "styleType":"referenceDiagramObject",
+          "visible":true,
+          "style":{
+},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "masterId":"74dd9fa4ef174a4aac68bd408b906866"}]}},
   "masters":{
-    "fe0b42e896b2477c8108f03699164393":{
-      "packageId":"fe0b42e896b2477c8108f03699164393",
+    "74dd9fa4ef174a4aac68bd408b906866":{
+      "packageId":"74dd9fa4ef174a4aac68bd408b906866",
       "type":"Axure:Master",
-      "name":"Page layout - cat",
+      "name":"Page layout",
       "notes":{
 },
       "style":{
@@ -1250,6 +1232,64 @@
 },
       "diagram":{
         "objects":[{
+            "id":"766a3c30dfc24a7783792582c6706a40",
+            "label":"",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fill":{
+                "fillType":"solid",
+                "color":0xFFFFFF},
+              "size":{
+                "width":320,
+                "height":480},
+              "borderFill":{
+                "fillType":"solid",
+                "color":0xFFCCCCCC}},
+            "adaptiveStyles":{
+              "a":{
+},
+              "b":{
+                "size":{
+                  "width":480,
+                  "height":50}},
+              "c":{
+},
+              "d":{
+}},
+            "objects":[{
+                "id":"73f9110a837f4323b57cb901065f9905",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFFFFFF},
+                  "size":{
+                    "width":320,
+                    "height":480},
+                  "borderFill":{
+                    "fillType":"solid",
+                    "color":0xFFCCCCCC}},
+                "adaptiveStyles":{
+                  "a":{
+},
+                  "b":{
+},
+                  "c":{
+},
+                  "d":{
+}}}],
+            "images":{
+              "normal~":"images/home/u50.png",
+              "normal~b":"images/home/u50_b.png",
+              "normal~c":"images/home/u50_b.png",
+              "normal~d":"images/home/u50_b.png"}},
+{
             "id":"70f43fbfbf584b84a57af9421ea4ce01",
             "label":"",
             "type":"buttonShape",
@@ -1297,24 +1337,70 @@
                   "d":{
 }}}],
             "images":{
-              "normal~":"images/home/u3.png",
-              "normal~":"images/home/u3.png",
-              "normal~b":"images/home/u3_b.png",
-              "normal~b":"images/home/u3_b.png",
-              "normal~c":"images/home/u3_b.png",
-              "normal~c":"images/home/u3_b.png",
-              "normal~d":"images/home/u3_b.png",
-              "normal~d":"images/home/u3_b.png"}},
+              "normal~":"images/home/u52.png",
+              "normal~b":"images/home/u52_b.png",
+              "normal~c":"images/home/u52_b.png",
+              "normal~d":"images/home/u52_b.png"}},
 {
-            "id":"c7fdbe5d49f54628a13ef70c9e374094",
+            "id":"ee674a5562fc4aba8a5e2330fad40f13",
             "label":"",
-            "type":"dynamicPanel",
-            "styleType":"dynamicPanel",
+            "type":"referenceDiagramObject",
+            "styleType":"referenceDiagramObject",
             "visible":true,
             "style":{
               "location":{
                 "x":0,
-                "y":409},
+                "y":409}},
+            "adaptiveStyles":{
+              "a":{
+},
+              "b":{
+},
+              "c":{
+},
+              "d":{
+}},
+            "masterId":"81e3124032df45c4b52c40520e5abd12"}]}},
+    "81e3124032df45c4b52c40520e5abd12":{
+      "packageId":"81e3124032df45c4b52c40520e5abd12",
+      "type":"Axure:Master",
+      "name":"Footer",
+      "notes":{
+},
+      "style":{
+        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+        "pageAlignment":"near",
+        "fill":{
+          "fillType":"solid",
+          "color":0xFFFFFFFF},
+        "image":null,
+        "imageHorizontalAlignment":"near",
+        "imageVerticalAlignment":"near",
+        "imageRepeat":"auto",
+        "favicon":null,
+        "sketchFactor":"0",
+        "colorStyle":"appliedColor",
+        "fontName":"Applied Font",
+        "borderWidth":"0"},
+      "adaptiveStyles":{
+        "a":{
+},
+        "b":{
+},
+        "c":{
+},
+        "d":{
+}},
+      "interactionMap":{
+},
+      "diagram":{
+        "objects":[{
+            "id":"b7da9bb0976a4d09a514079ff3c6acff",
+            "label":"FooterPanel",
+            "type":"dynamicPanel",
+            "styleType":"dynamicPanel",
+            "visible":true,
+            "style":{
               "size":{
                 "width":10,
                 "height":10}},
@@ -1336,13 +1422,13 @@
             "fitToContent":true,
             "propagate":false,
             "diagrams":[{
-                "id":"a8df7308bda04eb5abd9f750b2d9efa3",
-                "label":"State1",
+                "id":"6fd60091b1b048b09da79479ad24a70e",
+                "label":"home",
                 "type":"Axure:PanelDiagram",
                 "objects":[{
-                    "id":"1fcc584038cf482baad90cc2d6edf375",
+                    "id":"bf84f4d025c3484eba56b59e326ca49a",
                     "label":"",
-                    "parentDynamicPanel":"c7fdbe5d49f54628a13ef70c9e374094",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
                     "type":"buttonShape",
                     "styleType":"buttonShape",
                     "visible":true,
@@ -1363,10 +1449,10 @@
                       "d":{
 }},
                     "objects":[{
-                        "id":"f22be5fc7502451d8fdaa2dc58a1cd41",
+                        "id":"b6c22247f71043169fa406d58dfaa95c",
                         "label":"",
                         "isContained":true,
-                        "parentDynamicPanel":"c7fdbe5d49f54628a13ef70c9e374094",
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
                         "type":"richTextPanel",
                         "styleType":"paragraph",
                         "visible":true,
@@ -1387,21 +1473,18 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u6.png",
-                      "normal~":"images/home/u6.png"}},
+                      "normal~":"images/home/u56.png"}},
 {
-                    "id":"4ed4a1c9e76444f1aef857e98e253b7c",
+                    "id":"a7e76f452f394ea38f3ea02baa2535e9",
                     "label":"",
-                    "parentDynamicPanel":"c7fdbe5d49f54628a13ef70c9e374094",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
                     "type":"buttonShape",
                     "styleType":"buttonShape",
                     "visible":true,
                     "style":{
-                      "fontName":"'Arial Bold', 'Arial'",
-                      "fontWeight":"700",
-                      "fill":{
-                        "fillType":"solid",
-                        "color":0xFFD6EEEF},
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
                       "location":{
                         "x":0,
                         "y":7},
@@ -1418,19 +1501,17 @@
                       "d":{
 }},
                     "objects":[{
-                        "id":"c2bee1cb957b46dcb9f3b66386dab54c",
+                        "id":"44d3b17765d94488bf566dc947924eb9",
                         "label":"",
                         "isContained":true,
-                        "parentDynamicPanel":"c7fdbe5d49f54628a13ef70c9e374094",
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
                         "type":"richTextPanel",
                         "styleType":"paragraph",
                         "visible":true,
                         "style":{
-                          "fontName":"'Arial Bold', 'Arial'",
-                          "fontWeight":"700",
-                          "fill":{
-                            "fillType":"solid",
-                            "color":0xFFD6EEEF},
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
                           "location":{
                             "x":0,
                             "y":7},
@@ -1446,22 +1527,50 @@
 },
                           "d":{
 }}}],
-                    "images":{
-                      "normal~":"images/home/u8.png",
-                      "normal~":"images/home/u8.png"}},
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open addQuote in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"addquote.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
 {
-                    "id":"dedf10229ab040d38bc6805572e2a94a",
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to add",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":2,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"03094a20195044689d35c7538d3f4fb3",
                     "label":"",
-                    "parentDynamicPanel":"c7fdbe5d49f54628a13ef70c9e374094",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
                     "type":"buttonShape",
                     "styleType":"buttonShape",
                     "visible":true,
                     "style":{
-                      "fontName":"'Arial Bold', 'Arial'",
-                      "fontWeight":"700",
-                      "fill":{
-                        "fillType":"solid",
-                        "color":0xFFD6EEEF},
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
                       "location":{
                         "x":192,
                         "y":7},
@@ -1478,19 +1587,17 @@
                       "d":{
 }},
                     "objects":[{
-                        "id":"c8ab0774619c43ae940d1a4303504587",
+                        "id":"6af711dae81a4505987b39a68f394636",
                         "label":"",
                         "isContained":true,
-                        "parentDynamicPanel":"c7fdbe5d49f54628a13ef70c9e374094",
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
                         "type":"richTextPanel",
                         "styleType":"paragraph",
                         "visible":true,
                         "style":{
-                          "fontName":"'Arial Bold', 'Arial'",
-                          "fontWeight":"700",
-                          "fill":{
-                            "fillType":"solid",
-                            "color":0xFFD6EEEF},
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
                           "location":{
                             "x":192,
                             "y":7},
@@ -1506,22 +1613,50 @@
 },
                           "d":{
 }}}],
-                    "images":{
-                      "normal~":"images/home/u8.png",
-                      "normal~":"images/home/u8.png"}},
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open find in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"find.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
 {
-                    "id":"ed32bf7907ad45d3b88da71ec9a45e3e",
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to find",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":4,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"f8d897a61e5740369871ee34108937d5",
                     "label":"",
-                    "parentDynamicPanel":"c7fdbe5d49f54628a13ef70c9e374094",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
                     "type":"buttonShape",
                     "styleType":"buttonShape",
                     "visible":true,
                     "style":{
-                      "fontName":"'Arial Bold', 'Arial'",
-                      "fontWeight":"700",
-                      "fill":{
-                        "fillType":"solid",
-                        "color":0xFFD6EEEF},
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
                       "location":{
                         "x":256,
                         "y":7},
@@ -1538,19 +1673,17 @@
                       "d":{
 }},
                     "objects":[{
-                        "id":"93fd766df4c645d8b527ea7c03db2ab2",
+                        "id":"e1db7a57c91a40d4a534c3c74dacb1e8",
                         "label":"",
                         "isContained":true,
-                        "parentDynamicPanel":"c7fdbe5d49f54628a13ef70c9e374094",
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
                         "type":"richTextPanel",
                         "styleType":"paragraph",
                         "visible":true,
                         "style":{
-                          "fontName":"'Arial Bold', 'Arial'",
-                          "fontWeight":"700",
-                          "fill":{
-                            "fillType":"solid",
-                            "color":0xFFD6EEEF},
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
                           "location":{
                             "x":256,
                             "y":7},
@@ -1566,22 +1699,50 @@
 },
                           "d":{
 }}}],
-                    "images":{
-                      "normal~":"images/home/u8.png",
-                      "normal~":"images/home/u8.png"}},
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open settings in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"settings.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
 {
-                    "id":"8ec78ad9e54c48f0a1d3d3a92b7509d5",
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to settings",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":5,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"13192bb9cc114c65a8949abdcbb947b2",
                     "label":"",
-                    "parentDynamicPanel":"c7fdbe5d49f54628a13ef70c9e374094",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
                     "type":"buttonShape",
                     "styleType":"buttonShape",
                     "visible":true,
                     "style":{
-                      "fontName":"'Arial Bold', 'Arial'",
-                      "fontWeight":"700",
-                      "fill":{
-                        "fillType":"solid",
-                        "color":0xFFD6EEEF},
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
                       "location":{
                         "x":64,
                         "y":7},
@@ -1598,19 +1759,17 @@
                       "d":{
 }},
                     "objects":[{
-                        "id":"fac5f10ffb244f048a88b303b27bc8b0",
+                        "id":"416c2efe574f45d08f25da1c59353f07",
                         "label":"",
                         "isContained":true,
-                        "parentDynamicPanel":"c7fdbe5d49f54628a13ef70c9e374094",
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
                         "type":"richTextPanel",
                         "styleType":"paragraph",
                         "visible":true,
                         "style":{
-                          "fontName":"'Arial Bold', 'Arial'",
-                          "fontWeight":"700",
-                          "fill":{
-                            "fillType":"solid",
-                            "color":0xFFD6EEEF},
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
                           "location":{
                             "x":64,
                             "y":7},
@@ -1639,15 +1798,30 @@
                                   "targetType":"page",
                                   "url":"yourquotes.html",
                                   "includeVariables":true},
-                                "linkType":"current"}]}]}},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to yourQ",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":3,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
                     "tabbable":true,
                     "images":{
-                      "normal~":"images/home/u8.png",
-                      "normal~":"images/home/u8.png"}},
+                      "normal~":"images/home/u58.png"}},
 {
-                    "id":"6eac35b9db3540028ba7ea5e0eb951ef",
+                    "id":"3d33648afbd94ced97df13ea358e3e44",
                     "label":"",
-                    "parentDynamicPanel":"c7fdbe5d49f54628a13ef70c9e374094",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
                     "type":"imageBox",
                     "styleType":"imageBox",
                     "visible":true,
@@ -1668,10 +1842,10 @@
                       "d":{
 }},
                     "objects":[{
-                        "id":"93e81c4f94974f29bf8e37d3d9053f06",
+                        "id":"b4c1771e93a64c58b80c76798f4b5ae9",
                         "label":"",
                         "isContained":true,
-                        "parentDynamicPanel":"c7fdbe5d49f54628a13ef70c9e374094",
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
                         "type":"richTextPanel",
                         "styleType":"paragraph",
                         "visible":true,
@@ -1707,142 +1881,3003 @@
                                 "linkType":"current"},
 {
                                 "action":"setPanelState",
-                                "description":"Set Panel to State",
-                                "panelsToStates":[]}]}]}},
+                                "description":"Set FooterPanel to home",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":1,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
                     "tabbable":true,
                     "images":{
-                      "normal~":"images/home/u16.png",
-                      "normal~":"images/home/u16.png"}}]}]}]}}},
+                      "normal~":"images/home/u66.png"}},
+{
+                    "id":"9f2fad9a5e494d35b769bd7ae4796e78",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":276,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"448186e4a6e8449081e5a9caf0aa5cf9",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":276,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u68.png"}},
+{
+                    "id":"8ef36dee43844e549539bf19321f6751",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":212,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"c2b207dfdce64aa2a820c62bbfc8594c",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":212,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u70.png"}},
+{
+                    "id":"c80bcda215c54bae8273e0c29c3a5672",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":20,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"16bed04558de43929f2796d72a5e92f8",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":20,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u72.png"}},
+{
+                    "id":"07b81fac2002495e90163c9f8d90a704",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":84,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"d9f80184908348ac92275bf83847dcc2",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":84,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u74.png"}}]},
+{
+                "id":"d0da18bd03ab4335a7f2870bb12eea4b",
+                "label":"add",
+                "type":"Axure:PanelDiagram",
+                "objects":[{
+                    "id":"954256d16a4141c99ce752fb9ed8ab19",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFFD6EEEF},
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":0,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"6260736f56cc4ad7be38ca59a539a656",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "fill":{
+                            "fillType":"solid",
+                            "color":0xFFD6EEEF},
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":0,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open addQuote in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"addquote.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to add",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":2,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u76.png"}},
+{
+                    "id":"71e4371c7d0f49018ce7eb9cc59c23e1",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":192,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"808b3ea473d3405b92a7381caea118eb",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":192,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open find in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"find.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to find",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":4,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"41e370f9fbba4cca81cb969050440d0d",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":256,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"83c613595158455babebd2af1363ded6",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":256,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open settings in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"settings.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to settings",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":5,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"5695334596e74d829d45cc7606a2815c",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":64,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"9ae26a00fefb441ba43f81852eda6e26",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":64,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open yourQuotes in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"yourquotes.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to yourQ",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":3,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"e33fd3bf3fcb4bc99c25a69caddb00d5",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":125,
+                        "y":0},
+                      "size":{
+                        "width":70,
+                        "height":70}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"7e45cadd7aa342d997e4323d40f2a2de",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":125,
+                            "y":0},
+                          "size":{
+                            "width":70,
+                            "height":70}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open Home in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"home.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to home",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":1,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u66.png"}},
+{
+                    "id":"d7eaf65bf72a4864986ae0f47313c714",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":276,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"de531c6c99a94abdbf111d5487fa9cd1",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":276,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u68.png"}},
+{
+                    "id":"923653be00e1494c91d41ebf2dd96db0",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":212,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"c5852c903ee141788ed6d38492e9c0c8",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":212,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u70.png"}},
+{
+                    "id":"5cbecae29aa141d39ad690a91569f9ec",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":20,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"e241f963978c4925aadc610de1b5f6cf",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":20,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u72.png"}},
+{
+                    "id":"8ceb6efb23064dcdb3292dbc7bd415a8",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":84,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"57dd117b07fe4af8bb24871a00e2aa35",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":84,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u74.png"}}]},
+{
+                "id":"54223a311e8b43b9afb352f62c0edfcc",
+                "label":"yourQ",
+                "type":"Axure:PanelDiagram",
+                "objects":[{
+                    "id":"bbc845467faa46ed9d701f53e5f70817",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":0,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"40e2586bbc7b454c8b3269632a127e96",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":0,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open addQuote in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"addquote.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to add",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":2,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"ab9783aa32a24c62a7aacf1d5d218504",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":192,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"4ca71c5d4ace492ab58d2855d8e03939",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":192,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open find in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"find.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to find",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":4,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"61d3d4b84f694633821c87504095ea18",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":256,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"bae075bed9f240089a55f919a91f4f08",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":256,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open settings in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"settings.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to settings",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":5,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"851d83f612204b00948f300e720afce1",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFFD6EEEF},
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":64,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"13afbd93cbe446339964ef0e60150199",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "fill":{
+                            "fillType":"solid",
+                            "color":0xFFD6EEEF},
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":64,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open yourQuotes in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"yourquotes.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to yourQ",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":3,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u76.png"}},
+{
+                    "id":"bed0ab758c474ce3b065570453262eae",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":125,
+                        "y":0},
+                      "size":{
+                        "width":70,
+                        "height":70}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"9bbb793531184a5182b61badf518ec86",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":125,
+                            "y":0},
+                          "size":{
+                            "width":70,
+                            "height":70}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open Home in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"home.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to home",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":1,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u66.png"}},
+{
+                    "id":"d881e4f1abdf4b94a0c85f374f7ee206",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":276,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"488d5d0205ca4fd1a6f3b1fe8f3833c8",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":276,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u68.png"}},
+{
+                    "id":"7f10f1597c4540f885b29aad97937e3b",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":212,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"0aed639b0dec4909936722dcec03b6fe",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":212,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u70.png"}},
+{
+                    "id":"f3be2f3fd3d04b0a8636de4eb4398000",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":20,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"a495d344ec2d45808b17d8952ad87fb2",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":20,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u72.png"}},
+{
+                    "id":"78a615efbf694662b5a8380fb9d7927b",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":84,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"dcd38a6fdfec4cc9b1d9b9a01dca340e",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":84,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u74.png"}}]},
+{
+                "id":"bc049b957776425490a73ddc1a5ecb2e",
+                "label":"find",
+                "type":"Axure:PanelDiagram",
+                "objects":[{
+                    "id":"8278f6f865034fe4a5112ed56b72a3c9",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":0,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"59504301457343b69d1d44bbdcba9450",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":0,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open addQuote in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"addquote.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to add",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":2,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"1dac1a82e4664d048340c684dd2318b6",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFFD6EEEF},
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":192,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"cbc74f0b60d74616950835f4a36d5a72",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "fill":{
+                            "fillType":"solid",
+                            "color":0xFFD6EEEF},
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":192,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open find in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"find.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to find",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":4,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u76.png"}},
+{
+                    "id":"4d39913552a64422bc63838a58f4fe29",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":256,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"dcb5ca705c354591ad432490fba9bbf8",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":256,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open settings in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"settings.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to settings",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":5,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"2c6d01710112469e99b72a59d7b6761c",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":64,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"03081cfe2e744612b115bd3a8ea11070",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":64,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open yourQuotes in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"yourquotes.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to yourQ",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":3,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"dcd3e7df3bc34dd9904caca1770e54dc",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":125,
+                        "y":0},
+                      "size":{
+                        "width":70,
+                        "height":70}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"de86d14f0dbf4badb01d83a69e1824bb",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":125,
+                            "y":0},
+                          "size":{
+                            "width":70,
+                            "height":70}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open Home in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"home.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to home",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":1,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u66.png"}},
+{
+                    "id":"1f46d6607f8b4fb39860e25721ffc333",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":276,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"44f11fa7e5a84eefb628bb23534dd20a",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":276,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u68.png"}},
+{
+                    "id":"b74483df371d42f5a8c5a0983053d3aa",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":212,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"eaf3ba4ebf0040149a45d15509eb2a7d",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":212,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u70.png"}},
+{
+                    "id":"9939090b77e3469eb9be843f6c36d7d5",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":20,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"69cea4d936ae4464bbbb6e0ef503c4f6",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":20,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u72.png"}},
+{
+                    "id":"627b265973d3498186cba6e8fdd960b0",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":84,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"6ee52b24ea374da1a44a699df8701823",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":84,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u74.png"}}]},
+{
+                "id":"a387d562838b4f2590f2d24112b54d43",
+                "label":"settings",
+                "type":"Axure:PanelDiagram",
+                "objects":[{
+                    "id":"221bde69f13c420fa9970312cee96282",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":0,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"747d01bd839d462ead083b2b339244bf",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":0,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open addQuote in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"addquote.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to add",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":2,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"60f250a6dd4943d1a2e6993ae5b77978",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":192,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"a5c4a5dfd7bf47eaabc2f21010791b40",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":192,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open find in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"find.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to find",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":4,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"42fbee213fd142888aba9266e70206fe",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "fill":{
+                        "fillType":"solid",
+                        "color":0xFFD6EEEF},
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":256,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"736e218eae4e4a4fb394b0ea2dfb38ca",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "fill":{
+                            "fillType":"solid",
+                            "color":0xFFD6EEEF},
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":256,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open settings in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"settings.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to settings",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":5,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u76.png"}},
+{
+                    "id":"1e8f855ff1d34ed1a923294b601381fb",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"buttonShape",
+                    "styleType":"buttonShape",
+                    "visible":true,
+                    "style":{
+                      "fontSize":"11px",
+                      "verticalAlignment":"bottom",
+                      "paddingBottom":"8",
+                      "location":{
+                        "x":64,
+                        "y":7},
+                      "size":{
+                        "width":64,
+                        "height":64}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"3472bbba1b42493f90cce93394d0d942",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "fontSize":"11px",
+                          "verticalAlignment":"bottom",
+                          "paddingBottom":"8",
+                          "location":{
+                            "x":64,
+                            "y":7},
+                          "size":{
+                            "width":64,
+                            "height":64}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open yourQuotes in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"yourquotes.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to yourQ",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":3,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u58.png"}},
+{
+                    "id":"4efd650803384e388726335016709a71",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":125,
+                        "y":0},
+                      "size":{
+                        "width":70,
+                        "height":70}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"9db6e755c66a478e9e26f65fc8d5a527",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":125,
+                            "y":0},
+                          "size":{
+                            "width":70,
+                            "height":70}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "interactionMap":{
+                      "onClick":{
+                        "description":"OnClick",
+                        "cases":[{
+                            "description":"Case 1",
+                            "isNewIfGroup":false,
+                            "actions":[{
+                                "action":"linkWindow",
+                                "description":"Open Home in Current Window",
+                                "target":{
+                                  "targetType":"page",
+                                  "url":"home.html",
+                                  "includeVariables":true},
+                                "linkType":"current"},
+{
+                                "action":"setPanelState",
+                                "description":"Set FooterPanel to home",
+                                "panelsToStates":[{
+                                    "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
+                                    "stateInfo":{
+                                      "setStateType":"diagram",
+                                      "stateNumber":1,
+                                      "stateValue":{
+                                        "exprType":"stringLiteral",
+                                        "value":"1",
+                                        "stos":[]},
+                                      "loop":false,
+                                      "showWhenSet":false,
+                                      "options":{
+                                        "compress":false}}}]}]}]}},
+                    "tabbable":true,
+                    "images":{
+                      "normal~":"images/home/u66.png"}},
+{
+                    "id":"9956f88a836840b6ad0eb5bdd150c597",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":276,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"08fb94c09e3b45e4b7cc0a6e6a2ebcaa",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":276,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u68.png"}},
+{
+                    "id":"0ddde2057a6b43a0aad48c88d6873b1e",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":212,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"5f3481f840be4a60a2d4c014773c5284",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":212,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u70.png"}},
+{
+                    "id":"30b247257d514421bed3d5db811b9c5e",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":20,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"0233787b401c4ee08753f232eddfe2cf",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":20,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u72.png"}},
+{
+                    "id":"94eca6012d044c79a9e8e2bd0968b152",
+                    "label":"",
+                    "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                    "type":"imageBox",
+                    "styleType":"imageBox",
+                    "visible":true,
+                    "style":{
+                      "location":{
+                        "x":84,
+                        "y":20},
+                      "size":{
+                        "width":24,
+                        "height":24}},
+                    "adaptiveStyles":{
+                      "a":{
+},
+                      "b":{
+},
+                      "c":{
+},
+                      "d":{
+}},
+                    "objects":[{
+                        "id":"bff974f1bbdc443aaf30a395ba8e6f6a",
+                        "label":"",
+                        "isContained":true,
+                        "parentDynamicPanel":"b7da9bb0976a4d09a514079ff3c6acff",
+                        "type":"richTextPanel",
+                        "styleType":"paragraph",
+                        "visible":true,
+                        "style":{
+                          "location":{
+                            "x":84,
+                            "y":20},
+                          "size":{
+                            "width":24,
+                            "height":24}},
+                        "adaptiveStyles":{
+                          "a":{
+},
+                          "b":{
+},
+                          "c":{
+},
+                          "d":{
+}}}],
+                    "images":{
+                      "normal~":"images/home/u74.png"}}]}]}]}}},
   "objectPaths":{
-    "f935cd95152e4076a5bc3fe47b69bb80":{
-      "scriptId":"u0",
-      "70f43fbfbf584b84a57af9421ea4ce01":{
-        "scriptId":"u1"},
-      "9f833909bd2d486da91c8451f84e7a28":{
-        "scriptId":"u2"},
-      "c7fdbe5d49f54628a13ef70c9e374094":{
-        "scriptId":"u3"},
-      "1fcc584038cf482baad90cc2d6edf375":{
-        "scriptId":"u4"},
-      "f22be5fc7502451d8fdaa2dc58a1cd41":{
-        "scriptId":"u5"},
-      "4ed4a1c9e76444f1aef857e98e253b7c":{
-        "scriptId":"u6"},
-      "c2bee1cb957b46dcb9f3b66386dab54c":{
-        "scriptId":"u7"},
-      "dedf10229ab040d38bc6805572e2a94a":{
-        "scriptId":"u8"},
-      "c8ab0774619c43ae940d1a4303504587":{
-        "scriptId":"u9"},
-      "ed32bf7907ad45d3b88da71ec9a45e3e":{
-        "scriptId":"u10"},
-      "93fd766df4c645d8b527ea7c03db2ab2":{
-        "scriptId":"u11"},
-      "8ec78ad9e54c48f0a1d3d3a92b7509d5":{
-        "scriptId":"u12"},
-      "fac5f10ffb244f048a88b303b27bc8b0":{
-        "scriptId":"u13"},
-      "6eac35b9db3540028ba7ea5e0eb951ef":{
-        "scriptId":"u14"},
-      "93e81c4f94974f29bf8e37d3d9053f06":{
-        "scriptId":"u15"}},
     "4b8348c5d333455bbc6093580cd28e62":{
-      "scriptId":"u16"},
+      "scriptId":"u0"},
     "5a6d1b4e75344fa79d3f786555859a0c":{
-      "scriptId":"u17"},
+      "scriptId":"u1"},
     "318e4f7a609542819f58f89ba0a9eb7c":{
-      "scriptId":"u18"},
+      "scriptId":"u2"},
     "3d168413cec24cc4bf7f641a518929fa":{
-      "scriptId":"u19"},
+      "scriptId":"u3"},
     "22e9db99efd84601901b81219133c37b":{
-      "scriptId":"u20"},
+      "scriptId":"u4"},
     "68470c44edfc48a4aab27bf73478cfda":{
-      "scriptId":"u21"},
+      "scriptId":"u5"},
     "e3ed78fe0e4b49efb37dfc21d1b3a4c8":{
-      "scriptId":"u22"},
+      "scriptId":"u6"},
     "4a3f3eb8be074f2785cad907580d1ee2":{
-      "scriptId":"u23"},
+      "scriptId":"u7"},
     "2175e3b9ecc14e8491f3253503ce31cc":{
-      "scriptId":"u24"},
+      "scriptId":"u8"},
     "e1c4b3fd681841f1a0b81152d69ed599":{
-      "scriptId":"u25"},
+      "scriptId":"u9"},
     "412c5f51e3994573b8606ecd4fa55ed1":{
-      "scriptId":"u26"},
+      "scriptId":"u10"},
     "3221834c6eb44682a09a7dfb9223972b":{
-      "scriptId":"u27"},
+      "scriptId":"u11"},
     "2466d8565aab475e8a81ee09853ae331":{
-      "scriptId":"u28"},
+      "scriptId":"u12"},
     "bc98b9b5e309495ca27426140fc4c8b1":{
-      "scriptId":"u29"},
+      "scriptId":"u13"},
     "bd3794e40db24206bab73f96fa87119e":{
-      "scriptId":"u30"},
+      "scriptId":"u14"},
     "8a4e85145c6a4c568fc886875104cb52":{
-      "scriptId":"u31"},
+      "scriptId":"u15"},
     "0fd5b4790abd464ab6635b7ab492bb62":{
-      "scriptId":"u32"},
+      "scriptId":"u16"},
     "00c5f685dbd3420e9f2252d369b9ff28":{
-      "scriptId":"u33"},
+      "scriptId":"u17"},
     "a9f42d8819994f13a92bdc0f55aecbc1":{
-      "scriptId":"u34"},
+      "scriptId":"u18"},
     "3a74baaf60a94863889eb6f9a01ca762":{
-      "scriptId":"u35"},
+      "scriptId":"u19"},
     "11b051d0f6684171898b7af783b41c93":{
-      "scriptId":"u36"},
+      "scriptId":"u20"},
     "c2bf1819b8974efba40d2a891b2e34b7":{
-      "scriptId":"u37"},
+      "scriptId":"u21"},
     "6ed8b653781d4ff3a23a494e5a78d164":{
-      "scriptId":"u38"},
+      "scriptId":"u22"},
     "3e290dd5f9ff4a179e9de0a8e426c11a":{
-      "scriptId":"u39"},
+      "scriptId":"u23"},
     "7531bc238ec14752920b777d20d36d7f":{
-      "scriptId":"u40"},
+      "scriptId":"u24"},
     "51de87326c8e444cbfc8ac1f2d8c44e2":{
-      "scriptId":"u41"},
+      "scriptId":"u25"},
     "6f2225ecca4c4dce84145adba407dcd4":{
-      "scriptId":"u42"},
+      "scriptId":"u26"},
     "f77e902e8fe7442fb1b92cd2c28154d3":{
-      "scriptId":"u43"},
+      "scriptId":"u27"},
     "f7ca6503be0544f5b1d6a61507858405":{
-      "scriptId":"u44"},
+      "scriptId":"u28"},
     "8fb3ce0e0e5541abac69b86ab89fc896":{
-      "scriptId":"u45"},
+      "scriptId":"u29"},
     "450b3bc1831c4cc287851e075acfe0be":{
-      "scriptId":"u46"},
+      "scriptId":"u30"},
     "3534abc0ff42447388d25e86938a798c":{
-      "scriptId":"u47"},
+      "scriptId":"u31"},
     "f0a59df0763647fe8863b1f6fef4bf89":{
-      "scriptId":"u48"},
-    "5b6b6c0eb0f34ff6bb379c0e774e7c64":{
-      "scriptId":"u49",
-      "70f43fbfbf584b84a57af9421ea4ce01":{
-        "scriptId":"u50"},
-      "9f833909bd2d486da91c8451f84e7a28":{
-        "scriptId":"u51"},
-      "c7fdbe5d49f54628a13ef70c9e374094":{
-        "scriptId":"u52"},
-      "1fcc584038cf482baad90cc2d6edf375":{
-        "scriptId":"u53"},
-      "f22be5fc7502451d8fdaa2dc58a1cd41":{
-        "scriptId":"u54"},
-      "4ed4a1c9e76444f1aef857e98e253b7c":{
-        "scriptId":"u55"},
-      "c2bee1cb957b46dcb9f3b66386dab54c":{
-        "scriptId":"u56"},
-      "dedf10229ab040d38bc6805572e2a94a":{
-        "scriptId":"u57"},
-      "c8ab0774619c43ae940d1a4303504587":{
-        "scriptId":"u58"},
-      "ed32bf7907ad45d3b88da71ec9a45e3e":{
-        "scriptId":"u59"},
-      "93fd766df4c645d8b527ea7c03db2ab2":{
-        "scriptId":"u60"},
-      "8ec78ad9e54c48f0a1d3d3a92b7509d5":{
-        "scriptId":"u61"},
-      "fac5f10ffb244f048a88b303b27bc8b0":{
-        "scriptId":"u62"},
-      "6eac35b9db3540028ba7ea5e0eb951ef":{
-        "scriptId":"u63"},
-      "93e81c4f94974f29bf8e37d3d9053f06":{
-        "scriptId":"u64"}},
+      "scriptId":"u32"},
     "afacf6dfac9f4444bd98583609be224b":{
-      "scriptId":"u65"}}});
+      "scriptId":"u33"},
+    "b7c0a7e2d9a2438fae64ec6ac1a2408e":{
+      "scriptId":"u34",
+      "766a3c30dfc24a7783792582c6706a40":{
+        "scriptId":"u35"},
+      "73f9110a837f4323b57cb901065f9905":{
+        "scriptId":"u36"},
+      "70f43fbfbf584b84a57af9421ea4ce01":{
+        "scriptId":"u37"},
+      "9f833909bd2d486da91c8451f84e7a28":{
+        "scriptId":"u38"},
+      "ee674a5562fc4aba8a5e2330fad40f13":{
+        "scriptId":"u39",
+        "b7da9bb0976a4d09a514079ff3c6acff":{
+          "scriptId":"u40"},
+        "bf84f4d025c3484eba56b59e326ca49a":{
+          "scriptId":"u41"},
+        "b6c22247f71043169fa406d58dfaa95c":{
+          "scriptId":"u42"},
+        "a7e76f452f394ea38f3ea02baa2535e9":{
+          "scriptId":"u43"},
+        "44d3b17765d94488bf566dc947924eb9":{
+          "scriptId":"u44"},
+        "03094a20195044689d35c7538d3f4fb3":{
+          "scriptId":"u45"},
+        "6af711dae81a4505987b39a68f394636":{
+          "scriptId":"u46"},
+        "f8d897a61e5740369871ee34108937d5":{
+          "scriptId":"u47"},
+        "e1db7a57c91a40d4a534c3c74dacb1e8":{
+          "scriptId":"u48"},
+        "13192bb9cc114c65a8949abdcbb947b2":{
+          "scriptId":"u49"},
+        "416c2efe574f45d08f25da1c59353f07":{
+          "scriptId":"u50"},
+        "3d33648afbd94ced97df13ea358e3e44":{
+          "scriptId":"u51"},
+        "b4c1771e93a64c58b80c76798f4b5ae9":{
+          "scriptId":"u52"},
+        "9f2fad9a5e494d35b769bd7ae4796e78":{
+          "scriptId":"u53"},
+        "448186e4a6e8449081e5a9caf0aa5cf9":{
+          "scriptId":"u54"},
+        "8ef36dee43844e549539bf19321f6751":{
+          "scriptId":"u55"},
+        "c2b207dfdce64aa2a820c62bbfc8594c":{
+          "scriptId":"u56"},
+        "c80bcda215c54bae8273e0c29c3a5672":{
+          "scriptId":"u57"},
+        "16bed04558de43929f2796d72a5e92f8":{
+          "scriptId":"u58"},
+        "07b81fac2002495e90163c9f8d90a704":{
+          "scriptId":"u59"},
+        "d9f80184908348ac92275bf83847dcc2":{
+          "scriptId":"u60"},
+        "954256d16a4141c99ce752fb9ed8ab19":{
+          "scriptId":"u61"},
+        "6260736f56cc4ad7be38ca59a539a656":{
+          "scriptId":"u62"},
+        "71e4371c7d0f49018ce7eb9cc59c23e1":{
+          "scriptId":"u63"},
+        "808b3ea473d3405b92a7381caea118eb":{
+          "scriptId":"u64"},
+        "41e370f9fbba4cca81cb969050440d0d":{
+          "scriptId":"u65"},
+        "83c613595158455babebd2af1363ded6":{
+          "scriptId":"u66"},
+        "5695334596e74d829d45cc7606a2815c":{
+          "scriptId":"u67"},
+        "9ae26a00fefb441ba43f81852eda6e26":{
+          "scriptId":"u68"},
+        "e33fd3bf3fcb4bc99c25a69caddb00d5":{
+          "scriptId":"u69"},
+        "7e45cadd7aa342d997e4323d40f2a2de":{
+          "scriptId":"u70"},
+        "d7eaf65bf72a4864986ae0f47313c714":{
+          "scriptId":"u71"},
+        "de531c6c99a94abdbf111d5487fa9cd1":{
+          "scriptId":"u72"},
+        "923653be00e1494c91d41ebf2dd96db0":{
+          "scriptId":"u73"},
+        "c5852c903ee141788ed6d38492e9c0c8":{
+          "scriptId":"u74"},
+        "5cbecae29aa141d39ad690a91569f9ec":{
+          "scriptId":"u75"},
+        "e241f963978c4925aadc610de1b5f6cf":{
+          "scriptId":"u76"},
+        "8ceb6efb23064dcdb3292dbc7bd415a8":{
+          "scriptId":"u77"},
+        "57dd117b07fe4af8bb24871a00e2aa35":{
+          "scriptId":"u78"},
+        "bbc845467faa46ed9d701f53e5f70817":{
+          "scriptId":"u79"},
+        "40e2586bbc7b454c8b3269632a127e96":{
+          "scriptId":"u80"},
+        "ab9783aa32a24c62a7aacf1d5d218504":{
+          "scriptId":"u81"},
+        "4ca71c5d4ace492ab58d2855d8e03939":{
+          "scriptId":"u82"},
+        "61d3d4b84f694633821c87504095ea18":{
+          "scriptId":"u83"},
+        "bae075bed9f240089a55f919a91f4f08":{
+          "scriptId":"u84"},
+        "851d83f612204b00948f300e720afce1":{
+          "scriptId":"u85"},
+        "13afbd93cbe446339964ef0e60150199":{
+          "scriptId":"u86"},
+        "bed0ab758c474ce3b065570453262eae":{
+          "scriptId":"u87"},
+        "9bbb793531184a5182b61badf518ec86":{
+          "scriptId":"u88"},
+        "d881e4f1abdf4b94a0c85f374f7ee206":{
+          "scriptId":"u89"},
+        "488d5d0205ca4fd1a6f3b1fe8f3833c8":{
+          "scriptId":"u90"},
+        "7f10f1597c4540f885b29aad97937e3b":{
+          "scriptId":"u91"},
+        "0aed639b0dec4909936722dcec03b6fe":{
+          "scriptId":"u92"},
+        "f3be2f3fd3d04b0a8636de4eb4398000":{
+          "scriptId":"u93"},
+        "a495d344ec2d45808b17d8952ad87fb2":{
+          "scriptId":"u94"},
+        "78a615efbf694662b5a8380fb9d7927b":{
+          "scriptId":"u95"},
+        "dcd38a6fdfec4cc9b1d9b9a01dca340e":{
+          "scriptId":"u96"},
+        "8278f6f865034fe4a5112ed56b72a3c9":{
+          "scriptId":"u97"},
+        "59504301457343b69d1d44bbdcba9450":{
+          "scriptId":"u98"},
+        "1dac1a82e4664d048340c684dd2318b6":{
+          "scriptId":"u99"},
+        "cbc74f0b60d74616950835f4a36d5a72":{
+          "scriptId":"u100"},
+        "4d39913552a64422bc63838a58f4fe29":{
+          "scriptId":"u101"},
+        "dcb5ca705c354591ad432490fba9bbf8":{
+          "scriptId":"u102"},
+        "2c6d01710112469e99b72a59d7b6761c":{
+          "scriptId":"u103"},
+        "03081cfe2e744612b115bd3a8ea11070":{
+          "scriptId":"u104"},
+        "dcd3e7df3bc34dd9904caca1770e54dc":{
+          "scriptId":"u105"},
+        "de86d14f0dbf4badb01d83a69e1824bb":{
+          "scriptId":"u106"},
+        "1f46d6607f8b4fb39860e25721ffc333":{
+          "scriptId":"u107"},
+        "44f11fa7e5a84eefb628bb23534dd20a":{
+          "scriptId":"u108"},
+        "b74483df371d42f5a8c5a0983053d3aa":{
+          "scriptId":"u109"},
+        "eaf3ba4ebf0040149a45d15509eb2a7d":{
+          "scriptId":"u110"},
+        "9939090b77e3469eb9be843f6c36d7d5":{
+          "scriptId":"u111"},
+        "69cea4d936ae4464bbbb6e0ef503c4f6":{
+          "scriptId":"u112"},
+        "627b265973d3498186cba6e8fdd960b0":{
+          "scriptId":"u113"},
+        "6ee52b24ea374da1a44a699df8701823":{
+          "scriptId":"u114"},
+        "221bde69f13c420fa9970312cee96282":{
+          "scriptId":"u115"},
+        "747d01bd839d462ead083b2b339244bf":{
+          "scriptId":"u116"},
+        "60f250a6dd4943d1a2e6993ae5b77978":{
+          "scriptId":"u117"},
+        "a5c4a5dfd7bf47eaabc2f21010791b40":{
+          "scriptId":"u118"},
+        "42fbee213fd142888aba9266e70206fe":{
+          "scriptId":"u119"},
+        "736e218eae4e4a4fb394b0ea2dfb38ca":{
+          "scriptId":"u120"},
+        "1e8f855ff1d34ed1a923294b601381fb":{
+          "scriptId":"u121"},
+        "3472bbba1b42493f90cce93394d0d942":{
+          "scriptId":"u122"},
+        "4efd650803384e388726335016709a71":{
+          "scriptId":"u123"},
+        "9db6e755c66a478e9e26f65fc8d5a527":{
+          "scriptId":"u124"},
+        "9956f88a836840b6ad0eb5bdd150c597":{
+          "scriptId":"u125"},
+        "08fb94c09e3b45e4b7cc0a6e6a2ebcaa":{
+          "scriptId":"u126"},
+        "0ddde2057a6b43a0aad48c88d6873b1e":{
+          "scriptId":"u127"},
+        "5f3481f840be4a60a2d4c014773c5284":{
+          "scriptId":"u128"},
+        "30b247257d514421bed3d5db811b9c5e":{
+          "scriptId":"u129"},
+        "0233787b401c4ee08753f232eddfe2cf":{
+          "scriptId":"u130"},
+        "94eca6012d044c79a9e8e2bd0968b152":{
+          "scriptId":"u131"},
+        "bff974f1bbdc443aaf30a395ba8e6f6a":{
+          "scriptId":"u132"}}}}});

@@ -36,9 +36,21 @@
             "type":"Wireframe",
             "url":"trimus.html"}]},
 {
-        "pageName":"AddQuote",
+        "pageName":"myQuotes",
         "type":"Wireframe",
-        "url":"addquote.html"}]},
+        "url":"myquotes.html"},
+{
+        "pageName":"addQuote",
+        "type":"Wireframe",
+        "url":"addquote.html"},
+{
+        "pageName":"find",
+        "type":"Wireframe",
+        "url":"find.html"},
+{
+        "pageName":"settings",
+        "type":"Wireframe",
+        "url":"settings.html"}]},
   "globalVariables":{
     "onloadvariable":""},
   "defaultAdaptiveView":{
