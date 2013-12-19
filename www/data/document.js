@@ -38,7 +38,23 @@
 {
         "pageName":"myQuotes",
         "type":"Wireframe",
-        "url":"myquotes.html"},
+        "url":"myquotes.html",
+        "children":[{
+            "pageName":"mqDrinking",
+            "type":"Wireframe",
+            "url":"mqdrinking.html"},
+{
+            "pageName":"mqWork",
+            "type":"Wireframe",
+            "url":"mqwork.html"},
+{
+            "pageName":"mqFamily",
+            "type":"Wireframe",
+            "url":"mqfamily.html"},
+{
+            "pageName":"mqTriMus",
+            "type":"Wireframe",
+            "url":"mqtrimus.html"}]},
 {
         "pageName":"addQuote",
         "type":"Wireframe",

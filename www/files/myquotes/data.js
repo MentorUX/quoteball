@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"myquotes.html",
-  "generationDate":new Date(1387490735704.51),
+  "generationDate":new Date(1387492488227.75),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -77,55 +77,6 @@
 }},
           "masterId":"74dd9fa4ef174a4aac68bd408b906866"},
 {
-          "id":"40ceca22b75640a68c2fce765a106176",
-          "label":"",
-          "type":"buttonShape",
-          "styleType":"h1",
-          "visible":true,
-          "style":{
-            "fontSize":"13px",
-            "location":{
-              "x":10,
-              "y":100},
-            "size":{
-              "width":300,
-              "height":290}},
-          "adaptiveStyles":{
-            "a":{
-},
-            "b":{
-},
-            "c":{
-},
-            "d":{
-}},
-          "objects":[{
-              "id":"90639f9bbc894d09a24469b9bf7caf00",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "fontSize":"13px",
-                "location":{
-                  "x":10,
-                  "y":100},
-                "size":{
-                  "width":300,
-                  "height":290}},
-              "adaptiveStyles":{
-                "a":{
-},
-                "b":{
-},
-                "c":{
-},
-                "d":{
-}}}],
-          "images":{
-            "normal~":"resources/images/transparent.gif"}},
-{
           "id":"d0a6c620f8c84163997fc4d3adfe8e6a",
           "label":"",
           "type":"buttonShape",
@@ -187,10 +138,10 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/myquotes/u101.png",
-            "normal~b":"images/myquotes/u101_b.png",
-            "normal~c":"images/myquotes/u101_b.png",
-            "normal~d":"images/myquotes/u101_b.png"}},
+            "normal~":"images/myquotes/u99.png",
+            "normal~b":"images/myquotes/u99_b.png",
+            "normal~c":"images/myquotes/u99_b.png",
+            "normal~d":"images/myquotes/u99_b.png"}},
 {
           "id":"0c20504c821643bf8538144710bcea1b",
           "label":"",
@@ -253,10 +204,10 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/myquotes/u103.png",
-            "normal~b":"images/myquotes/u101_b.png",
-            "normal~c":"images/myquotes/u101_b.png",
-            "normal~d":"images/myquotes/u101_b.png"}},
+            "normal~":"images/myquotes/u101.png",
+            "normal~b":"images/myquotes/u99_b.png",
+            "normal~c":"images/myquotes/u99_b.png",
+            "normal~d":"images/myquotes/u99_b.png"}},
 {
           "id":"715ddfb503a444879a8dd1ad4e6664b2",
           "label":"catDropdown",
@@ -283,7 +234,7 @@
             "onSelectionChange":{
               "description":"OnSelectionChange",
               "cases":[{
-                  "description":"Case 1<br> (If selected option of This equals &quot;La Familia&quot;)",
+                  "description":"Case 0<br> (If selected option of This equals &quot;All&quot;)",
                   "isNewIfGroup":false,
                   "condition":{
                     "exprType":"binaryOp",
@@ -298,18 +249,26 @@
                           "isTarget":false}]},
                     "rightExpr":{
                       "exprType":"stringLiteral",
-                      "value":"La Familia",
+                      "value":"All",
                       "stos":[]}},
                   "actions":[{
-                      "action":"linkWindow",
-                      "description":"Open laFamilia in Current Window",
-                      "target":{
-                        "targetType":"page",
-                        "url":"lafamilia.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]},
+                      "action":"setPanelState",
+                      "description":"Set mqPanel to All",
+                      "panelsToStates":[{
+                          "panelPath":["e5ded302303644ca8ba395df2dcb4ef2"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":1,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]},
 {
-                  "description":"Case 2<br> (Else If selected option of This equals &quot;Out Drinking&quot;)",
+                  "description":"Case 1<br> (Else If selected option of This equals &quot;Out Drinking&quot;)",
                   "isNewIfGroup":false,
                   "condition":{
                     "exprType":"binaryOp",
@@ -327,15 +286,23 @@
                       "value":"Out Drinking",
                       "stos":[]}},
                   "actions":[{
-                      "action":"linkWindow",
-                      "description":"Open outDrinking in Current Window",
-                      "target":{
-                        "targetType":"page",
-                        "url":"outdrinking.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]},
+                      "action":"setPanelState",
+                      "description":"Set mqPanel to drinking",
+                      "panelsToStates":[{
+                          "panelPath":["e5ded302303644ca8ba395df2dcb4ef2"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":3,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]},
 {
-                  "description":"Case 3<br> (Else If selected option of This equals &quot;Tri Mus&quot;)",
+                  "description":"Case 2<br> (Else If selected option of This equals &quot;La Familia&quot;)",
                   "isNewIfGroup":false,
                   "condition":{
                     "exprType":"binaryOp",
@@ -350,18 +317,26 @@
                           "isTarget":false}]},
                     "rightExpr":{
                       "exprType":"stringLiteral",
-                      "value":"Tri Mus",
+                      "value":"La Familia",
                       "stos":[]}},
                   "actions":[{
-                      "action":"linkWindow",
-                      "description":"Open triMus in Current Window",
-                      "target":{
-                        "targetType":"page",
-                        "url":"trimus.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]},
+                      "action":"setPanelState",
+                      "description":"Set mqPanel to family",
+                      "panelsToStates":[{
+                          "panelPath":["e5ded302303644ca8ba395df2dcb4ef2"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":4,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]},
 {
-                  "description":"Case 4<br> (Else If selected option of This equals &quot;Watercooler&quot;)",
+                  "description":"Case 3<br> (Else If selected option of This equals &quot;Watercooler&quot;)",
                   "isNewIfGroup":false,
                   "condition":{
                     "exprType":"binaryOp",
@@ -379,13 +354,266 @@
                       "value":"Watercooler",
                       "stos":[]}},
                   "actions":[{
-                      "action":"linkWindow",
-                      "description":"Open yourQuotes in Current Window",
-                      "target":{
-                        "targetType":"page",
-                        "url":"yourquotes.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]}]}}}]}},
+                      "action":"setPanelState",
+                      "description":"Set mqPanel to watercooler",
+                      "panelsToStates":[{
+                          "panelPath":["e5ded302303644ca8ba395df2dcb4ef2"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":2,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]}]}}},
+{
+          "id":"e5ded302303644ca8ba395df2dcb4ef2",
+          "label":"mqPanel",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":100},
+            "size":{
+              "width":320,
+              "height":310}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"a2bcb6551fd14aeaab28abab445c3037",
+              "label":"All",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"016c3061d43a43ee9425b184570968da",
+                  "label":"",
+                  "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                  "type":"buttonShape",
+                  "styleType":"h1",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"13px",
+                    "location":{
+                      "x":10,
+                      "y":10},
+                    "size":{
+                      "width":300,
+                      "height":290}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+},
+                    "d":{
+}},
+                  "objects":[{
+                      "id":"3b149a989abd4b36a4377a1cce35269c",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontSize":"13px",
+                        "location":{
+                          "x":10,
+                          "y":10},
+                        "size":{
+                          "width":300,
+                          "height":290}},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+},
+                        "d":{
+}}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]},
+{
+              "id":"cb10d809d42a4aa7afb5c8dd261ad161",
+              "label":"watercooler",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"91308b9ecd89415ca3fe636b19ae56af",
+                  "label":"",
+                  "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                  "type":"buttonShape",
+                  "styleType":"h1",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"13px",
+                    "location":{
+                      "x":10,
+                      "y":10},
+                    "size":{
+                      "width":300,
+                      "height":290}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+},
+                    "d":{
+}},
+                  "objects":[{
+                      "id":"974ee26f2a26432ab8e235a10620a5d5",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontSize":"13px",
+                        "location":{
+                          "x":10,
+                          "y":10},
+                        "size":{
+                          "width":300,
+                          "height":290}},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+},
+                        "d":{
+}}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]},
+{
+              "id":"6d16e0a53e254ca5bbcac0f11c94c755",
+              "label":"drinking",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"90447a2d73c1461f871bf3cdf44b3bb5",
+                  "label":"",
+                  "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                  "type":"buttonShape",
+                  "styleType":"h1",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"13px",
+                    "location":{
+                      "x":10,
+                      "y":10},
+                    "size":{
+                      "width":300,
+                      "height":290}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+},
+                    "d":{
+}},
+                  "objects":[{
+                      "id":"e3ed2eb92ece4558b08947e7248f8875",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontSize":"13px",
+                        "location":{
+                          "x":10,
+                          "y":10},
+                        "size":{
+                          "width":300,
+                          "height":290}},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+},
+                        "d":{
+}}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]},
+{
+              "id":"55905165d5a7492c9e6396c55249a2f3",
+              "label":"family",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"614221b0c3d8465cb71800cc9b4fae40",
+                  "label":"",
+                  "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                  "type":"buttonShape",
+                  "styleType":"h1",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"13px",
+                    "location":{
+                      "x":10,
+                      "y":10},
+                    "size":{
+                      "width":300,
+                      "height":290}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+},
+                    "d":{
+}},
+                  "objects":[{
+                      "id":"1813ee0439e64bce85e1cc85b92b8e22",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontSize":"13px",
+                        "location":{
+                          "x":10,
+                          "y":10},
+                        "size":{
+                          "width":300,
+                          "height":290}},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+},
+                        "d":{
+}}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]}]}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -4002,17 +4230,31 @@
           "scriptId":"u97"},
         "bff974f1bbdc443aaf30a395ba8e6f6a":{
           "scriptId":"u98"}}},
-    "40ceca22b75640a68c2fce765a106176":{
-      "scriptId":"u99"},
-    "90639f9bbc894d09a24469b9bf7caf00":{
-      "scriptId":"u100"},
     "d0a6c620f8c84163997fc4d3adfe8e6a":{
-      "scriptId":"u101"},
+      "scriptId":"u99"},
     "9a8e382991224498b8da37ccb11ef725":{
-      "scriptId":"u102"},
+      "scriptId":"u100"},
     "0c20504c821643bf8538144710bcea1b":{
-      "scriptId":"u103"},
+      "scriptId":"u101"},
     "93f2fc2cf8b6462db41f2ff8a2fdbfef":{
-      "scriptId":"u104"},
+      "scriptId":"u102"},
     "715ddfb503a444879a8dd1ad4e6664b2":{
-      "scriptId":"u105"}}});
+      "scriptId":"u103"},
+    "e5ded302303644ca8ba395df2dcb4ef2":{
+      "scriptId":"u104"},
+    "016c3061d43a43ee9425b184570968da":{
+      "scriptId":"u105"},
+    "3b149a989abd4b36a4377a1cce35269c":{
+      "scriptId":"u106"},
+    "91308b9ecd89415ca3fe636b19ae56af":{
+      "scriptId":"u107"},
+    "974ee26f2a26432ab8e235a10620a5d5":{
+      "scriptId":"u108"},
+    "90447a2d73c1461f871bf3cdf44b3bb5":{
+      "scriptId":"u109"},
+    "e3ed2eb92ece4558b08947e7248f8875":{
+      "scriptId":"u110"},
+    "614221b0c3d8465cb71800cc9b4fae40":{
+      "scriptId":"u111"},
+    "1813ee0439e64bce85e1cc85b92b8e22":{
+      "scriptId":"u112"}}});
