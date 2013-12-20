@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"settings.html",
-  "generationDate":new Date(1387556032343.5),
+  "generationDate":new Date(1387575277493.69),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -156,12 +156,12 @@
                           "isNewIfGroup":false,
                           "actions":[{
                               "action":"linkWindow",
-                              "description":"Open shake.html in Current Window",
+                              "description":"Open shake2.html in Current Window",
                               "target":{
                                 "targetType":"webUrl",
                                 "urlLiteral":{
                                   "exprType":"stringLiteral",
-                                  "value":"shake.html",
+                                  "value":"shake2.html",
                                   "stos":[]},
                                 "includeVariables":false},
                               "linkType":"current"}]}]}},
