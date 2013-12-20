@@ -39,6 +39,7 @@
     <script src="files/settings/data.js"></script>
     <script src="resources/scripts/axure/legacy.js"></script>
     <script src="resources/scripts/axure/viewer.js"></script>
+	<script type="text/javascript" src="shake.js"></script>
   </head>
   <body>
     <div id="base" class="">
@@ -454,7 +455,31 @@
         <img id="u99_img" class="img " src="images/settings/u99.png"/>
         <!-- Unnamed () -->
         <div id="u100" class="text">
-          <p><a id="u101" class="link"><span style="color:#0000FF;">shake.html</span></a></p>
+
+		
+<h1>Shake to Undo</h1>
+<h2>for your mobile web app</h2>
+
+<p>Shake your iPhone/iPad to see a custom action.</p>
+
+<script type="text/javascript">
+window.onload = function() {
+
+	window.addEventListener('shake', shakeEventDidOccur, false);
+	
+	//define a custom method to fire when shake occurs.
+	function shakeEventDidOccur () {
+	
+		//put your own code here etc.
+		if (confirm("Is that you Walter?")) {
+
+		}
+	}
+};
+</script>
+		
+		
+		
         </div>
       </div>
     </div>
