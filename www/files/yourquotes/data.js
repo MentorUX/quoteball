@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"yourquotes.html",
-  "generationDate":new Date(1387504433605.8),
+  "generationDate":new Date(1387505137110.44),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
