@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"addquote.html",
-  "generationDate":new Date(1387504085705.9),
+  "generationDate":new Date(1387504435556.91),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -430,7 +430,29 @@
             "normal~":"images/addquote/u102.png",
             "normal~b":"images/myquotes/u99_b.png",
             "normal~c":"images/myquotes/u99_b.png",
-            "normal~d":"images/myquotes/u99_b.png"}}]}},
+            "normal~d":"images/myquotes/u99_b.png"}},
+{
+          "id":"96a0e68d8b054b7a8299330e2333025f",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":110,
+              "y":310},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -4064,4 +4086,6 @@
     "53a1c9d654334da594d846afc45f4d94":{
       "scriptId":"u106"},
     "f040fdbbe57a46d0999173c71e03f73c":{
-      "scriptId":"u107"}}});
+      "scriptId":"u107"},
+    "96a0e68d8b054b7a8299330e2333025f":{
+      "scriptId":"u108"}}});
