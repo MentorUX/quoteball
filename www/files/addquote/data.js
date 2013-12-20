@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"addquote.html",
-  "generationDate":new Date(1387492706995.27),
+  "generationDate":new Date(1387504085705.9),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -75,7 +75,362 @@
 },
             "d":{
 }},
-          "masterId":"74dd9fa4ef174a4aac68bd408b906866"}]}},
+          "masterId":"74dd9fa4ef174a4aac68bd408b906866"},
+{
+          "id":"335dc6bc35934d56af6fc207d8e911f0",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":110,
+              "y":80},
+            "size":{
+              "width":170,
+              "height":25}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}}},
+{
+          "id":"1b8a365cacd4430083f7a209a60fa9c7",
+          "label":"",
+          "type":"textArea",
+          "styleType":"textArea",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":110,
+              "y":130},
+            "size":{
+              "width":170,
+              "height":100}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}}},
+{
+          "id":"9479679b505240eaa6c6b0cc27161728",
+          "label":"catDropdown",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":110,
+              "y":260},
+            "size":{
+              "width":140,
+              "height":22}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "interactionMap":{
+            "onSelectionChange":{
+              "description":"OnSelectionChange",
+              "cases":[{
+                  "description":"Case 0<br> (If selected option of This equals &quot;All&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"All",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set Panel to State",
+                      "panelsToStates":[]}]},
+{
+                  "description":"Case 1<br> (Else If selected option of This equals &quot;Out Drinking&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"Out Drinking",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set Panel to State",
+                      "panelsToStates":[]}]},
+{
+                  "description":"Case 2<br> (Else If selected option of This equals &quot;La Familia&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"La Familia",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set Panel to State",
+                      "panelsToStates":[]}]},
+{
+                  "description":"Case 3<br> (Else If selected option of This equals &quot;Watercooler&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"Watercooler",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set Panel to State",
+                      "panelsToStates":[]}]}]}}},
+{
+          "id":"a5d4ff6816fd4262a18771869be8906f",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Bold', 'Arial'",
+            "fontWeight":"700",
+            "horizontalAlignment":"right",
+            "location":{
+              "x":10,
+              "y":82},
+            "size":{
+              "width":90,
+              "height":22},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFCCCCCC}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+              "size":{
+                "width":480,
+                "height":50}},
+            "c":{
+},
+            "d":{
+}},
+          "objects":[{
+              "id":"148aad8535e242edb73363bb7d493a0b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Bold', 'Arial'",
+                "fontWeight":"700",
+                "horizontalAlignment":"right",
+                "location":{
+                  "x":10,
+                  "y":82},
+                "size":{
+                  "width":90,
+                  "height":22},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC}},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+},
+                "d":{
+}}}],
+          "images":{
+            "normal~":"images/addquote/u102.png",
+            "normal~b":"images/myquotes/u99_b.png",
+            "normal~c":"images/myquotes/u99_b.png",
+            "normal~d":"images/myquotes/u99_b.png"}},
+{
+          "id":"5df029b370624da1af78690fdc83d486",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Bold', 'Arial'",
+            "fontWeight":"700",
+            "horizontalAlignment":"right",
+            "location":{
+              "x":10,
+              "y":130},
+            "size":{
+              "width":90,
+              "height":22},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFCCCCCC}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+              "size":{
+                "width":480,
+                "height":50}},
+            "c":{
+},
+            "d":{
+}},
+          "objects":[{
+              "id":"c8276729b2414e0ca69243b79fbacc24",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Bold', 'Arial'",
+                "fontWeight":"700",
+                "horizontalAlignment":"right",
+                "location":{
+                  "x":10,
+                  "y":130},
+                "size":{
+                  "width":90,
+                  "height":22},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC}},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+},
+                "d":{
+}}}],
+          "images":{
+            "normal~":"images/addquote/u102.png",
+            "normal~b":"images/myquotes/u99_b.png",
+            "normal~c":"images/myquotes/u99_b.png",
+            "normal~d":"images/myquotes/u99_b.png"}},
+{
+          "id":"53a1c9d654334da594d846afc45f4d94",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Bold', 'Arial'",
+            "fontWeight":"700",
+            "horizontalAlignment":"right",
+            "location":{
+              "x":10,
+              "y":260},
+            "size":{
+              "width":90,
+              "height":22},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFCCCCCC}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+              "size":{
+                "width":480,
+                "height":50}},
+            "c":{
+},
+            "d":{
+}},
+          "objects":[{
+              "id":"f040fdbbe57a46d0999173c71e03f73c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Bold', 'Arial'",
+                "fontWeight":"700",
+                "horizontalAlignment":"right",
+                "location":{
+                  "x":10,
+                  "y":260},
+                "size":{
+                  "width":90,
+                  "height":22},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC}},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+},
+                "d":{
+}}}],
+          "images":{
+            "normal~":"images/addquote/u102.png",
+            "normal~b":"images/myquotes/u99_b.png",
+            "normal~c":"images/myquotes/u99_b.png",
+            "normal~d":"images/myquotes/u99_b.png"}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -3691,4 +4046,22 @@
         "94eca6012d044c79a9e8e2bd0968b152":{
           "scriptId":"u97"},
         "bff974f1bbdc443aaf30a395ba8e6f6a":{
-          "scriptId":"u98"}}}}});
+          "scriptId":"u98"}}},
+    "335dc6bc35934d56af6fc207d8e911f0":{
+      "scriptId":"u99"},
+    "1b8a365cacd4430083f7a209a60fa9c7":{
+      "scriptId":"u100"},
+    "9479679b505240eaa6c6b0cc27161728":{
+      "scriptId":"u101"},
+    "a5d4ff6816fd4262a18771869be8906f":{
+      "scriptId":"u102"},
+    "148aad8535e242edb73363bb7d493a0b":{
+      "scriptId":"u103"},
+    "5df029b370624da1af78690fdc83d486":{
+      "scriptId":"u104"},
+    "c8276729b2414e0ca69243b79fbacc24":{
+      "scriptId":"u105"},
+    "53a1c9d654334da594d846afc45f4d94":{
+      "scriptId":"u106"},
+    "f040fdbbe57a46d0999173c71e03f73c":{
+      "scriptId":"u107"}}});
