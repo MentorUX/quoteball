@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"yourquotes.html",
-  "generationDate":new Date(1387820756995.2),
+  "generationDate":new Date(1387823066180.28),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -63,7 +63,7 @@
           "style":{
             "location":{
               "x":0,
-              "y":36},
+              "y":76},
             "size":{
               "width":320,
               "height":340}},
@@ -1083,10 +1083,10 @@
               "color":0xFF4F8AAE,
               "opacity":1},
             "location":{
-              "x":70,
-              "y":383},
+              "x":10,
+              "y":42},
             "size":{
-              "width":180,
+              "width":200,
               "height":28}},
           "adaptiveStyles":{
             "a":{
@@ -1205,68 +1205,19 @@
                         "includeVariables":true},
                       "linkType":"current"}]}]}}},
 {
-          "id":"71298c3471e44270bb1c59f896d7010e",
-          "label":"",
-          "type":"buttonShape",
-          "styleType":"paragraph",
-          "visible":true,
-          "style":{
-            "horizontalAlignment":"center",
-            "verticalAlignment":"middle",
-            "location":{
-              "x":10,
-              "y":383},
-            "size":{
-              "width":60,
-              "height":28}},
-          "adaptiveStyles":{
-            "a":{
-},
-            "b":{
-},
-            "c":{
-},
-            "d":{
-}},
-          "objects":[{
-              "id":"6366199ed277405fba7e28c1d28fecd0",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "horizontalAlignment":"center",
-                "verticalAlignment":"middle",
-                "location":{
-                  "x":10,
-                  "y":383},
-                "size":{
-                  "width":60,
-                  "height":28}},
-              "adaptiveStyles":{
-                "a":{
-},
-                "b":{
-},
-                "c":{
-},
-                "d":{
-}}}],
-          "images":{
-            "normal~":"resources/images/transparent.gif"}},
-{
           "id":"b1d981331b3648fcb12a79dcbe236082",
           "label":"",
           "type":"buttonShape",
           "styleType":"paragraph",
           "visible":true,
           "style":{
+            "fontName":"'Arial Bold', 'Arial'",
+            "fontWeight":"700",
             "horizontalAlignment":"center",
             "verticalAlignment":"middle",
             "location":{
-              "x":250,
-              "y":383},
+              "x":210,
+              "y":42},
             "size":{
               "width":60,
               "height":28}},
@@ -1287,11 +1238,13 @@
               "styleType":"paragraph",
               "visible":true,
               "style":{
+                "fontName":"'Arial Bold', 'Arial'",
+                "fontWeight":"700",
                 "horizontalAlignment":"center",
                 "verticalAlignment":"middle",
                 "location":{
-                  "x":250,
-                  "y":383},
+                  "x":210,
+                  "y":42},
                 "size":{
                   "width":60,
                   "height":28}},
@@ -1819,7 +1772,7 @@
                 "fillType":"solid",
                 "color":0xFFFFFF},
               "location":{
-                "x":99,
+                "x":100,
                 "y":0},
               "size":{
                 "width":110,
@@ -1850,7 +1803,7 @@
                     "fillType":"solid",
                     "color":0xFFFFFF},
                   "location":{
-                    "x":99,
+                    "x":100,
                     "y":0},
                   "size":{
                     "width":110,
@@ -5777,11 +5730,7 @@
       "scriptId":"u153"},
     "afacf6dfac9f4444bd98583609be224b":{
       "scriptId":"u154"},
-    "71298c3471e44270bb1c59f896d7010e":{
-      "scriptId":"u155"},
-    "6366199ed277405fba7e28c1d28fecd0":{
-      "scriptId":"u156"},
     "b1d981331b3648fcb12a79dcbe236082":{
-      "scriptId":"u157"},
+      "scriptId":"u155"},
     "aa06a39d6112442d809fbbb7cc808319":{
-      "scriptId":"u158"}}});
+      "scriptId":"u156"}}});

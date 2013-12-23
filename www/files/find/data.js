@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"find.html",
-  "generationDate":new Date(1387820759753.36),
+  "generationDate":new Date(1387823068459.41),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -160,10 +160,10 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/addquote/u124.png",
-            "normal~b":"images/addquote/u124_b.png",
-            "normal~c":"images/addquote/u124_b.png",
-            "normal~d":"images/addquote/u124_b.png"}},
+            "normal~":"images/addquote/u123.png",
+            "normal~b":"images/addquote/u123_b.png",
+            "normal~c":"images/addquote/u123_b.png",
+            "normal~d":"images/addquote/u123_b.png"}},
 {
           "id":"1374ab4e6fc54699964a7c36c6725d64",
           "label":"",
@@ -803,7 +803,7 @@
                 "fillType":"solid",
                 "color":0xFFFFFF},
               "location":{
-                "x":99,
+                "x":100,
                 "y":0},
               "size":{
                 "width":110,
@@ -834,7 +834,7 @@
                     "fillType":"solid",
                     "color":0xFFFFFF},
                   "location":{
-                    "x":99,
+                    "x":100,
                     "y":0},
                   "size":{
                     "width":110,

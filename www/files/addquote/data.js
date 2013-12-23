@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"addquote.html",
-  "generationDate":new Date(1387820759270.33),
+  "generationDate":new Date(1387823068044.39),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -84,11 +84,11 @@
           "visible":true,
           "style":{
             "location":{
-              "x":110,
-              "y":80},
+              "x":10,
+              "y":150},
             "size":{
-              "width":170,
-              "height":25}},
+              "width":200,
+              "height":28}},
           "adaptiveStyles":{
             "a":{
 },
@@ -106,10 +106,10 @@
           "visible":true,
           "style":{
             "location":{
-              "x":110,
-              "y":130},
+              "x":10,
+              "y":225},
             "size":{
-              "width":170,
+              "width":300,
               "height":100}},
           "adaptiveStyles":{
             "a":{
@@ -121,119 +121,6 @@
             "d":{
 }}},
 {
-          "id":"9479679b505240eaa6c6b0cc27161728",
-          "label":"catDropdown",
-          "type":"comboBox",
-          "styleType":"comboBox",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":110,
-              "y":260},
-            "size":{
-              "width":140,
-              "height":22}},
-          "adaptiveStyles":{
-            "a":{
-},
-            "b":{
-},
-            "c":{
-},
-            "d":{
-}},
-          "interactionMap":{
-            "onSelectionChange":{
-              "description":"OnSelectionChange",
-              "cases":[{
-                  "description":"Case 0<br> (If selected option of This equals &quot;All&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetSelectedOption",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"All",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"setPanelState",
-                      "description":"Set Panel to State",
-                      "panelsToStates":[]}]},
-{
-                  "description":"Case 1<br> (Else If selected option of This equals &quot;Out Drinking&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetSelectedOption",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"Out Drinking",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"setPanelState",
-                      "description":"Set Panel to State",
-                      "panelsToStates":[]}]},
-{
-                  "description":"Case 2<br> (Else If selected option of This equals &quot;La Familia&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetSelectedOption",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"La Familia",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"setPanelState",
-                      "description":"Set Panel to State",
-                      "panelsToStates":[]}]},
-{
-                  "description":"Case 3<br> (Else If selected option of This equals &quot;Watercooler&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetSelectedOption",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"Watercooler",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"setPanelState",
-                      "description":"Set Panel to State",
-                      "panelsToStates":[]}]}]}}},
-{
           "id":"a5d4ff6816fd4262a18771869be8906f",
           "label":"",
           "type":"buttonShape",
@@ -242,10 +129,10 @@
           "style":{
             "fontName":"'Arial Bold', 'Arial'",
             "fontWeight":"700",
-            "horizontalAlignment":"right",
+            "horizontalAlignment":"left",
             "location":{
               "x":10,
-              "y":82},
+              "y":125},
             "size":{
               "width":90,
               "height":22},
@@ -274,10 +161,10 @@
               "style":{
                 "fontName":"'Arial Bold', 'Arial'",
                 "fontWeight":"700",
-                "horizontalAlignment":"right",
+                "horizontalAlignment":"left",
                 "location":{
                   "x":10,
-                  "y":82},
+                  "y":125},
                 "size":{
                   "width":90,
                   "height":22},
@@ -295,10 +182,10 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/addquote/u124.png",
-            "normal~b":"images/addquote/u124_b.png",
-            "normal~c":"images/addquote/u124_b.png",
-            "normal~d":"images/addquote/u124_b.png"}},
+            "normal~":"images/addquote/u123.png",
+            "normal~b":"images/addquote/u123_b.png",
+            "normal~c":"images/addquote/u123_b.png",
+            "normal~d":"images/addquote/u123_b.png"}},
 {
           "id":"5df029b370624da1af78690fdc83d486",
           "label":"",
@@ -308,10 +195,10 @@
           "style":{
             "fontName":"'Arial Bold', 'Arial'",
             "fontWeight":"700",
-            "horizontalAlignment":"right",
+            "horizontalAlignment":"left",
             "location":{
               "x":10,
-              "y":130},
+              "y":200},
             "size":{
               "width":90,
               "height":22},
@@ -340,10 +227,10 @@
               "style":{
                 "fontName":"'Arial Bold', 'Arial'",
                 "fontWeight":"700",
-                "horizontalAlignment":"right",
+                "horizontalAlignment":"left",
                 "location":{
                   "x":10,
-                  "y":130},
+                  "y":200},
                 "size":{
                   "width":90,
                   "height":22},
@@ -361,12 +248,217 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/addquote/u124.png",
-            "normal~b":"images/addquote/u124_b.png",
-            "normal~c":"images/addquote/u124_b.png",
-            "normal~d":"images/addquote/u124_b.png"}},
+            "normal~":"images/addquote/u123.png",
+            "normal~b":"images/addquote/u123_b.png",
+            "normal~c":"images/addquote/u123_b.png",
+            "normal~d":"images/addquote/u123_b.png"}},
 {
-          "id":"53a1c9d654334da594d846afc45f4d94",
+          "id":"96a0e68d8b054b7a8299330e2333025f",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":110,
+              "y":345},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}}},
+{
+          "id":"394f91b44bb848439b27999feaa50f35",
+          "label":"catDropdown",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Bold', 'Arial'",
+            "fontSize":"14px",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF4F8AAE,
+              "opacity":1},
+            "location":{
+              "x":10,
+              "y":75},
+            "size":{
+              "width":200,
+              "height":28}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "interactionMap":{
+            "onSelectionChange":{
+              "description":"OnSelectionChange",
+              "cases":[{
+                  "description":"Case 1<br> (If selected option of This equals &quot;La Familia&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"La Familia",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open laFamilia in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"lafamilia.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"Case 2<br> (Else If selected option of This equals &quot;Out Drinking&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"Out Drinking",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open outDrinking in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"outdrinking.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"Case 3<br> (Else If selected option of This equals &quot;Tri Mus&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"Tri Mus",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open triMus in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"trimus.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"Case 4<br> (Else If selected option of This equals &quot;Watercooler&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"Watercooler",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open yourQuotes in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"yourquotes.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}}},
+{
+          "id":"54fafacede9743e095a2e53b4283f6e5",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":220,
+              "height":36},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFCCCCCC}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "objects":[{
+              "id":"7839fbf281d6414d91f73de801cb7f7e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":220,
+                  "height":36},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC}},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+},
+                "d":{
+}}}],
+          "images":{
+            "normal~":"images/home/u146.png"}},
+{
+          "id":"53c9f22977a74d73abd090e10d1fce1f",
           "label":"",
           "type":"buttonShape",
           "styleType":"buttonShape",
@@ -374,12 +466,12 @@
           "style":{
             "fontName":"'Arial Bold', 'Arial'",
             "fontWeight":"700",
-            "horizontalAlignment":"right",
+            "horizontalAlignment":"left",
             "location":{
               "x":10,
-              "y":260},
+              "y":50},
             "size":{
-              "width":90,
+              "width":140,
               "height":22},
             "borderWidth":"-1",
             "borderFill":{
@@ -397,7 +489,7 @@
             "d":{
 }},
           "objects":[{
-              "id":"f040fdbbe57a46d0999173c71e03f73c",
+              "id":"186c8671a4f1414bad69f77b745b9bb0",
               "label":"",
               "isContained":true,
               "type":"richTextPanel",
@@ -406,12 +498,12 @@
               "style":{
                 "fontName":"'Arial Bold', 'Arial'",
                 "fontWeight":"700",
-                "horizontalAlignment":"right",
+                "horizontalAlignment":"left",
                 "location":{
                   "x":10,
-                  "y":260},
+                  "y":50},
                 "size":{
-                  "width":90,
+                  "width":140,
                   "height":22},
                 "borderWidth":"-1",
                 "borderFill":{
@@ -427,32 +519,10 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/addquote/u124.png",
-            "normal~b":"images/addquote/u124_b.png",
-            "normal~c":"images/addquote/u124_b.png",
-            "normal~d":"images/addquote/u124_b.png"}},
-{
-          "id":"96a0e68d8b054b7a8299330e2333025f",
-          "label":"",
-          "type":"button",
-          "styleType":"button",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":110,
-              "y":310},
-            "size":{
-              "width":100,
-              "height":25}},
-          "adaptiveStyles":{
-            "a":{
-},
-            "b":{
-},
-            "c":{
-},
-            "d":{
-}}}]}},
+            "normal~":"images/addquote/u131.png",
+            "normal~b":"images/addquote/u123_b.png",
+            "normal~c":"images/addquote/u123_b.png",
+            "normal~d":"images/addquote/u123_b.png"}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -966,7 +1036,7 @@
                 "fillType":"solid",
                 "color":0xFFFFFF},
               "location":{
-                "x":99,
+                "x":100,
                 "y":0},
               "size":{
                 "width":110,
@@ -997,7 +1067,7 @@
                     "fillType":"solid",
                     "color":0xFFFFFF},
                   "location":{
-                    "x":99,
+                    "x":100,
                     "y":0},
                   "size":{
                     "width":110,
@@ -4860,19 +4930,23 @@
       "scriptId":"u121"},
     "1b8a365cacd4430083f7a209a60fa9c7":{
       "scriptId":"u122"},
-    "9479679b505240eaa6c6b0cc27161728":{
-      "scriptId":"u123"},
     "a5d4ff6816fd4262a18771869be8906f":{
-      "scriptId":"u124"},
+      "scriptId":"u123"},
     "148aad8535e242edb73363bb7d493a0b":{
-      "scriptId":"u125"},
+      "scriptId":"u124"},
     "5df029b370624da1af78690fdc83d486":{
-      "scriptId":"u126"},
+      "scriptId":"u125"},
     "c8276729b2414e0ca69243b79fbacc24":{
-      "scriptId":"u127"},
-    "53a1c9d654334da594d846afc45f4d94":{
-      "scriptId":"u128"},
-    "f040fdbbe57a46d0999173c71e03f73c":{
-      "scriptId":"u129"},
+      "scriptId":"u126"},
     "96a0e68d8b054b7a8299330e2333025f":{
-      "scriptId":"u130"}}});
+      "scriptId":"u127"},
+    "394f91b44bb848439b27999feaa50f35":{
+      "scriptId":"u128"},
+    "54fafacede9743e095a2e53b4283f6e5":{
+      "scriptId":"u129"},
+    "7839fbf281d6414d91f73de801cb7f7e":{
+      "scriptId":"u130"},
+    "53c9f22977a74d73abd090e10d1fce1f":{
+      "scriptId":"u131"},
+    "186c8671a4f1414bad69f77b745b9bb0":{
+      "scriptId":"u132"}}});

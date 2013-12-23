@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"lafamilia.html",
-  "generationDate":new Date(1387820758117.27),
+  "generationDate":new Date(1387823067150.34),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -63,7 +63,7 @@
           "style":{
             "location":{
               "x":0,
-              "y":36},
+              "y":76},
             "size":{
               "width":320,
               "height":340}},
@@ -1319,10 +1319,10 @@
               "color":0xFF4F8AAE,
               "opacity":1},
             "location":{
-              "x":70,
-              "y":383},
+              "x":10,
+              "y":42},
             "size":{
-              "width":180,
+              "width":200,
               "height":28}},
           "adaptiveStyles":{
             "a":{
@@ -1441,68 +1441,19 @@
                         "includeVariables":true},
                       "linkType":"current"}]}]}}},
 {
-          "id":"230f5c4f804742dc81caa707a57c1206",
-          "label":"",
-          "type":"buttonShape",
-          "styleType":"paragraph",
-          "visible":true,
-          "style":{
-            "horizontalAlignment":"center",
-            "verticalAlignment":"middle",
-            "location":{
-              "x":10,
-              "y":383},
-            "size":{
-              "width":60,
-              "height":28}},
-          "adaptiveStyles":{
-            "a":{
-},
-            "b":{
-},
-            "c":{
-},
-            "d":{
-}},
-          "objects":[{
-              "id":"51fed97ff8d549ce855834087dbf1d48",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "horizontalAlignment":"center",
-                "verticalAlignment":"middle",
-                "location":{
-                  "x":10,
-                  "y":383},
-                "size":{
-                  "width":60,
-                  "height":28}},
-              "adaptiveStyles":{
-                "a":{
-},
-                "b":{
-},
-                "c":{
-},
-                "d":{
-}}}],
-          "images":{
-            "normal~":"resources/images/transparent.gif"}},
-{
           "id":"fbc6859638084e9bb9027c63559976aa",
           "label":"",
           "type":"buttonShape",
           "styleType":"paragraph",
           "visible":true,
           "style":{
+            "fontName":"'Arial Bold', 'Arial'",
+            "fontWeight":"700",
             "horizontalAlignment":"center",
             "verticalAlignment":"middle",
             "location":{
-              "x":250,
-              "y":383},
+              "x":210,
+              "y":42},
             "size":{
               "width":60,
               "height":28}},
@@ -1523,11 +1474,13 @@
               "styleType":"paragraph",
               "visible":true,
               "style":{
+                "fontName":"'Arial Bold', 'Arial'",
+                "fontWeight":"700",
                 "horizontalAlignment":"center",
                 "verticalAlignment":"middle",
                 "location":{
-                  "x":250,
-                  "y":383},
+                  "x":210,
+                  "y":42},
                 "size":{
                   "width":60,
                   "height":28}},
@@ -2055,7 +2008,7 @@
                 "fillType":"solid",
                 "color":0xFFFFFF},
               "location":{
-                "x":99,
+                "x":100,
                 "y":0},
               "size":{
                 "width":110,
@@ -2086,7 +2039,7 @@
                     "fillType":"solid",
                     "color":0xFFFFFF},
                   "location":{
-                    "x":99,
+                    "x":100,
                     "y":0},
                   "size":{
                     "width":110,
@@ -6029,11 +5982,7 @@
       "scriptId":"u161"},
     "4946ef723d494acab58fa13f7bab34d2":{
       "scriptId":"u162"},
-    "230f5c4f804742dc81caa707a57c1206":{
-      "scriptId":"u163"},
-    "51fed97ff8d549ce855834087dbf1d48":{
-      "scriptId":"u164"},
     "fbc6859638084e9bb9027c63559976aa":{
-      "scriptId":"u165"},
+      "scriptId":"u163"},
     "b4e16d31d0e047d08512c610a3bc4438":{
-      "scriptId":"u166"}}});
+      "scriptId":"u164"}}});

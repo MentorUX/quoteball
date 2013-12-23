@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"settings.html",
-  "generationDate":new Date(1387820760211.39),
+  "generationDate":new Date(1387823068815.43),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -681,7 +681,7 @@
                 "fillType":"solid",
                 "color":0xFFFFFF},
               "location":{
-                "x":99,
+                "x":100,
                 "y":0},
               "size":{
                 "width":110,
@@ -712,7 +712,7 @@
                     "fillType":"solid",
                     "color":0xFFFFFF},
                   "location":{
-                    "x":99,
+                    "x":100,
                     "y":0},
                   "size":{
                     "width":110,
