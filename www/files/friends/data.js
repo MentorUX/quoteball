@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"friends.html",
-  "generationDate":new Date(1387828488069.39),
+  "generationDate":new Date(1387839220484),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -1217,10 +1217,10 @@
                     "isNewIfGroup":false,
                     "actions":[{
                         "action":"linkWindow",
-                        "description":"Open myQuotes in Current Window",
+                        "description":"Open myQuotesList in Current Window",
                         "target":{
                           "targetType":"page",
-                          "url":"myquotes.html",
+                          "url":"myquoteslist.html",
                           "includeVariables":true},
                         "linkType":"current"}]}]}},
             "tabbable":true,
@@ -1296,10 +1296,10 @@
                     "isNewIfGroup":false,
                     "actions":[{
                         "action":"linkWindow",
-                        "description":"Open yourQuotes in Current Window",
+                        "description":"Open shakeAllQuotes in Current Window",
                         "target":{
                           "targetType":"page",
-                          "url":"yourquotes.html",
+                          "url":"shakeallquotes.html",
                           "includeVariables":true},
                         "linkType":"current"}]}]}},
             "tabbable":true,
@@ -1886,10 +1886,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -2497,10 +2497,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -3390,10 +3390,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open yourQuotes in Current Window",
+                                "description":"Open shakeAllQuotes in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"yourquotes.html",
+                                  "url":"shakeallquotes.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -3907,10 +3907,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -4702,10 +4702,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {

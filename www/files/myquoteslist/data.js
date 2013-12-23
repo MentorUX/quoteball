@@ -1,12 +1,12 @@
 ﻿$axure.loadCurrentPage({
-  "url":"settings.html",
-  "generationDate":new Date(1387839221349.05),
+  "url":"myquoteslist.html",
+  "generationDate":new Date(1387839216941.79),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
-    "packageId":"9290a589352c48c098f9a176104d127b",
+    "packageId":"ed9160d9dcb141048833329d93ca76ae",
     "type":"Axure:Page",
-    "name":"settings",
+    "name":"myQuotesList",
     "notes":{
 },
     "style":{
@@ -41,14 +41,14 @@
             "isNewIfGroup":false,
             "actions":[{
                 "action":"setPanelState",
-                "description":"Set Page layout/Footer/FooterPanel to settings",
+                "description":"Set Page layout/Footer/FooterPanel to yourQ",
                 "panelsToStates":[{
-                    "panelPath":["d83273c083dd41239c06746ef1d8c5c0",
+                    "panelPath":["81903388055f462f95647f12c244bed5",
 "ee674a5562fc4aba8a5e2330fad40f13",
 "b7da9bb0976a4d09a514079ff3c6acff"],
                     "stateInfo":{
                       "setStateType":"diagram",
-                      "stateNumber":5,
+                      "stateNumber":3,
                       "stateValue":{
                         "exprType":"stringLiteral",
                         "value":"1",
@@ -59,7 +59,7 @@
                         "compress":false}}}]}]}]}},
     "diagram":{
       "objects":[{
-          "id":"d83273c083dd41239c06746ef1d8c5c0",
+          "id":"81903388055f462f95647f12c244bed5",
           "label":"",
           "type":"referenceDiagramObject",
           "styleType":"referenceDiagramObject",
@@ -77,23 +77,25 @@
 }},
           "masterId":"74dd9fa4ef174a4aac68bd408b906866"},
 {
-          "id":"abe91c1ce450484383a845cc9166ecdb",
-          "label":"",
-          "type":"buttonShape",
-          "styleType":"buttonShape",
+          "id":"715ddfb503a444879a8dd1ad4e6664b2",
+          "label":"catDropdown",
+          "type":"comboBox",
+          "styleType":"comboBox",
           "visible":true,
           "style":{
+            "fontName":"'Arial Bold', 'Arial'",
+            "fontSize":"14px",
+            "fontWeight":"700",
             "foreGroundFill":{
               "fillType":"solid",
-              "color":0xFF000000,
+              "color":0xFF4F8AAE,
               "opacity":1},
             "location":{
-              "x":60,
-              "y":190},
+              "x":10,
+              "y":52},
             "size":{
               "width":200,
-              "height":100},
-            "borderWidth":"-1"},
+              "height":28}},
           "adaptiveStyles":{
             "a":{
 },
@@ -103,42 +105,223 @@
 },
             "d":{
 }},
-          "objects":[{
-              "id":"2ff5ade08b454c1289616840f2b0942b",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "foreGroundFill":{
-                  "fillType":"solid",
-                  "color":0xFF000000,
-                  "opacity":1},
-                "location":{
-                  "x":60,
-                  "y":190},
-                "size":{
-                  "width":200,
-                  "height":100},
-                "borderWidth":"-1"},
-              "adaptiveStyles":{
-                "a":{
+          "interactionMap":{
+            "onSelectionChange":{
+              "description":"OnSelectionChange",
+              "cases":[{
+                  "description":"Case 0<br> (If selected option of This equals &quot;All&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"All",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set mqPanel to all",
+                      "panelsToStates":[{
+                          "panelPath":["e5ded302303644ca8ba395df2dcb4ef2"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":1,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]},
+{
+                  "description":"Case 1<br> (Else If selected option of This equals &quot;Watercooler&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"Watercooler",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set mqPanel to watercooler",
+                      "panelsToStates":[{
+                          "panelPath":["e5ded302303644ca8ba395df2dcb4ef2"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":2,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]},
+{
+                  "description":"Case 2<br> (Else If selected option of This equals &quot;Out Drinking&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"Out Drinking",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set mqPanel to drinking",
+                      "panelsToStates":[{
+                          "panelPath":["e5ded302303644ca8ba395df2dcb4ef2"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":3,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]},
+{
+                  "description":"Case 3<br> (Else If selected option of This equals &quot;La Familia&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"La Familia",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set mqPanel to family",
+                      "panelsToStates":[{
+                          "panelPath":["e5ded302303644ca8ba395df2dcb4ef2"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":4,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]},
+{
+                  "description":"Case 4<br> (Else If selected option of This equals &quot;College&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"College",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set mqPanel to college",
+                      "panelsToStates":[{
+                          "panelPath":["e5ded302303644ca8ba395df2dcb4ef2"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":5,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]}]}}},
+{
+          "id":"e5ded302303644ca8ba395df2dcb4ef2",
+          "label":"mqPanel",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":96},
+            "size":{
+              "width":320,
+              "height":310}},
+          "adaptiveStyles":{
+            "a":{
 },
-                "b":{
+            "b":{
 },
-                "c":{
+            "c":{
 },
-                "d":{
+            "d":{
 }},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"a2bcb6551fd14aeaab28abab445c3037",
+              "label":"all",
+              "type":"Axure:PanelDiagram",
               "objects":[{
-                  "id":"ac94dc89fabb4fb0b291fb84d5356f74",
+                  "id":"016c3061d43a43ee9425b184570968da",
                   "label":"",
-                  "type":"hyperlink",
-                  "styleType":"hyperlink",
+                  "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                  "type":"buttonShape",
+                  "styleType":"h1",
                   "visible":true,
                   "style":{
-},
+                    "fontSize":"13px",
+                    "location":{
+                      "x":10,
+                      "y":10},
+                    "size":{
+                      "width":300,
+                      "height":290}},
                   "adaptiveStyles":{
                     "a":{
 },
@@ -148,39 +331,268 @@
 },
                     "d":{
 }},
-                  "interactionMap":{
-                    "onClick":{
-                      "description":"OnClick",
-                      "cases":[{
-                          "description":"Case 1",
-                          "isNewIfGroup":false,
-                          "actions":[{
-                              "action":"linkWindow",
-                              "description":"Open shake2.html in Current Window",
-                              "target":{
-                                "targetType":"webUrl",
-                                "urlLiteral":{
-                                  "exprType":"stringLiteral",
-                                  "value":"shake2.html",
-                                  "stos":[]},
-                                "includeVariables":false},
-                              "linkType":"current"}]}]}},
-                  "tabbable":true}]}],
-          "images":{
-            "normal~":"images/settings/u123.png"}},
+                  "objects":[{
+                      "id":"3b149a989abd4b36a4377a1cce35269c",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontSize":"13px",
+                        "location":{
+                          "x":10,
+                          "y":10},
+                        "size":{
+                          "width":300,
+                          "height":290}},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+},
+                        "d":{
+}}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]},
 {
-          "id":"468c7d8e9ba740e192c3f929aec75389",
+              "id":"cb10d809d42a4aa7afb5c8dd261ad161",
+              "label":"watercooler",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"91308b9ecd89415ca3fe636b19ae56af",
+                  "label":"",
+                  "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                  "type":"buttonShape",
+                  "styleType":"h1",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"13px",
+                    "location":{
+                      "x":10,
+                      "y":10},
+                    "size":{
+                      "width":300,
+                      "height":290}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+},
+                    "d":{
+}},
+                  "objects":[{
+                      "id":"974ee26f2a26432ab8e235a10620a5d5",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontSize":"13px",
+                        "location":{
+                          "x":10,
+                          "y":10},
+                        "size":{
+                          "width":300,
+                          "height":290}},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+},
+                        "d":{
+}}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]},
+{
+              "id":"6d16e0a53e254ca5bbcac0f11c94c755",
+              "label":"drinking",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"90447a2d73c1461f871bf3cdf44b3bb5",
+                  "label":"",
+                  "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                  "type":"buttonShape",
+                  "styleType":"h1",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"13px",
+                    "location":{
+                      "x":10,
+                      "y":10},
+                    "size":{
+                      "width":300,
+                      "height":290}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+},
+                    "d":{
+}},
+                  "objects":[{
+                      "id":"e3ed2eb92ece4558b08947e7248f8875",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontSize":"13px",
+                        "location":{
+                          "x":10,
+                          "y":10},
+                        "size":{
+                          "width":300,
+                          "height":290}},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+},
+                        "d":{
+}}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]},
+{
+              "id":"55905165d5a7492c9e6396c55249a2f3",
+              "label":"family",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"614221b0c3d8465cb71800cc9b4fae40",
+                  "label":"",
+                  "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                  "type":"buttonShape",
+                  "styleType":"h1",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"13px",
+                    "location":{
+                      "x":10,
+                      "y":10},
+                    "size":{
+                      "width":300,
+                      "height":290}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+},
+                    "d":{
+}},
+                  "objects":[{
+                      "id":"1813ee0439e64bce85e1cc85b92b8e22",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontSize":"13px",
+                        "location":{
+                          "x":10,
+                          "y":10},
+                        "size":{
+                          "width":300,
+                          "height":290}},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+},
+                        "d":{
+}}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]},
+{
+              "id":"5900750d49ff4095a52bbdb57ca3ccce",
+              "label":"college",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"91fae421b6124d2b8e18c85268ae5e93",
+                  "label":"",
+                  "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":10},
+                    "size":{
+                      "width":300,
+                      "height":290}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+},
+                    "d":{
+}},
+                  "objects":[{
+                      "id":"9ae3dd01df744310a94394ec040f241c",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":10,
+                          "y":10},
+                        "size":{
+                          "width":300,
+                          "height":290}},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+},
+                        "d":{
+}}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}]}]},
+{
+          "id":"023e31852f2f49b5bdae26d76a9a6d96",
           "label":"",
           "type":"buttonShape",
-          "styleType":"buttonShape",
+          "styleType":"paragraph",
           "visible":true,
           "style":{
+            "fontName":"'Arial Bold', 'Arial'",
+            "fontWeight":"700",
+            "horizontalAlignment":"center",
+            "verticalAlignment":"middle",
+            "location":{
+              "x":210,
+              "y":52},
             "size":{
-              "width":220,
-              "height":36},
-            "borderFill":{
-              "fillType":"solid",
-              "color":0xFFCCCCCC}},
+              "width":60,
+              "height":28}},
           "adaptiveStyles":{
             "a":{
 },
@@ -191,19 +603,23 @@
             "d":{
 }},
           "objects":[{
-              "id":"59641b2cea494675a80d873a49652d80",
+              "id":"22aefdea61f24e5b9d765e351073a6c8",
               "label":"",
               "isContained":true,
               "type":"richTextPanel",
               "styleType":"paragraph",
               "visible":true,
               "style":{
+                "fontName":"'Arial Bold', 'Arial'",
+                "fontWeight":"700",
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":210,
+                  "y":52},
                 "size":{
-                  "width":220,
-                  "height":36},
-                "borderFill":{
-                  "fillType":"solid",
-                  "color":0xFFCCCCCC}},
+                  "width":60,
+                  "height":28}},
               "adaptiveStyles":{
                 "a":{
 },
@@ -214,7 +630,62 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/home/u148.png"}}]}},
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"0e504c4bec7949ffafdc597dab0bde0c",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":100,
+              "height":36},
+            "borderWidth":"2",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF4F8AAE}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "objects":[{
+              "id":"12ea4402ac074a84afb5ea3e52aa1369",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":100,
+                  "height":36},
+                "borderWidth":"2",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF4F8AAE}},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+},
+                "d":{
+}}}],
+          "images":{
+            "normal~":"images/myquoteslist/u137.png"}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -4457,7 +4928,7 @@
                     "images":{
                       "normal~":"resources/images/transparent.gif"}}]}]}]}}},
   "objectPaths":{
-    "d83273c083dd41239c06746ef1d8c5c0":{
+    "81903388055f462f95647f12c244bed5":{
       "scriptId":"u0",
       "70f43fbfbf584b84a57af9421ea4ce01":{
         "scriptId":"u1"},
@@ -4703,13 +5174,35 @@
         "scriptId":"u121"},
       "7ae72b192ace4933b1cbb61e62e67445":{
         "scriptId":"u122"}},
-    "abe91c1ce450484383a845cc9166ecdb":{
+    "715ddfb503a444879a8dd1ad4e6664b2":{
       "scriptId":"u123"},
-    "2ff5ade08b454c1289616840f2b0942b":{
+    "e5ded302303644ca8ba395df2dcb4ef2":{
       "scriptId":"u124"},
-    "ac94dc89fabb4fb0b291fb84d5356f74":{
+    "016c3061d43a43ee9425b184570968da":{
       "scriptId":"u125"},
-    "468c7d8e9ba740e192c3f929aec75389":{
+    "3b149a989abd4b36a4377a1cce35269c":{
       "scriptId":"u126"},
-    "59641b2cea494675a80d873a49652d80":{
-      "scriptId":"u127"}}});
+    "91308b9ecd89415ca3fe636b19ae56af":{
+      "scriptId":"u127"},
+    "974ee26f2a26432ab8e235a10620a5d5":{
+      "scriptId":"u128"},
+    "90447a2d73c1461f871bf3cdf44b3bb5":{
+      "scriptId":"u129"},
+    "e3ed2eb92ece4558b08947e7248f8875":{
+      "scriptId":"u130"},
+    "614221b0c3d8465cb71800cc9b4fae40":{
+      "scriptId":"u131"},
+    "1813ee0439e64bce85e1cc85b92b8e22":{
+      "scriptId":"u132"},
+    "91fae421b6124d2b8e18c85268ae5e93":{
+      "scriptId":"u133"},
+    "9ae3dd01df744310a94394ec040f241c":{
+      "scriptId":"u134"},
+    "023e31852f2f49b5bdae26d76a9a6d96":{
+      "scriptId":"u135"},
+    "22aefdea61f24e5b9d765e351073a6c8":{
+      "scriptId":"u136"},
+    "0e504c4bec7949ffafdc597dab0bde0c":{
+      "scriptId":"u137"},
+    "12ea4402ac074a84afb5ea3e52aa1369":{
+      "scriptId":"u138"}}});

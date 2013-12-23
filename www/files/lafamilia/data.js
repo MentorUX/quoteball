@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"lafamilia.html",
-  "generationDate":new Date(1387828486517.31),
+  "generationDate":new Date(1387839218954.91),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -66,7 +66,7 @@
               "y":96},
             "size":{
               "width":320,
-              "height":310}},
+              "height":320}},
           "adaptiveStyles":{
             "a":{
 },
@@ -113,65 +113,6 @@
               "label":"quote1",
               "type":"Axure:PanelDiagram",
               "objects":[{
-                  "id":"b08884e421b844fc8d728dc1e6a688ed",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"20px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFF999999,
-                      "opacity":1},
-                    "location":{
-                      "x":40,
-                      "y":166},
-                    "size":{
-                      "width":240,
-                      "height":24}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"358ef128461d4670b04cb74dd67c5520",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"20px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFF999999,
-                          "opacity":1},
-                        "location":{
-                          "x":40,
-                          "y":166},
-                        "size":{
-                          "width":240,
-                          "height":24}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
                   "id":"3bbf430f460245a7912d2de1892e2727",
                   "label":"",
                   "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
@@ -179,11 +120,6 @@
                   "styleType":"h1",
                   "visible":true,
                   "style":{
-                    "fontSize":"28px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFF4F8AAE,
-                      "opacity":1},
                     "location":{
                       "x":40,
                       "y":40},
@@ -208,11 +144,6 @@
                       "styleType":"paragraph",
                       "visible":true,
                       "style":{
-                        "fontSize":"28px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFF4F8AAE,
-                          "opacity":1},
                         "location":{
                           "x":40,
                           "y":40},
@@ -238,17 +169,17 @@
                   "styleType":"h1",
                   "visible":true,
                   "style":{
-                    "fontSize":"48px",
+                    "fontSize":"28px",
                     "foreGroundFill":{
                       "fillType":"solid",
                       "color":0xFFE4E4E4,
                       "opacity":1},
                     "location":{
-                      "x":10,
-                      "y":36},
+                      "x":16,
+                      "y":40},
                     "size":{
-                      "width":24,
-                      "height":57}},
+                      "width":14,
+                      "height":33}},
                   "adaptiveStyles":{
                     "a":{
 },
@@ -267,76 +198,17 @@
                       "styleType":"paragraph",
                       "visible":true,
                       "style":{
-                        "fontSize":"48px",
+                        "fontSize":"28px",
                         "foreGroundFill":{
                           "fillType":"solid",
                           "color":0xFFE4E4E4,
                           "opacity":1},
                         "location":{
-                          "x":10,
-                          "y":36},
+                          "x":16,
+                          "y":40},
                         "size":{
-                          "width":24,
-                          "height":57}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
-                  "id":"751d090503df443a9265e9afcdf0e3b4",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"48px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFFE4E4E4,
-                      "opacity":1},
-                    "location":{
-                      "x":286,
-                      "y":103},
-                    "size":{
-                      "width":24,
-                      "height":57}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"531e3af0d417467da54ab26f04d8e819",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"48px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFFE4E4E4,
-                          "opacity":1},
-                        "location":{
-                          "x":286,
-                          "y":103},
-                        "size":{
-                          "width":24,
-                          "height":57}},
+                          "width":14,
+                          "height":33}},
                       "adaptiveStyles":{
                         "a":{
 },
@@ -353,65 +225,6 @@
               "label":"quote2",
               "type":"Axure:PanelDiagram",
               "objects":[{
-                  "id":"4170731fff7e4ba48554b1f8eae6ef15",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"20px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFF999999,
-                      "opacity":1},
-                    "location":{
-                      "x":40,
-                      "y":200},
-                    "size":{
-                      "width":240,
-                      "height":24}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"b609e35d73974cd6bc0631413a59c1b2",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"20px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFF999999,
-                          "opacity":1},
-                        "location":{
-                          "x":40,
-                          "y":200},
-                        "size":{
-                          "width":240,
-                          "height":24}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
                   "id":"f52192f0081c4654ad8fd86d819d2534",
                   "label":"",
                   "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
@@ -419,11 +232,6 @@
                   "styleType":"h1",
                   "visible":true,
                   "style":{
-                    "fontSize":"28px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFF4F8AAE,
-                      "opacity":1},
                     "location":{
                       "x":40,
                       "y":40},
@@ -448,11 +256,6 @@
                       "styleType":"paragraph",
                       "visible":true,
                       "style":{
-                        "fontSize":"28px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFF4F8AAE,
-                          "opacity":1},
                         "location":{
                           "x":40,
                           "y":40},
@@ -478,17 +281,17 @@
                   "styleType":"h1",
                   "visible":true,
                   "style":{
-                    "fontSize":"48px",
+                    "fontSize":"28px",
                     "foreGroundFill":{
                       "fillType":"solid",
                       "color":0xFFE4E4E4,
                       "opacity":1},
                     "location":{
-                      "x":10,
-                      "y":36},
+                      "x":16,
+                      "y":40},
                     "size":{
                       "width":24,
-                      "height":57}},
+                      "height":33}},
                   "adaptiveStyles":{
                     "a":{
 },
@@ -507,76 +310,17 @@
                       "styleType":"paragraph",
                       "visible":true,
                       "style":{
-                        "fontSize":"48px",
+                        "fontSize":"28px",
                         "foreGroundFill":{
                           "fillType":"solid",
                           "color":0xFFE4E4E4,
                           "opacity":1},
                         "location":{
-                          "x":10,
-                          "y":36},
+                          "x":16,
+                          "y":40},
                         "size":{
                           "width":24,
-                          "height":57}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
-                  "id":"76826a2a96e54f15aef26d2532722dff",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"48px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFFE4E4E4,
-                      "opacity":1},
-                    "location":{
-                      "x":286,
-                      "y":103},
-                    "size":{
-                      "width":24,
-                      "height":57}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"3ede1b329c4949fe8e294002453672e8",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"48px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFFE4E4E4,
-                          "opacity":1},
-                        "location":{
-                          "x":286,
-                          "y":103},
-                        "size":{
-                          "width":24,
-                          "height":57}},
+                          "height":33}},
                       "adaptiveStyles":{
                         "a":{
 },
@@ -593,65 +337,6 @@
               "label":"quote3",
               "type":"Axure:PanelDiagram",
               "objects":[{
-                  "id":"f3d900523a2d4aa29954d46cd9f01ff4",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"20px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFF999999,
-                      "opacity":1},
-                    "location":{
-                      "x":40,
-                      "y":286},
-                    "size":{
-                      "width":240,
-                      "height":24}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"45a619aeaf3f409b8d6e2f2a900a4a73",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"20px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFF999999,
-                          "opacity":1},
-                        "location":{
-                          "x":40,
-                          "y":286},
-                        "size":{
-                          "width":240,
-                          "height":24}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
                   "id":"b5ed614ed0864ecfb842575f04d483c4",
                   "label":"",
                   "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
@@ -659,11 +344,6 @@
                   "styleType":"h1",
                   "visible":true,
                   "style":{
-                    "fontSize":"28px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFF4F8AAE,
-                      "opacity":1},
                     "location":{
                       "x":40,
                       "y":40},
@@ -688,11 +368,6 @@
                       "styleType":"paragraph",
                       "visible":true,
                       "style":{
-                        "fontSize":"28px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFF4F8AAE,
-                          "opacity":1},
                         "location":{
                           "x":40,
                           "y":40},
@@ -718,17 +393,17 @@
                   "styleType":"h1",
                   "visible":true,
                   "style":{
-                    "fontSize":"48px",
+                    "fontSize":"28px",
                     "foreGroundFill":{
                       "fillType":"solid",
                       "color":0xFFE4E4E4,
                       "opacity":1},
                     "location":{
-                      "x":10,
-                      "y":36},
+                      "x":16,
+                      "y":40},
                     "size":{
-                      "width":24,
-                      "height":57}},
+                      "width":14,
+                      "height":33}},
                   "adaptiveStyles":{
                     "a":{
 },
@@ -747,552 +422,17 @@
                       "styleType":"paragraph",
                       "visible":true,
                       "style":{
-                        "fontSize":"48px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFFE4E4E4,
-                          "opacity":1},
-                        "location":{
-                          "x":10,
-                          "y":36},
-                        "size":{
-                          "width":24,
-                          "height":57}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
-                  "id":"b058dbcd0fb143fe83ba3396e019aa0b",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"48px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFFE4E4E4,
-                      "opacity":1},
-                    "location":{
-                      "x":286,
-                      "y":234},
-                    "size":{
-                      "width":24,
-                      "height":57}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"36732f90d1f14b2e9d0725c8a173e626",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"48px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFFE4E4E4,
-                          "opacity":1},
-                        "location":{
-                          "x":286,
-                          "y":234},
-                        "size":{
-                          "width":24,
-                          "height":57}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}}]},
-{
-              "id":"d441b36347204e0ebd5f1d16b5d5579e",
-              "label":"quote4",
-              "type":"Axure:PanelDiagram",
-              "objects":[{
-                  "id":"a6ec735a59884f70a3a9533a61728620",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"72px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFFCCCCCC,
-                      "opacity":1},
-                    "location":{
-                      "x":65,
-                      "y":436},
-                    "size":{
-                      "width":35,
-                      "height":83}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"966e23fb41964582b08ff6e053f09188",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"72px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFFCCCCCC,
-                          "opacity":1},
-                        "location":{
-                          "x":65,
-                          "y":436},
-                        "size":{
-                          "width":35,
-                          "height":83}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
-                  "id":"160d49f6589e477b8d0121a70c52676e",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"72px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFFCCCCCC,
-                      "opacity":1},
-                    "location":{
-                      "x":860,
-                      "y":436},
-                    "size":{
-                      "width":35,
-                      "height":83}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"5146fc42e10d4254959f8ce1d4190cf8",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"72px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFFCCCCCC,
-                          "opacity":1},
-                        "location":{
-                          "x":860,
-                          "y":436},
-                        "size":{
-                          "width":35,
-                          "height":83}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
-                  "id":"d2df52048f54456484d7fe15a7b1a7c4",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"36px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFF4F8AAE,
-                      "opacity":1},
-                    "location":{
-                      "x":120,
-                      "y":436},
-                    "size":{
-                      "width":720,
-                      "height":84}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"0a277212f7af43189bd7fe72bcf080d6",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"36px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFF4F8AAE,
-                          "opacity":1},
-                        "location":{
-                          "x":120,
-                          "y":436},
-                        "size":{
-                          "width":720,
-                          "height":84}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
-                  "id":"0259e567403746399d08bbc1813f52f4",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"20px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFF999999,
-                      "opacity":1},
-                    "location":{
-                      "x":120,
-                      "y":576},
-                    "size":{
-                      "width":720,
-                      "height":24}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"0d4ae346332e449a82db9c20b5eb8a23",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"20px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFF999999,
-                          "opacity":1},
-                        "location":{
-                          "x":120,
-                          "y":576},
-                        "size":{
-                          "width":720,
-                          "height":24}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
-                  "id":"864dbd9619444b6dad4079b7528c5fbd",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"20px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFF999999,
-                      "opacity":1},
-                    "location":{
-                      "x":40,
-                      "y":200},
-                    "size":{
-                      "width":240,
-                      "height":24}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"fc13e2fc9c1640b2a6345829b2ac2d32",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"20px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFF999999,
-                          "opacity":1},
-                        "location":{
-                          "x":40,
-                          "y":200},
-                        "size":{
-                          "width":240,
-                          "height":24}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
-                  "id":"4607caf518cc4a4c929463d85601f68e",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"28px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFF4F8AAE,
-                      "opacity":1},
-                    "location":{
-                      "x":40,
-                      "y":40},
-                    "size":{
-                      "width":240,
-                      "height":160}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"3977a6c923164c4c8ebc71722703eeb3",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
                         "fontSize":"28px",
                         "foreGroundFill":{
                           "fillType":"solid",
-                          "color":0xFF4F8AAE,
+                          "color":0xFFE4E4E4,
                           "opacity":1},
                         "location":{
-                          "x":40,
+                          "x":16,
                           "y":40},
                         "size":{
-                          "width":240,
-                          "height":160}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
-                  "id":"10d0d11353cd4c129c3503fa52efb08b",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"48px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFFE4E4E4,
-                      "opacity":1},
-                    "location":{
-                      "x":10,
-                      "y":36},
-                    "size":{
-                      "width":24,
-                      "height":57}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"d68545900f8c404caa04ad1790f34e6c",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"48px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFFE4E4E4,
-                          "opacity":1},
-                        "location":{
-                          "x":10,
-                          "y":36},
-                        "size":{
-                          "width":24,
-                          "height":57}},
-                      "adaptiveStyles":{
-                        "a":{
-},
-                        "b":{
-},
-                        "c":{
-},
-                        "d":{
-}}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
-                  "id":"0c8532ea918f481b8654318bc3c3927f",
-                  "label":"",
-                  "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                  "type":"buttonShape",
-                  "styleType":"h1",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"48px",
-                    "foreGroundFill":{
-                      "fillType":"solid",
-                      "color":0xFFE4E4E4,
-                      "opacity":1},
-                    "location":{
-                      "x":286,
-                      "y":136},
-                    "size":{
-                      "width":24,
-                      "height":57}},
-                  "adaptiveStyles":{
-                    "a":{
-},
-                    "b":{
-},
-                    "c":{
-},
-                    "d":{
-}},
-                  "objects":[{
-                      "id":"064fac52cb0248ffb49a2fe7b9e0de03",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"e795c4fbfe9f4840b624b0eb87bcc7b1",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"48px",
-                        "foreGroundFill":{
-                          "fillType":"solid",
-                          "color":0xFFE4E4E4,
-                          "opacity":1},
-                        "location":{
-                          "x":286,
-                          "y":136},
-                        "size":{
-                          "width":24,
-                          "height":57}},
+                          "width":14,
+                          "height":33}},
                       "adaptiveStyles":{
                         "a":{
 },
@@ -1364,143 +504,7 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/yourquotes/u159.png"}},
-{
-          "id":"541f5c661c844f11bd4a9b8d4ae1b834",
-          "label":"catDropdown",
-          "type":"comboBox",
-          "styleType":"comboBox",
-          "visible":true,
-          "style":{
-            "fontName":"'Arial Bold', 'Arial'",
-            "fontSize":"14px",
-            "fontWeight":"700",
-            "foreGroundFill":{
-              "fillType":"solid",
-              "color":0xFF4F8AAE,
-              "opacity":1},
-            "location":{
-              "x":10,
-              "y":52},
-            "size":{
-              "width":200,
-              "height":28}},
-          "adaptiveStyles":{
-            "a":{
-},
-            "b":{
-},
-            "c":{
-},
-            "d":{
-}},
-          "interactionMap":{
-            "onSelectionChange":{
-              "description":"OnSelectionChange",
-              "cases":[{
-                  "description":"Case 1<br> (If selected option of This equals &quot;La Familia&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetSelectedOption",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"La Familia",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"linkWindow",
-                      "description":"Open laFamilia in Current Window",
-                      "target":{
-                        "targetType":"page",
-                        "url":"lafamilia.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]},
-{
-                  "description":"Case 2<br> (Else If selected option of This equals &quot;Out Drinking&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetSelectedOption",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"Out Drinking",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"linkWindow",
-                      "description":"Open outDrinking in Current Window",
-                      "target":{
-                        "targetType":"page",
-                        "url":"outdrinking.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]},
-{
-                  "description":"Case 3<br> (Else If selected option of This equals &quot;Tri Mus&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetSelectedOption",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"Tri Mus",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"linkWindow",
-                      "description":"Open triMus in Current Window",
-                      "target":{
-                        "targetType":"page",
-                        "url":"trimus.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]},
-{
-                  "description":"Case 4<br> (Else If selected option of This equals &quot;Watercooler&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetSelectedOption",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"Watercooler",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"linkWindow",
-                      "description":"Open watercooler in Current Window",
-                      "target":{
-                        "targetType":"page",
-                        "url":"watercooler.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]}]}}},
+            "normal~":"images/shakeallquotes/u159.png"}},
 {
           "id":"d842a4d4601649d5a91bf90f58a25bf3",
           "label":"",
@@ -1555,7 +559,169 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"resources/images/transparent.gif"}}]}},
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"ae078151263240c9b3bd40437738f360",
+          "label":"catDropdown",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Bold', 'Arial'",
+            "fontSize":"14px",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF4F8AAE,
+              "opacity":1},
+            "location":{
+              "x":10,
+              "y":52},
+            "size":{
+              "width":200,
+              "height":28}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "interactionMap":{
+            "onSelectionChange":{
+              "description":"OnSelectionChange",
+              "cases":[{
+                  "description":"Case 0<br> (If selected option of This equals &quot;All&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"All",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open shakeAllQuotes in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"shakeallquotes.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"Case 1<br> (Else If selected option of This equals &quot;Watercooler&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"Watercooler",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open watercooler in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"watercooler.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"Case 2<br> (Else If selected option of This equals &quot;Out Drinking&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"Out Drinking",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open outDrinking in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"outdrinking.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"Case 3<br> (Else If selected option of This equals &quot;La Familia&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"La Familia",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open laFamilia in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"lafamilia.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"Case 4<br> (Else If selected option of This equals &quot;College&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"College",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open college in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"college.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -2046,10 +1212,10 @@
                     "isNewIfGroup":false,
                     "actions":[{
                         "action":"linkWindow",
-                        "description":"Open myQuotes in Current Window",
+                        "description":"Open myQuotesList in Current Window",
                         "target":{
                           "targetType":"page",
-                          "url":"myquotes.html",
+                          "url":"myquoteslist.html",
                           "includeVariables":true},
                         "linkType":"current"}]}]}},
             "tabbable":true,
@@ -2125,10 +1291,10 @@
                     "isNewIfGroup":false,
                     "actions":[{
                         "action":"linkWindow",
-                        "description":"Open yourQuotes in Current Window",
+                        "description":"Open shakeAllQuotes in Current Window",
                         "target":{
                           "targetType":"page",
-                          "url":"yourquotes.html",
+                          "url":"shakeallquotes.html",
                           "includeVariables":true},
                         "linkType":"current"}]}]}},
             "tabbable":true,
@@ -2715,10 +1881,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -3326,10 +2492,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -4219,10 +3385,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open yourQuotes in Current Window",
+                                "description":"Open shakeAllQuotes in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"yourquotes.html",
+                                  "url":"shakeallquotes.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -4736,10 +3902,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -5531,10 +4697,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -6046,93 +5212,37 @@
         "scriptId":"u122"}},
     "e795c4fbfe9f4840b624b0eb87bcc7b1":{
       "scriptId":"u123"},
-    "b08884e421b844fc8d728dc1e6a688ed":{
-      "scriptId":"u124"},
-    "358ef128461d4670b04cb74dd67c5520":{
-      "scriptId":"u125"},
     "3bbf430f460245a7912d2de1892e2727":{
-      "scriptId":"u126"},
+      "scriptId":"u124"},
     "e336dbcfda7d403f90cc9b8d478c86ae":{
-      "scriptId":"u127"},
+      "scriptId":"u125"},
     "e2180e9612bd42aba86be717a8926f08":{
-      "scriptId":"u128"},
+      "scriptId":"u126"},
     "59847de5d14349d1ba7917c3903e63a9":{
-      "scriptId":"u129"},
-    "751d090503df443a9265e9afcdf0e3b4":{
-      "scriptId":"u130"},
-    "531e3af0d417467da54ab26f04d8e819":{
-      "scriptId":"u131"},
-    "4170731fff7e4ba48554b1f8eae6ef15":{
-      "scriptId":"u132"},
-    "b609e35d73974cd6bc0631413a59c1b2":{
-      "scriptId":"u133"},
+      "scriptId":"u127"},
     "f52192f0081c4654ad8fd86d819d2534":{
-      "scriptId":"u134"},
+      "scriptId":"u128"},
     "cfc3e784f0be4b7493875dce1f949e4f":{
-      "scriptId":"u135"},
+      "scriptId":"u129"},
     "7c640fd872ef44aba914256ed10791e1":{
-      "scriptId":"u136"},
+      "scriptId":"u130"},
     "180bcbda445b415d9295176193ad781d":{
-      "scriptId":"u137"},
-    "76826a2a96e54f15aef26d2532722dff":{
-      "scriptId":"u138"},
-    "3ede1b329c4949fe8e294002453672e8":{
-      "scriptId":"u139"},
-    "f3d900523a2d4aa29954d46cd9f01ff4":{
-      "scriptId":"u140"},
-    "45a619aeaf3f409b8d6e2f2a900a4a73":{
-      "scriptId":"u141"},
+      "scriptId":"u131"},
     "b5ed614ed0864ecfb842575f04d483c4":{
-      "scriptId":"u142"},
+      "scriptId":"u132"},
     "0b1381e02a7f45d1bb1ee6b7fdd95724":{
-      "scriptId":"u143"},
+      "scriptId":"u133"},
     "0f449bb553ec4a16ac4f75e160f4be42":{
-      "scriptId":"u144"},
+      "scriptId":"u134"},
     "ae3533b6f6a0441ab58ae800d9fe636d":{
-      "scriptId":"u145"},
-    "b058dbcd0fb143fe83ba3396e019aa0b":{
-      "scriptId":"u146"},
-    "36732f90d1f14b2e9d0725c8a173e626":{
-      "scriptId":"u147"},
-    "a6ec735a59884f70a3a9533a61728620":{
-      "scriptId":"u148"},
-    "966e23fb41964582b08ff6e053f09188":{
-      "scriptId":"u149"},
-    "160d49f6589e477b8d0121a70c52676e":{
-      "scriptId":"u150"},
-    "5146fc42e10d4254959f8ce1d4190cf8":{
-      "scriptId":"u151"},
-    "d2df52048f54456484d7fe15a7b1a7c4":{
-      "scriptId":"u152"},
-    "0a277212f7af43189bd7fe72bcf080d6":{
-      "scriptId":"u153"},
-    "0259e567403746399d08bbc1813f52f4":{
-      "scriptId":"u154"},
-    "0d4ae346332e449a82db9c20b5eb8a23":{
-      "scriptId":"u155"},
-    "864dbd9619444b6dad4079b7528c5fbd":{
-      "scriptId":"u156"},
-    "fc13e2fc9c1640b2a6345829b2ac2d32":{
-      "scriptId":"u157"},
-    "4607caf518cc4a4c929463d85601f68e":{
-      "scriptId":"u158"},
-    "3977a6c923164c4c8ebc71722703eeb3":{
-      "scriptId":"u159"},
-    "10d0d11353cd4c129c3503fa52efb08b":{
-      "scriptId":"u160"},
-    "d68545900f8c404caa04ad1790f34e6c":{
-      "scriptId":"u161"},
-    "0c8532ea918f481b8654318bc3c3927f":{
-      "scriptId":"u162"},
-    "064fac52cb0248ffb49a2fe7b9e0de03":{
-      "scriptId":"u163"},
+      "scriptId":"u135"},
     "7d3bcc36e87944ac83ba084487da610d":{
-      "scriptId":"u164"},
+      "scriptId":"u136"},
     "89d5c51e23ab4e5da760a6b3bb610fdd":{
-      "scriptId":"u165"},
-    "541f5c661c844f11bd4a9b8d4ae1b834":{
-      "scriptId":"u166"},
+      "scriptId":"u137"},
     "d842a4d4601649d5a91bf90f58a25bf3":{
-      "scriptId":"u167"},
+      "scriptId":"u138"},
     "6e5bba0f2aea49e1b8d0ed1a37ba11b9":{
-      "scriptId":"u168"}}});
+      "scriptId":"u139"},
+    "ae078151263240c9b3bd40437738f360":{
+      "scriptId":"u140"}}});

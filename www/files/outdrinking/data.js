@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"outdrinking.html",
-  "generationDate":new Date(1387828485903.27),
+  "generationDate":new Date(1387839218485.88),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -66,7 +66,7 @@
               "y":96},
             "size":{
               "width":320,
-              "height":310}},
+              "height":320}},
           "adaptiveStyles":{
             "a":{
 },
@@ -1364,143 +1364,7 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/yourquotes/u159.png"}},
-{
-          "id":"0a72698305f4443c9fbf374361b65b35",
-          "label":"catDropdown",
-          "type":"comboBox",
-          "styleType":"comboBox",
-          "visible":true,
-          "style":{
-            "fontName":"'Arial Bold', 'Arial'",
-            "fontSize":"14px",
-            "fontWeight":"700",
-            "foreGroundFill":{
-              "fillType":"solid",
-              "color":0xFF4F8AAE,
-              "opacity":1},
-            "location":{
-              "x":10,
-              "y":52},
-            "size":{
-              "width":200,
-              "height":28}},
-          "adaptiveStyles":{
-            "a":{
-},
-            "b":{
-},
-            "c":{
-},
-            "d":{
-}},
-          "interactionMap":{
-            "onSelectionChange":{
-              "description":"OnSelectionChange",
-              "cases":[{
-                  "description":"Case 1<br> (If selected option of This equals &quot;La Familia&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetSelectedOption",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"La Familia",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"linkWindow",
-                      "description":"Open laFamilia in Current Window",
-                      "target":{
-                        "targetType":"page",
-                        "url":"lafamilia.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]},
-{
-                  "description":"Case 2<br> (Else If selected option of This equals &quot;Out Drinking&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetSelectedOption",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"Out Drinking",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"linkWindow",
-                      "description":"Open outDrinking in Current Window",
-                      "target":{
-                        "targetType":"page",
-                        "url":"outdrinking.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]},
-{
-                  "description":"Case 3<br> (Else If selected option of This equals &quot;Tri Mus&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetSelectedOption",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"Tri Mus",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"linkWindow",
-                      "description":"Open triMus in Current Window",
-                      "target":{
-                        "targetType":"page",
-                        "url":"trimus.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]},
-{
-                  "description":"Case 4<br> (Else If selected option of This equals &quot;Watercooler&quot;)",
-                  "isNewIfGroup":false,
-                  "condition":{
-                    "exprType":"binaryOp",
-                    "op":"==",
-                    "leftExpr":{
-                      "exprType":"fcall",
-                      "functionName":"GetSelectedOption",
-                      "arguments":[{
-                          "exprType":"pathLiteral",
-                          "isThis":true,
-                          "isFocused":false,
-                          "isTarget":false}]},
-                    "rightExpr":{
-                      "exprType":"stringLiteral",
-                      "value":"Watercooler",
-                      "stos":[]}},
-                  "actions":[{
-                      "action":"linkWindow",
-                      "description":"Open watercooler in Current Window",
-                      "target":{
-                        "targetType":"page",
-                        "url":"watercooler.html",
-                        "includeVariables":true},
-                      "linkType":"current"}]}]}}},
+            "normal~":"images/shakeallquotes/u159.png"}},
 {
           "id":"5c7b7f0acdb2435596b8d5fc0d55509c",
           "label":"",
@@ -1555,7 +1419,169 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"resources/images/transparent.gif"}}]}},
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"56812d5b40264bfd8cb4dc3db809a4e2",
+          "label":"catDropdown",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Bold', 'Arial'",
+            "fontSize":"14px",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF4F8AAE,
+              "opacity":1},
+            "location":{
+              "x":10,
+              "y":52},
+            "size":{
+              "width":200,
+              "height":28}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "interactionMap":{
+            "onSelectionChange":{
+              "description":"OnSelectionChange",
+              "cases":[{
+                  "description":"Case 0<br> (If selected option of This equals &quot;All&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"All",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open shakeAllQuotes in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"shakeallquotes.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"Case 1<br> (Else If selected option of This equals &quot;Watercooler&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"Watercooler",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open watercooler in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"watercooler.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"Case 2<br> (Else If selected option of This equals &quot;Out Drinking&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"Out Drinking",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open outDrinking in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"outdrinking.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"Case 3<br> (Else If selected option of This equals &quot;La Familia&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"La Familia",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open laFamilia in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"lafamilia.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"Case 4<br> (Else If selected option of This equals &quot;College&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"College",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open college in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"college.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -2046,10 +2072,10 @@
                     "isNewIfGroup":false,
                     "actions":[{
                         "action":"linkWindow",
-                        "description":"Open myQuotes in Current Window",
+                        "description":"Open myQuotesList in Current Window",
                         "target":{
                           "targetType":"page",
-                          "url":"myquotes.html",
+                          "url":"myquoteslist.html",
                           "includeVariables":true},
                         "linkType":"current"}]}]}},
             "tabbable":true,
@@ -2125,10 +2151,10 @@
                     "isNewIfGroup":false,
                     "actions":[{
                         "action":"linkWindow",
-                        "description":"Open yourQuotes in Current Window",
+                        "description":"Open shakeAllQuotes in Current Window",
                         "target":{
                           "targetType":"page",
-                          "url":"yourquotes.html",
+                          "url":"shakeallquotes.html",
                           "includeVariables":true},
                         "linkType":"current"}]}]}},
             "tabbable":true,
@@ -2715,10 +2741,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -3326,10 +3352,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -4219,10 +4245,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open yourQuotes in Current Window",
+                                "description":"Open shakeAllQuotes in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"yourquotes.html",
+                                  "url":"shakeallquotes.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -4736,10 +4762,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -5531,10 +5557,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -6130,9 +6156,9 @@
       "scriptId":"u164"},
     "0d23f7d1a3a14629b72362fb1e4cd1a6":{
       "scriptId":"u165"},
-    "0a72698305f4443c9fbf374361b65b35":{
-      "scriptId":"u166"},
     "5c7b7f0acdb2435596b8d5fc0d55509c":{
-      "scriptId":"u167"},
+      "scriptId":"u166"},
     "12a2b2aadac2450c915e240a505d2b91":{
+      "scriptId":"u167"},
+    "56812d5b40264bfd8cb4dc3db809a4e2":{
       "scriptId":"u168"}}});

@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"search.html",
-  "generationDate":new Date(1387828488483.42),
+  "generationDate":new Date(1387839220939.02),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -256,12 +256,15 @@
           "styleType":"textBox",
           "visible":true,
           "style":{
-            "fontName":"'Arial Italic', 'Arial'",
-            "fontStyle":"italic",
-            "foreGroundFill":{
-              "fillType":"solid",
-              "color":0xFFE4E4E4,
-              "opacity":1},
+            "stateStyles":{
+              "hint":{
+                "fontName":"'Arial Italic', 'Arial'",
+                "fontWeight":"400",
+                "fontStyle":"italic",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC,
+                  "opacity":1}}},
             "location":{
               "x":10,
               "y":75},
@@ -276,7 +279,8 @@
             "c":{
 },
             "d":{
-}}},
+}},
+          "placeholderText":"Enter keyword, person, topic"},
 {
           "id":"f592b39e8040476aa910ac7c9b36f75a",
           "label":"",
@@ -833,10 +837,10 @@
                     "isNewIfGroup":false,
                     "actions":[{
                         "action":"linkWindow",
-                        "description":"Open myQuotes in Current Window",
+                        "description":"Open myQuotesList in Current Window",
                         "target":{
                           "targetType":"page",
-                          "url":"myquotes.html",
+                          "url":"myquoteslist.html",
                           "includeVariables":true},
                         "linkType":"current"}]}]}},
             "tabbable":true,
@@ -912,10 +916,10 @@
                     "isNewIfGroup":false,
                     "actions":[{
                         "action":"linkWindow",
-                        "description":"Open yourQuotes in Current Window",
+                        "description":"Open shakeAllQuotes in Current Window",
                         "target":{
                           "targetType":"page",
-                          "url":"yourquotes.html",
+                          "url":"shakeallquotes.html",
                           "includeVariables":true},
                         "linkType":"current"}]}]}},
             "tabbable":true,
@@ -1502,10 +1506,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -2113,10 +2117,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -3006,10 +3010,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open yourQuotes in Current Window",
+                                "description":"Open shakeAllQuotes in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"yourquotes.html",
+                                  "url":"shakeallquotes.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -3523,10 +3527,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
@@ -4318,10 +4322,10 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open myQuotes in Current Window",
+                                "description":"Open myQuotesList in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"myquotes.html",
+                                  "url":"myquoteslist.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {

@@ -20,29 +20,13 @@
         "type":"Wireframe",
         "url":"home.html"},
 {
-        "pageName":"myQuotes",
+        "pageName":"myQuotesList",
         "type":"Wireframe",
-        "url":"myquotes.html",
-        "children":[{
-            "pageName":"mqDrinking",
-            "type":"Wireframe",
-            "url":"mqdrinking.html"},
+        "url":"myquoteslist.html"},
 {
-            "pageName":"mqWork",
-            "type":"Wireframe",
-            "url":"mqwork.html"},
-{
-            "pageName":"mqFamily",
-            "type":"Wireframe",
-            "url":"mqfamily.html"},
-{
-            "pageName":"mqTriMus",
-            "type":"Wireframe",
-            "url":"mqtrimus.html"}]},
-{
-        "pageName":"yourQuotes",
+        "pageName":"shakeAllQuotes",
         "type":"Wireframe",
-        "url":"yourquotes.html",
+        "url":"shakeallquotes.html",
         "children":[{
             "pageName":"watercooler",
             "type":"Wireframe",
@@ -56,9 +40,9 @@
             "type":"Wireframe",
             "url":"lafamilia.html"},
 {
-            "pageName":"triMus",
+            "pageName":"college",
             "type":"Wireframe",
-            "url":"trimus.html"}]},
+            "url":"college.html"}]},
 {
         "pageName":"addQuote",
         "type":"Wireframe",
