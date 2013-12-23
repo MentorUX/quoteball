@@ -1322,23 +1322,23 @@
 }
 #u115 {
   position:absolute;
-  left:99px;
-  top:0px;
-  width:110px;
-  height:36px;
+  left:290px;
+  top:6px;
+  width:24px;
+  height:24px;
 }
 #u115_img {
   position:absolute;
   left:0px;
   top:0px;
-  width:110px;
-  height:36px;
+  width:24px;
+  height:24px;
 }
 #u116 {
   position:absolute;
   left:2px;
-  top:10px;
-  width:106px;
+  top:4px;
+  width:20px;
   visibility:hidden;
   word-wrap:break-word;
 }
@@ -1366,23 +1366,23 @@
 }
 #u119 {
   position:absolute;
-  left:290px;
-  top:6px;
-  width:24px;
-  height:24px;
+  left:99px;
+  top:0px;
+  width:110px;
+  height:36px;
 }
 #u119_img {
   position:absolute;
   left:0px;
   top:0px;
-  width:24px;
-  height:24px;
+  width:110px;
+  height:36px;
 }
 #u120 {
   position:absolute;
   left:2px;
-  top:4px;
-  width:20px;
+  top:10px;
+  width:106px;
   visibility:hidden;
   word-wrap:break-word;
 }
@@ -1943,16 +1943,6 @@ body.b {  background-color:rgba(255, 255, 255, 1);
 #u113.b {
 }
 #u115.b {
-  width:480px;
-  height:50px;
-}
-#u115_img.b {
-  width:480px;
-  height:50px;
-}
-#u116.b {
-  top:17px;
-  width:476px;
 }
 #u117.b {
   width:480px;
@@ -1967,6 +1957,16 @@ body.b {  background-color:rgba(255, 255, 255, 1);
   width:476px;
 }
 #u119.b {
+  width:480px;
+  height:50px;
+}
+#u119_img.b {
+  width:480px;
+  height:50px;
+}
+#u120.b {
+  top:17px;
+  width:476px;
 }
 #u121.b {
   position:absolute;
@@ -2182,16 +2182,6 @@ body.c {  background-color:rgba(255, 255, 255, 1);
 #u113.c {
 }
 #u115.c {
-  width:480px;
-  height:50px;
-}
-#u115_img.c {
-  width:480px;
-  height:50px;
-}
-#u116.c {
-  top:17px;
-  width:476px;
 }
 #u117.c {
   width:480px;
@@ -2206,6 +2196,16 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   width:476px;
 }
 #u119.c {
+  width:480px;
+  height:50px;
+}
+#u119_img.c {
+  width:480px;
+  height:50px;
+}
+#u120.c {
+  top:17px;
+  width:476px;
 }
 #u121.c {
   position:absolute;
@@ -2421,16 +2421,6 @@ body.d {  background-color:rgba(255, 255, 255, 1);
 #u113.d {
 }
 #u115.d {
-  width:480px;
-  height:50px;
-}
-#u115_img.d {
-  width:480px;
-  height:50px;
-}
-#u116.d {
-  top:17px;
-  width:476px;
 }
 #u117.d {
   width:480px;
@@ -2445,6 +2435,16 @@ body.d {  background-color:rgba(255, 255, 255, 1);
   width:476px;
 }
 #u119.d {
+  width:480px;
+  height:50px;
+}
+#u119_img.d {
+  width:480px;
+  height:50px;
+}
+#u120.d {
+  top:17px;
+  width:476px;
 }
 #u121.d {
   position:absolute;

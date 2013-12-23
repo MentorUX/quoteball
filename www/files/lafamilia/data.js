@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"lafamilia.html",
-  "generationDate":new Date(1387818323532.02),
+  "generationDate":new Date(1387819106291.79),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -1312,10 +1312,10 @@
           "visible":true,
           "style":{
             "location":{
-              "x":40,
-              "y":360},
+              "x":110,
+              "y":390},
             "size":{
-              "width":200,
+              "width":100,
               "height":22}},
           "adaptiveStyles":{
             "a":{
@@ -1754,25 +1754,6 @@
 },
                   "d":{
 }}}],
-            "interactionMap":{
-              "onClick":{
-                "description":"OnClick",
-                "cases":[{
-                    "description":"Case 1",
-                    "isNewIfGroup":false,
-                    "actions":[{
-                        "action":"linkWindow",
-                        "description":"Open myQuotes in Current Window",
-                        "target":{
-                          "targetType":"page",
-                          "url":"myquotes.html",
-                          "includeVariables":true},
-                        "linkType":"current"},
-{
-                        "action":"setPanelState",
-                        "description":"Set Panel to State",
-                        "panelsToStates":[]}]}]}},
-            "tabbable":true,
             "images":{
               "normal~":"resources/images/transparent.gif"}},
 {
@@ -1832,6 +1813,108 @@
 },
                   "d":{
 }}}],
+            "images":{
+              "normal~":"resources/images/transparent.gif"}},
+{
+            "id":"3cf466c202ac414e991371f5837f32a2",
+            "label":"",
+            "type":"imageBox",
+            "styleType":"imageBox",
+            "visible":true,
+            "style":{
+              "location":{
+                "x":290,
+                "y":6},
+              "size":{
+                "width":24,
+                "height":24}},
+            "adaptiveStyles":{
+              "a":{
+},
+              "b":{
+},
+              "c":{
+},
+              "d":{
+}},
+            "objects":[{
+                "id":"1ae5be175b1644998b830842a96cb848",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "location":{
+                    "x":290,
+                    "y":6},
+                  "size":{
+                    "width":24,
+                    "height":24}},
+                "adaptiveStyles":{
+                  "a":{
+},
+                  "b":{
+},
+                  "c":{
+},
+                  "d":{
+}}}],
+            "images":{
+              "normal~":"images/home/u115.png"}},
+{
+            "id":"410a72c765494ac5af115b86baa4ed45",
+            "label":"",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fill":{
+                "fillType":"solid",
+                "color":0xFFFFFF},
+              "size":{
+                "width":100,
+                "height":36},
+              "borderFill":{
+                "fillType":"solid",
+                "color":0xFFCCCCCC}},
+            "adaptiveStyles":{
+              "a":{
+},
+              "b":{
+                "size":{
+                  "width":480,
+                  "height":50}},
+              "c":{
+},
+              "d":{
+}},
+            "objects":[{
+                "id":"0746c1a673c14e719693a4277040f6fc",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFFFFFF},
+                  "size":{
+                    "width":100,
+                    "height":36},
+                  "borderFill":{
+                    "fillType":"solid",
+                    "color":0xFFCCCCCC}},
+                "adaptiveStyles":{
+                  "a":{
+},
+                  "b":{
+},
+                  "c":{
+},
+                  "d":{
+}}}],
             "interactionMap":{
               "onClick":{
                 "description":"OnClick",
@@ -1845,14 +1928,13 @@
                           "targetType":"page",
                           "url":"myquotes.html",
                           "includeVariables":true},
-                        "linkType":"current"},
-{
-                        "action":"setPanelState",
-                        "description":"Set Panel to State",
-                        "panelsToStates":[]}]}]}},
+                        "linkType":"current"}]}]}},
             "tabbable":true,
             "images":{
-              "normal~":"resources/images/transparent.gif"}},
+              "normal~":"images/home/u117.png",
+              "normal~b":"images/home/u1_b.png",
+              "normal~c":"images/home/u1_b.png",
+              "normal~d":"images/home/u1_b.png"}},
 {
             "id":"e51c5e49e7564292aec9c6d30e8b946e",
             "label":"",
@@ -1912,116 +1994,26 @@
 },
                   "d":{
 }}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"Open yourQuotes in Current Window",
+                        "target":{
+                          "targetType":"page",
+                          "url":"yourquotes.html",
+                          "includeVariables":true},
+                        "linkType":"current"}]}]}},
+            "tabbable":true,
             "images":{
-              "normal~":"images/home/u115.png",
+              "normal~":"images/home/u119.png",
               "normal~b":"images/home/u1_b.png",
               "normal~c":"images/home/u1_b.png",
-              "normal~d":"images/home/u1_b.png"}},
-{
-            "id":"410a72c765494ac5af115b86baa4ed45",
-            "label":"",
-            "type":"buttonShape",
-            "styleType":"buttonShape",
-            "visible":true,
-            "style":{
-              "fill":{
-                "fillType":"solid",
-                "color":0xFFFFFF},
-              "size":{
-                "width":100,
-                "height":36},
-              "borderFill":{
-                "fillType":"solid",
-                "color":0xFFCCCCCC}},
-            "adaptiveStyles":{
-              "a":{
-},
-              "b":{
-                "size":{
-                  "width":480,
-                  "height":50}},
-              "c":{
-},
-              "d":{
-}},
-            "objects":[{
-                "id":"0746c1a673c14e719693a4277040f6fc",
-                "label":"",
-                "isContained":true,
-                "type":"richTextPanel",
-                "styleType":"paragraph",
-                "visible":true,
-                "style":{
-                  "fill":{
-                    "fillType":"solid",
-                    "color":0xFFFFFF},
-                  "size":{
-                    "width":100,
-                    "height":36},
-                  "borderFill":{
-                    "fillType":"solid",
-                    "color":0xFFCCCCCC}},
-                "adaptiveStyles":{
-                  "a":{
-},
-                  "b":{
-},
-                  "c":{
-},
-                  "d":{
-}}}],
-            "images":{
-              "normal~":"images/home/u117.png",
-              "normal~b":"images/home/u1_b.png",
-              "normal~c":"images/home/u1_b.png",
-              "normal~d":"images/home/u1_b.png"}},
-{
-            "id":"3cf466c202ac414e991371f5837f32a2",
-            "label":"",
-            "type":"imageBox",
-            "styleType":"imageBox",
-            "visible":true,
-            "style":{
-              "location":{
-                "x":290,
-                "y":6},
-              "size":{
-                "width":24,
-                "height":24}},
-            "adaptiveStyles":{
-              "a":{
-},
-              "b":{
-},
-              "c":{
-},
-              "d":{
-}},
-            "objects":[{
-                "id":"1ae5be175b1644998b830842a96cb848",
-                "label":"",
-                "isContained":true,
-                "type":"richTextPanel",
-                "styleType":"paragraph",
-                "visible":true,
-                "style":{
-                  "location":{
-                    "x":290,
-                    "y":6},
-                  "size":{
-                    "width":24,
-                    "height":24}},
-                "adaptiveStyles":{
-                  "a":{
-},
-                  "b":{
-},
-                  "c":{
-},
-                  "d":{
-}}}],
-            "images":{
-              "normal~":"images/home/u119.png"}}]}},
+              "normal~d":"images/home/u1_b.png"}}]}},
     "81e3124032df45c4b52c40520e5abd12":{
       "packageId":"81e3124032df45c4b52c40520e5abd12",
       "type":"Axure:Master",
@@ -5832,17 +5824,17 @@
         "scriptId":"u113"},
       "b037e8c89a35487a991007e06523cc3d":{
         "scriptId":"u114"},
-      "e51c5e49e7564292aec9c6d30e8b946e":{
+      "3cf466c202ac414e991371f5837f32a2":{
         "scriptId":"u115"},
-      "6700ff8647854ba0a42f5eb373fd6f54":{
+      "1ae5be175b1644998b830842a96cb848":{
         "scriptId":"u116"},
       "410a72c765494ac5af115b86baa4ed45":{
         "scriptId":"u117"},
       "0746c1a673c14e719693a4277040f6fc":{
         "scriptId":"u118"},
-      "3cf466c202ac414e991371f5837f32a2":{
+      "e51c5e49e7564292aec9c6d30e8b946e":{
         "scriptId":"u119"},
-      "1ae5be175b1644998b830842a96cb848":{
+      "6700ff8647854ba0a42f5eb373fd6f54":{
         "scriptId":"u120"}},
     "e795c4fbfe9f4840b624b0eb87bcc7b1":{
       "scriptId":"u121"},

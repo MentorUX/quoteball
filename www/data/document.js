@@ -20,22 +20,6 @@
         "type":"Wireframe",
         "url":"home.html"},
 {
-        "pageName":"yourQuotes",
-        "type":"Wireframe",
-        "url":"yourquotes.html",
-        "children":[{
-            "pageName":"outDrinking",
-            "type":"Wireframe",
-            "url":"outdrinking.html"},
-{
-            "pageName":"laFamilia",
-            "type":"Wireframe",
-            "url":"lafamilia.html"},
-{
-            "pageName":"triMus",
-            "type":"Wireframe",
-            "url":"trimus.html"}]},
-{
         "pageName":"myQuotes",
         "type":"Wireframe",
         "url":"myquotes.html",
@@ -55,6 +39,22 @@
             "pageName":"mqTriMus",
             "type":"Wireframe",
             "url":"mqtrimus.html"}]},
+{
+        "pageName":"yourQuotes",
+        "type":"Wireframe",
+        "url":"yourquotes.html",
+        "children":[{
+            "pageName":"outDrinking",
+            "type":"Wireframe",
+            "url":"outdrinking.html"},
+{
+            "pageName":"laFamilia",
+            "type":"Wireframe",
+            "url":"lafamilia.html"},
+{
+            "pageName":"triMus",
+            "type":"Wireframe",
+            "url":"trimus.html"}]},
 {
         "pageName":"addQuote",
         "type":"Wireframe",
