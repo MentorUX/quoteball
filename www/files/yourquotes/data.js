@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"yourquotes.html",
-  "generationDate":new Date(1387823066180.28),
+  "generationDate":new Date(1387825498159.38),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -63,10 +63,10 @@
           "style":{
             "location":{
               "x":0,
-              "y":76},
+              "y":96},
             "size":{
               "width":320,
-              "height":340}},
+              "height":310}},
           "adaptiveStyles":{
             "a":{
 },
@@ -1084,7 +1084,7 @@
               "opacity":1},
             "location":{
               "x":10,
-              "y":42},
+              "y":52},
             "size":{
               "width":200,
               "height":28}},
@@ -1217,7 +1217,7 @@
             "verticalAlignment":"middle",
             "location":{
               "x":210,
-              "y":42},
+              "y":52},
             "size":{
               "width":60,
               "height":28}},
@@ -1244,7 +1244,7 @@
                 "verticalAlignment":"middle",
                 "location":{
                   "x":210,
-                  "y":42},
+                  "y":52},
                 "size":{
                   "width":60,
                   "height":28}},
@@ -1258,7 +1258,68 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"resources/images/transparent.gif"}}]}},
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"adf5a68eddeb415380b0883d0eafb9d8",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":100,
+              "y":0},
+            "size":{
+              "width":110,
+              "height":36},
+            "borderWidth":"2",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF4F8AAE}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "objects":[{
+              "id":"1e759752ccbf40dfb6a26132c449a3d4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":100,
+                  "y":0},
+                "size":{
+                  "width":110,
+                  "height":36},
+                "borderWidth":"2",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF4F8AAE}},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+},
+                "d":{
+}}}],
+          "images":{
+            "normal~":"images/yourquotes/u157.png"}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -5733,4 +5794,8 @@
     "b1d981331b3648fcb12a79dcbe236082":{
       "scriptId":"u155"},
     "aa06a39d6112442d809fbbb7cc808319":{
-      "scriptId":"u156"}}});
+      "scriptId":"u156"},
+    "adf5a68eddeb415380b0883d0eafb9d8":{
+      "scriptId":"u157"},
+    "1e759752ccbf40dfb6a26132c449a3d4":{
+      "scriptId":"u158"}}});

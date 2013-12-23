@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"myquotes.html",
-  "generationDate":new Date(1387823065743.25),
+  "generationDate":new Date(1387825497670.35),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -92,7 +92,7 @@
               "opacity":1},
             "location":{
               "x":10,
-              "y":42},
+              "y":52},
             "size":{
               "width":200,
               "height":28}},
@@ -243,6 +243,40 @@
                             "loop":false,
                             "showWhenSet":false,
                             "options":{
+                              "compress":false}}}]}]},
+{
+                  "description":"Case 4<br> (Else If selected option of This equals &quot;Tri Mus&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":true,
+                          "isFocused":false,
+                          "isTarget":false}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"Tri Mus",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set mqPanel to triMus",
+                      "panelsToStates":[{
+                          "panelPath":["e5ded302303644ca8ba395df2dcb4ef2"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":5,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
                               "compress":false}}}]}]}]}}},
 {
           "id":"e5ded302303644ca8ba395df2dcb4ef2",
@@ -253,10 +287,10 @@
           "style":{
             "location":{
               "x":0,
-              "y":76},
+              "y":96},
             "size":{
               "width":320,
-              "height":340}},
+              "height":310}},
           "adaptiveStyles":{
             "a":{
 },
@@ -488,6 +522,59 @@
                         "d":{
 }}}],
                   "images":{
+                    "normal~":"resources/images/transparent.gif"}}]},
+{
+              "id":"5900750d49ff4095a52bbdb57ca3ccce",
+              "label":"triMus",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"91fae421b6124d2b8e18c85268ae5e93",
+                  "label":"",
+                  "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":10},
+                    "size":{
+                      "width":300,
+                      "height":290}},
+                  "adaptiveStyles":{
+                    "a":{
+},
+                    "b":{
+},
+                    "c":{
+},
+                    "d":{
+}},
+                  "objects":[{
+                      "id":"9ae3dd01df744310a94394ec040f241c",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e5ded302303644ca8ba395df2dcb4ef2",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":10,
+                          "y":10},
+                        "size":{
+                          "width":300,
+                          "height":290}},
+                      "adaptiveStyles":{
+                        "a":{
+},
+                        "b":{
+},
+                        "c":{
+},
+                        "d":{
+}}}],
+                  "images":{
                     "normal~":"resources/images/transparent.gif"}}]}]},
 {
           "id":"023e31852f2f49b5bdae26d76a9a6d96",
@@ -502,7 +589,7 @@
             "verticalAlignment":"middle",
             "location":{
               "x":210,
-              "y":42},
+              "y":52},
             "size":{
               "width":60,
               "height":28}},
@@ -529,7 +616,7 @@
                 "verticalAlignment":"middle",
                 "location":{
                   "x":210,
-                  "y":42},
+                  "y":52},
                 "size":{
                   "width":60,
                   "height":28}},
@@ -543,7 +630,62 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"resources/images/transparent.gif"}}]}},
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"0e504c4bec7949ffafdc597dab0bde0c",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "size":{
+              "width":100,
+              "height":36},
+            "borderWidth":"2",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF4F8AAE}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "objects":[{
+              "id":"12ea4402ac074a84afb5ea3e52aa1369",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "size":{
+                  "width":100,
+                  "height":36},
+                "borderWidth":"2",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF4F8AAE}},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+},
+                "d":{
+}}}],
+          "images":{
+            "normal~":"images/myquotes/u135.png"}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -4967,7 +5109,15 @@
       "scriptId":"u129"},
     "1813ee0439e64bce85e1cc85b92b8e22":{
       "scriptId":"u130"},
-    "023e31852f2f49b5bdae26d76a9a6d96":{
+    "91fae421b6124d2b8e18c85268ae5e93":{
       "scriptId":"u131"},
+    "9ae3dd01df744310a94394ec040f241c":{
+      "scriptId":"u132"},
+    "023e31852f2f49b5bdae26d76a9a6d96":{
+      "scriptId":"u133"},
     "22aefdea61f24e5b9d765e351073a6c8":{
-      "scriptId":"u132"}}});
+      "scriptId":"u134"},
+    "0e504c4bec7949ffafdc597dab0bde0c":{
+      "scriptId":"u135"},
+    "12ea4402ac074a84afb5ea3e52aa1369":{
+      "scriptId":"u136"}}});
