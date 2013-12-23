@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"yourquotes.html",
-  "generationDate":new Date(1387819105189.72),
+  "generationDate":new Date(1387820756995.2),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -63,10 +63,10 @@
           "style":{
             "location":{
               "x":0,
-              "y":50},
+              "y":36},
             "size":{
               "width":320,
-              "height":360}},
+              "height":340}},
           "adaptiveStyles":{
             "a":{
 },
@@ -1075,12 +1075,19 @@
           "styleType":"comboBox",
           "visible":true,
           "style":{
+            "fontName":"'Arial Bold', 'Arial'",
+            "fontSize":"14px",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF4F8AAE,
+              "opacity":1},
             "location":{
-              "x":110,
-              "y":390},
+              "x":70,
+              "y":383},
             "size":{
-              "width":100,
-              "height":22}},
+              "width":180,
+              "height":28}},
           "adaptiveStyles":{
             "a":{
 },
@@ -1196,7 +1203,109 @@
                         "targetType":"page",
                         "url":"yourquotes.html",
                         "includeVariables":true},
-                      "linkType":"current"}]}]}}}]}},
+                      "linkType":"current"}]}]}}},
+{
+          "id":"71298c3471e44270bb1c59f896d7010e",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "horizontalAlignment":"center",
+            "verticalAlignment":"middle",
+            "location":{
+              "x":10,
+              "y":383},
+            "size":{
+              "width":60,
+              "height":28}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "objects":[{
+              "id":"6366199ed277405fba7e28c1d28fecd0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":10,
+                  "y":383},
+                "size":{
+                  "width":60,
+                  "height":28}},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+},
+                "d":{
+}}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"b1d981331b3648fcb12a79dcbe236082",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "horizontalAlignment":"center",
+            "verticalAlignment":"middle",
+            "location":{
+              "x":250,
+              "y":383},
+            "size":{
+              "width":60,
+              "height":28}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "objects":[{
+              "id":"aa06a39d6112442d809fbbb7cc808319",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":250,
+                  "y":383},
+                "size":{
+                  "width":60,
+                  "height":28}},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+},
+                "d":{
+}}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -5667,4 +5776,12 @@
     "f0a59df0763647fe8863b1f6fef4bf89":{
       "scriptId":"u153"},
     "afacf6dfac9f4444bd98583609be224b":{
-      "scriptId":"u154"}}});
+      "scriptId":"u154"},
+    "71298c3471e44270bb1c59f896d7010e":{
+      "scriptId":"u155"},
+    "6366199ed277405fba7e28c1d28fecd0":{
+      "scriptId":"u156"},
+    "b1d981331b3648fcb12a79dcbe236082":{
+      "scriptId":"u157"},
+    "aa06a39d6112442d809fbbb7cc808319":{
+      "scriptId":"u158"}}});

@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"myquotes.html",
-  "generationDate":new Date(1387819104697.7),
+  "generationDate":new Date(1387820756432.17),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -83,12 +83,19 @@
           "styleType":"comboBox",
           "visible":true,
           "style":{
+            "fontName":"'Arial Bold', 'Arial'",
+            "fontSize":"14px",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF4F8AAE,
+              "opacity":1},
             "location":{
-              "x":110,
-              "y":390},
+              "x":70,
+              "y":383},
             "size":{
-              "width":100,
-              "height":22}},
+              "width":180,
+              "height":28}},
           "adaptiveStyles":{
             "a":{
 },
@@ -249,7 +256,7 @@
               "y":36},
             "size":{
               "width":320,
-              "height":350}},
+              "height":340}},
           "adaptiveStyles":{
             "a":{
 },
@@ -481,7 +488,109 @@
                         "d":{
 }}}],
                   "images":{
-                    "normal~":"resources/images/transparent.gif"}}]}]}]}},
+                    "normal~":"resources/images/transparent.gif"}}]}]},
+{
+          "id":"855b7ac45d9f4e22a0f6a63e65017616",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "horizontalAlignment":"center",
+            "verticalAlignment":"middle",
+            "location":{
+              "x":10,
+              "y":383},
+            "size":{
+              "width":60,
+              "height":28}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "objects":[{
+              "id":"913a4c92955c4abe8ee036fa0f1dda22",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":10,
+                  "y":383},
+                "size":{
+                  "width":60,
+                  "height":28}},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+},
+                "d":{
+}}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"023e31852f2f49b5bdae26d76a9a6d96",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "horizontalAlignment":"center",
+            "verticalAlignment":"middle",
+            "location":{
+              "x":250,
+              "y":383},
+            "size":{
+              "width":60,
+              "height":28}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "objects":[{
+              "id":"22aefdea61f24e5b9d765e351073a6c8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":250,
+                  "y":383},
+                "size":{
+                  "width":60,
+                  "height":28}},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+},
+                "d":{
+}}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -4904,4 +5013,12 @@
     "614221b0c3d8465cb71800cc9b4fae40":{
       "scriptId":"u129"},
     "1813ee0439e64bce85e1cc85b92b8e22":{
-      "scriptId":"u130"}}});
+      "scriptId":"u130"},
+    "855b7ac45d9f4e22a0f6a63e65017616":{
+      "scriptId":"u131"},
+    "913a4c92955c4abe8ee036fa0f1dda22":{
+      "scriptId":"u132"},
+    "023e31852f2f49b5bdae26d76a9a6d96":{
+      "scriptId":"u133"},
+    "22aefdea61f24e5b9d765e351073a6c8":{
+      "scriptId":"u134"}}});
