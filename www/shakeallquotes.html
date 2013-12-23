@@ -39,6 +39,7 @@
     <script src="files/shakeallquotes/data.js"></script>
     <script src="resources/scripts/axure/legacy.js"></script>
     <script src="resources/scripts/axure/viewer.js"></script>
+		<script type="text/javascript" src="shake.js"></script>	
   </head>
   <body>
     <div id="base" class="">
@@ -535,6 +536,25 @@
         <div id="u122" class="text"></div>
       </div>
 
+	  <div>
+	  <script type="text/javascript">
+window.onload = function() {
+
+	window.addEventListener('shake', shakeEventDidOccur, false);
+	
+	//define a custom method to fire when shake occurs.
+	function shakeEventDidOccur () {
+	
+		//put your own code here etc.
+		if (confirm("Ultimately, shaking the device will refresh the screen with a new quote. For now, tap the screen to see additional quotes.")) {
+
+		}
+	}
+};
+</script>
+	  
+	  </div>	  
+	  
       <!-- quoteBox_yourQuotes (Dynamic Panel) -->
       <div id="u123" class="ax_dynamic_panel" data-label="quoteBox_yourQuotes">
         <div id="u123_state0" class="panel_state" data-label="quote1">
