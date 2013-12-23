@@ -1,13 +1,13 @@
 ﻿<!DOCTYPE html>
 <html>
   <head>
-    <title>Home</title>
+    <title>myQuotes</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
     <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
     <link href="data/styles.css" type="text/css" rel="stylesheet"/>
-    <link href="files/home/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/myquotes/styles.css" type="text/css" rel="stylesheet"/>
     <script src="resources/scripts/jquery-1.7.1.min.js"></script>
     <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
     <script src="resources/scripts/axure/axQuery.js"></script>
@@ -36,10 +36,9 @@
     <script src="resources/scripts/axure/adaptive.js"></script>
     <script src="resources/scripts/axure/tree.js"></script>
     <script src="resources/scripts/axure/init.temp.js"></script>
-    <script src="files/home/data.js"></script>
+    <script src="files/myquotes/data.js"></script>
     <script src="resources/scripts/axure/legacy.js"></script>
     <script src="resources/scripts/axure/viewer.js"></script>
-		<script type="text/javascript" src="shake.js"></script>
   </head>
   <body>
     <div id="base" class="">
@@ -529,159 +528,87 @@
         <div id="u120" class="text"></div>
       </div>
 
-	  
-	  <div>
-	  <script type="text/javascript">
-window.onload = function() {
+      <!-- catDropdown (Droplist) -->
+      <div id="u121" class="ax_droplist">
+        <select id="u121_input" data-label="catDropdown">
+          <option selected value=" All"> All</option>
+          <option value=" Watercooler"> Watercooler</option>
+          <option value=" Out Drinking"> Out Drinking</option>
+          <option value=" La Familia"> La Familia</option>
+        </select>
+      </div>
 
-	window.addEventListener('shake', shakeEventDidOccur, false);
-	
-	//define a custom method to fire when shake occurs.
-	function shakeEventDidOccur () {
-	
-		//put your own code here etc.
-		if (confirm("Ultimately, shaking the device will refresh the screen with a new quote. For now, tap the screen to see additional quotes.")) {
-
-		}
-	}
-};
-</script>
-	  
-	  </div>
-	  
-      <!-- quoteBox_cat1 (Dynamic Panel) -->
-      <div id="u121" class="ax_dynamic_panel" data-label="quoteBox_cat1">
-        <div id="u121_state0" class="panel_state" data-label="shakeIt">
-          <div id="u121_state0_content" class="panel_state_content">
+      <!-- mqPanel (Dynamic Panel) -->
+      <div id="u122" class="ax_dynamic_panel" data-label="mqPanel">
+        <div id="u122_state0" class="panel_state" data-label="All">
+          <div id="u122_state0_content" class="panel_state_content">
 
             <!-- Unnamed (Shape) -->
-            <div id="u122" class="ax_h1">
-              <img id="u122_img" class="img " src="resources/images/transparent.gif"/>
+            <div id="u123" class="ax_h1">
+              <img id="u123_img" class="img " src="resources/images/transparent.gif"/>
               <!-- Unnamed () -->
-              <div id="u123" class="text">
-                <p style="font-size:28px;"><span style="font-size:28px;color:#4F8AAE;">C'mon sha- shake it.</span></p><p style="font-size:48px;"><span style="font-size:28px;color:#4F8AAE;">C'mon, c'mon sha- shake it. </span><span style="font-size:48px;color:#E4E4E4;">&quot;</span></p><p style="font-size:28px;"><span style="font-size:28px;color:#4F8AAE;">&nbsp;</span></p><p style="font-size:20px;"><span style="font-size:20px;color:#999999;">MC Shy D</span></p>
-              </div>
-            </div>
-
-            <!-- Unnamed (Shape) -->
-            <div id="u124" class="ax_h1">
-              <img id="u124_img" class="img " src="resources/images/transparent.gif"/>
-              <!-- Unnamed () -->
-              <div id="u125" class="text">
-                <p><span>&quot;</span></p>
+              <div id="u124" class="text">
+                <p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">I'm just saying, I think ACL is going to be really embarrassed that they featured this band.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Christine H.</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">&nbsp;</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">Stop crying. It makes you look fat.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Andy G.</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&nbsp;</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">Working in this nook with you is the best thing that ever happened to me.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Natalia E.</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&nbsp;</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">Easy Money.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Matt W.</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">&nbsp;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;"></span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">We're just sittin' here wavin' at cats and talking on imaginary phones to fake moms.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Christine H.</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">&nbsp;</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">I don't even smell like beer yet.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Christine H.</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">&nbsp;</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">Chug it or wear it.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Andrew B.</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">&nbsp;</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">This is the best sandwich I never had.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Theo R.</span></p>
               </div>
             </div>
           </div>
         </div>
-        <div id="u121_state1" class="panel_state" data-label="quote1">
-          <div id="u121_state1_content" class="panel_state_content">
+        <div id="u122_state1" class="panel_state" data-label="watercooler">
+          <div id="u122_state1_content" class="panel_state_content">
 
             <!-- Unnamed (Shape) -->
-            <div id="u126" class="ax_h1">
-              <img id="u126_img" class="img " src="resources/images/transparent.gif"/>
+            <div id="u125" class="ax_h1">
+              <img id="u125_img" class="img " src="resources/images/transparent.gif"/>
               <!-- Unnamed () -->
-              <div id="u127" class="text">
-                <p><span>&quot;</span></p>
-              </div>
-            </div>
-
-            <!-- Unnamed (Shape) -->
-            <div id="u128" class="ax_paragraph">
-              <img id="u128_img" class="img " src="resources/images/transparent.gif"/>
-              <!-- Unnamed () -->
-              <div id="u129" class="text">
-                <p style="font-size:48px;"><span style="font-size:28px;color:#4F8AAE;">In a gentle way, you can shake the world.</span><span style="font-size:28px;color:#4F8AAE;">&nbsp;</span><span style="font-size:48px;color:#E4E4E4;">&quot;</span></p><p style="font-size:28px;"><span style="font-size:28px;color:#4F8AAE;">&nbsp;</span></p><p style="font-size:20px;"><span style="font-size:20px;color:#999999;">Gandhi</span></p>
+              <div id="u126" class="text">
+                <p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">I'm just saying, I think ACL is going to be really embarrassed that they featured this band.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Christine H.</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&nbsp;</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">Working in this nook with you is the best thing that ever happened to me.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Natalia E.</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&nbsp;</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">We're just sittin' here wavin' at cats and talking on imaginary phones to fake moms.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Christine H.</span></p>
               </div>
             </div>
           </div>
         </div>
-        <div id="u121_state2" class="panel_state" data-label="quote2">
-          <div id="u121_state2_content" class="panel_state_content">
+        <div id="u122_state2" class="panel_state" data-label="drinking">
+          <div id="u122_state2_content" class="panel_state_content">
 
             <!-- Unnamed (Shape) -->
-            <div id="u130" class="ax_h1">
-              <img id="u130_img" class="img " src="resources/images/transparent.gif"/>
+            <div id="u127" class="ax_h1">
+              <img id="u127_img" class="img " src="resources/images/transparent.gif"/>
               <!-- Unnamed () -->
-              <div id="u131" class="text">
-                <p><span>&quot;</span></p>
-              </div>
-            </div>
-
-            <!-- Unnamed (Shape) -->
-            <div id="u132" class="ax_paragraph">
-              <img id="u132_img" class="img " src="resources/images/transparent.gif"/>
-              <!-- Unnamed () -->
-              <div id="u133" class="text">
-                <p style="font-size:48px;"><span style="font-size:28px;color:#4F8AAE;">Toto, I've a feeling we're not in Kansas anymore.</span><span style="font-size:28px;color:#4F8AAE;">&nbsp;</span><span style="font-size:48px;color:#E4E4E4;">&quot;</span></p><p style="font-size:28px;"><span style="font-size:28px;color:#4F8AAE;">&nbsp;</span></p><p style="font-size:20px;"><span style="font-size:20px;color:#999999;">Dorothy</span></p>
+              <div id="u128" class="text">
+                <p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">Stop crying. It makes you look fat.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Andy G.</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">&nbsp;</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">Easy Money.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Matt W.</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">&nbsp;</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">I don't even smell like beer yet.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Christine H.</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">&nbsp;</span></p><p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">Chug it or wear it.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Andrew B.</span></p>
               </div>
             </div>
           </div>
         </div>
-        <div id="u121_state3" class="panel_state" data-label="quote3">
-          <div id="u121_state3_content" class="panel_state_content">
+        <div id="u122_state3" class="panel_state" data-label="family">
+          <div id="u122_state3_content" class="panel_state_content">
 
             <!-- Unnamed (Shape) -->
-            <div id="u134" class="ax_h1">
-              <img id="u134_img" class="img " src="resources/images/transparent.gif"/>
+            <div id="u129" class="ax_h1">
+              <img id="u129_img" class="img " src="resources/images/transparent.gif"/>
               <!-- Unnamed () -->
-              <div id="u135" class="text">
-                <p><span>&quot;</span></p>
-              </div>
-            </div>
-
-            <!-- Unnamed (Shape) -->
-            <div id="u136" class="ax_paragraph">
-              <img id="u136_img" class="img " src="resources/images/transparent.gif"/>
-              <!-- Unnamed () -->
-              <div id="u137" class="text">
-                <p style="font-size:48px;"><span style="font-size:28px;color:#4F8AAE;">I know I am getting better at golf because I am hitting fewer spectators.</span><span style="font-size:28px;color:#4F8AAE;">&nbsp;</span><span style="font-size:48px;color:#E4E4E4;">&quot;</span></p><p style="font-size:28px;"><span style="font-size:28px;color:#4F8AAE;">&nbsp;</span></p><p style="font-size:20px;"><span style="font-size:20px;color:#999999;">Gerald Ford</span></p>
+              <div id="u130" class="text">
+                <p><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#4F8AAE;">That is the best sandwich I never had.</span><span style="font-family:'Arial Bold', 'Arial';font-weight:700;color:#CCCCCC;">&quot;</span></p><p><span style="font-family:'Arial Regular', 'Arial';font-weight:400;color:#CCCCCC;">--Theo R.</span></p>
               </div>
             </div>
           </div>
         </div>
-        <div id="u121_state4" class="panel_state" data-label="quote4">
-          <div id="u121_state4_content" class="panel_state_content">
+      </div>
 
-            <!-- Unnamed (Shape) -->
-            <div id="u138" class="ax_h1">
-              <img id="u138_img" class="img " src="resources/images/transparent.gif"/>
-              <!-- Unnamed () -->
-              <div id="u139" class="text">
-                <p><span>&quot;</span></p>
-              </div>
-            </div>
-
-            <!-- Unnamed (Shape) -->
-            <div id="u140" class="ax_paragraph">
-              <img id="u140_img" class="img " src="resources/images/transparent.gif"/>
-              <!-- Unnamed () -->
-              <div id="u141" class="text">
-                <p style="font-size:48px;"><span style="font-size:28px;color:#4F8AAE;">The finest steel has to go through the hottest fire.</span><span style="font-size:28px;color:#4F8AAE;">&nbsp;</span><span style="font-size:48px;color:#E4E4E4;">&quot;</span></p><p style="font-size:28px;"><span style="font-size:28px;color:#4F8AAE;">&nbsp;</span></p><p style="font-size:20px;"><span style="font-size:20px;color:#999999;">Richard Nixon</span></p>
-              </div>
-            </div>
-          </div>
+      <!-- Unnamed (Shape) -->
+      <div id="u131" class="ax_paragraph">
+        <img id="u131_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u132" class="text">
+          <p><span>View</span></p>
         </div>
-        <div id="u121_state5" class="panel_state" data-label="quote5">
-          <div id="u121_state5_content" class="panel_state_content">
+      </div>
 
-            <!-- Unnamed (Shape) -->
-            <div id="u142" class="ax_h1">
-              <img id="u142_img" class="img " src="resources/images/transparent.gif"/>
-              <!-- Unnamed () -->
-              <div id="u143" class="text">
-                <p><span>&quot;</span></p>
-              </div>
-            </div>
-
-            <!-- Unnamed (Shape) -->
-            <div id="u144" class="ax_paragraph">
-              <img id="u144_img" class="img " src="resources/images/transparent.gif"/>
-              <!-- Unnamed () -->
-              <div id="u145" class="text">
-                <p style="font-size:48px;"><span style="font-size:28px;color:#4F8AAE;">When all is lost, ask the I.R.S. - they'll find something.</span><span style="font-size:28px;color:#4F8AAE;">&nbsp;</span><span style="font-size:48px;color:#E4E4E4;">&quot;</span></p><p style="font-size:28px;"><span style="font-size:28px;color:#4F8AAE;">&nbsp;</span></p><p style="font-size:20px;"><span style="font-size:20px;color:#999999;">Douglas Horton</span></p>
-              </div>
-            </div>
-          </div>
+      <!-- Unnamed (Shape) -->
+      <div id="u133" class="ax_paragraph">
+        <img id="u133_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u134" class="text">
+          <p><span>Quotes</span></p>
         </div>
       </div>
     </div>
