@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"lafamilia.html",
-  "generationDate":new Date(1387825499203.44),
+  "generationDate":new Date(1387826311737.92),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -1305,7 +1305,68 @@
                   "images":{
                     "normal~":"resources/images/transparent.gif"}}]}]},
 {
-          "id":"4946ef723d494acab58fa13f7bab34d2",
+          "id":"7d3bcc36e87944ac83ba084487da610d",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":100,
+              "y":0},
+            "size":{
+              "width":110,
+              "height":36},
+            "borderWidth":"2",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF4F8AAE}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "objects":[{
+              "id":"89d5c51e23ab4e5da760a6b3bb610fdd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":100,
+                  "y":0},
+                "size":{
+                  "width":110,
+                  "height":36},
+                "borderWidth":"2",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF4F8AAE}},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+},
+                "d":{
+}}}],
+          "images":{
+            "normal~":"images/yourquotes/u157.png"}},
+{
+          "id":"541f5c661c844f11bd4a9b8d4ae1b834",
           "label":"catDropdown",
           "type":"comboBox",
           "styleType":"comboBox",
@@ -1434,14 +1495,14 @@
                       "stos":[]}},
                   "actions":[{
                       "action":"linkWindow",
-                      "description":"Open yourQuotes in Current Window",
+                      "description":"Open watercooler in Current Window",
                       "target":{
                         "targetType":"page",
-                        "url":"yourquotes.html",
+                        "url":"watercooler.html",
                         "includeVariables":true},
                       "linkType":"current"}]}]}}},
 {
-          "id":"fbc6859638084e9bb9027c63559976aa",
+          "id":"d842a4d4601649d5a91bf90f58a25bf3",
           "label":"",
           "type":"buttonShape",
           "styleType":"paragraph",
@@ -1467,7 +1528,7 @@
             "d":{
 }},
           "objects":[{
-              "id":"b4e16d31d0e047d08512c610a3bc4438",
+              "id":"6e5bba0f2aea49e1b8d0ed1a37ba11b9",
               "label":"",
               "isContained":true,
               "type":"richTextPanel",
@@ -1494,68 +1555,7 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"resources/images/transparent.gif"}},
-{
-          "id":"7d3bcc36e87944ac83ba084487da610d",
-          "label":"",
-          "type":"buttonShape",
-          "styleType":"buttonShape",
-          "visible":true,
-          "style":{
-            "fill":{
-              "fillType":"solid",
-              "color":0xFFFFFF},
-            "location":{
-              "x":100,
-              "y":0},
-            "size":{
-              "width":110,
-              "height":36},
-            "borderWidth":"2",
-            "borderFill":{
-              "fillType":"solid",
-              "color":0xFF4F8AAE}},
-          "adaptiveStyles":{
-            "a":{
-},
-            "b":{
-},
-            "c":{
-},
-            "d":{
-}},
-          "objects":[{
-              "id":"89d5c51e23ab4e5da760a6b3bb610fdd",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "fill":{
-                  "fillType":"solid",
-                  "color":0xFFFFFF},
-                "location":{
-                  "x":100,
-                  "y":0},
-                "size":{
-                  "width":110,
-                  "height":36},
-                "borderWidth":"2",
-                "borderFill":{
-                  "fillType":"solid",
-                  "color":0xFF4F8AAE}},
-              "adaptiveStyles":{
-                "a":{
-},
-                "b":{
-},
-                "c":{
-},
-                "d":{
-}}}],
-          "images":{
-            "normal~":"images/yourquotes/u157.png"}}]}},
+            "normal~":"resources/images/transparent.gif"}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -6041,13 +6041,13 @@
       "scriptId":"u160"},
     "064fac52cb0248ffb49a2fe7b9e0de03":{
       "scriptId":"u161"},
-    "4946ef723d494acab58fa13f7bab34d2":{
-      "scriptId":"u162"},
-    "fbc6859638084e9bb9027c63559976aa":{
-      "scriptId":"u163"},
-    "b4e16d31d0e047d08512c610a3bc4438":{
-      "scriptId":"u164"},
     "7d3bcc36e87944ac83ba084487da610d":{
-      "scriptId":"u165"},
+      "scriptId":"u162"},
     "89d5c51e23ab4e5da760a6b3bb610fdd":{
+      "scriptId":"u163"},
+    "541f5c661c844f11bd4a9b8d4ae1b834":{
+      "scriptId":"u164"},
+    "d842a4d4601649d5a91bf90f58a25bf3":{
+      "scriptId":"u165"},
+    "6e5bba0f2aea49e1b8d0ed1a37ba11b9":{
       "scriptId":"u166"}}});

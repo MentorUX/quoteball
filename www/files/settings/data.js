@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"settings.html",
-  "generationDate":new Date(1387825500959.54),
+  "generationDate":new Date(1387826313500.02),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -167,7 +167,54 @@
                               "linkType":"current"}]}]}},
                   "tabbable":true}]}],
           "images":{
-            "normal~":"images/settings/u121.png"}}]}},
+            "normal~":"images/settings/u121.png"}},
+{
+          "id":"468c7d8e9ba740e192c3f929aec75389",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":220,
+              "height":36},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFCCCCCC}},
+          "adaptiveStyles":{
+            "a":{
+},
+            "b":{
+},
+            "c":{
+},
+            "d":{
+}},
+          "objects":[{
+              "id":"59641b2cea494675a80d873a49652d80",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":220,
+                  "height":36},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC}},
+              "adaptiveStyles":{
+                "a":{
+},
+                "b":{
+},
+                "c":{
+},
+                "d":{
+}}}],
+          "images":{
+            "normal~":"images/home/u146.png"}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -4576,4 +4623,8 @@
     "2ff5ade08b454c1289616840f2b0942b":{
       "scriptId":"u122"},
     "ac94dc89fabb4fb0b291fb84d5356f74":{
-      "scriptId":"u123"}}});
+      "scriptId":"u123"},
+    "468c7d8e9ba740e192c3f929aec75389":{
+      "scriptId":"u124"},
+    "59641b2cea494675a80d873a49652d80":{
+      "scriptId":"u125"}}});

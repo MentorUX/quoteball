@@ -44,6 +44,10 @@
         "type":"Wireframe",
         "url":"yourquotes.html",
         "children":[{
+            "pageName":"watercooler",
+            "type":"Wireframe",
+            "url":"watercooler.html"},
+{
             "pageName":"outDrinking",
             "type":"Wireframe",
             "url":"outdrinking.html"},
