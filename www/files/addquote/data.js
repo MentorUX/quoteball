@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"addquote.html",
-  "generationDate":new Date(1387826312690.97),
+  "generationDate":new Date(1387828487554.36),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -182,10 +182,10 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/addquote/u123.png",
-            "normal~b":"images/addquote/u123_b.png",
-            "normal~c":"images/addquote/u123_b.png",
-            "normal~d":"images/addquote/u123_b.png"}},
+            "normal~":"images/addquote/u125.png",
+            "normal~b":"images/addquote/u125_b.png",
+            "normal~c":"images/addquote/u125_b.png",
+            "normal~d":"images/addquote/u125_b.png"}},
 {
           "id":"5df029b370624da1af78690fdc83d486",
           "label":"",
@@ -248,10 +248,10 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/addquote/u123.png",
-            "normal~b":"images/addquote/u123_b.png",
-            "normal~c":"images/addquote/u123_b.png",
-            "normal~d":"images/addquote/u123_b.png"}},
+            "normal~":"images/addquote/u125.png",
+            "normal~b":"images/addquote/u125_b.png",
+            "normal~c":"images/addquote/u125_b.png",
+            "normal~d":"images/addquote/u125_b.png"}},
 {
           "id":"96a0e68d8b054b7a8299330e2333025f",
           "label":"",
@@ -456,7 +456,7 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/home/u146.png"}},
+            "normal~":"images/home/u148.png"}},
 {
           "id":"53c9f22977a74d73abd090e10d1fce1f",
           "label":"",
@@ -519,10 +519,10 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/addquote/u131.png",
-            "normal~b":"images/addquote/u123_b.png",
-            "normal~c":"images/addquote/u123_b.png",
-            "normal~d":"images/addquote/u123_b.png"}}]}},
+            "normal~":"images/addquote/u133.png",
+            "normal~b":"images/addquote/u125_b.png",
+            "normal~c":"images/addquote/u125_b.png",
+            "normal~d":"images/addquote/u125_b.png"}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -1103,7 +1103,88 @@
               "normal~":"images/home/u119.png",
               "normal~b":"images/home/u1_b.png",
               "normal~c":"images/home/u1_b.png",
-              "normal~d":"images/home/u1_b.png"}}]}},
+              "normal~d":"images/home/u1_b.png"}},
+{
+            "id":"72804bdb8ea94cafb2ff5604a5ddb9de",
+            "label":"",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fill":{
+                "fillType":"solid",
+                "color":0xFFFFFF},
+              "location":{
+                "x":280,
+                "y":0},
+              "size":{
+                "width":40,
+                "height":36},
+              "borderWidth":"-1",
+              "borderFill":{
+                "fillType":"solid",
+                "color":0xFFCCCCCC}},
+            "adaptiveStyles":{
+              "a":{
+},
+              "b":{
+                "size":{
+                  "width":480,
+                  "height":50}},
+              "c":{
+},
+              "d":{
+}},
+            "objects":[{
+                "id":"7ae72b192ace4933b1cbb61e62e67445",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFFFFFF},
+                  "location":{
+                    "x":280,
+                    "y":0},
+                  "size":{
+                    "width":40,
+                    "height":36},
+                  "borderWidth":"-1",
+                  "borderFill":{
+                    "fillType":"solid",
+                    "color":0xFFCCCCCC}},
+                "adaptiveStyles":{
+                  "a":{
+},
+                  "b":{
+},
+                  "c":{
+},
+                  "d":{
+}}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"Open search in Current Window",
+                        "target":{
+                          "targetType":"page",
+                          "url":"search.html",
+                          "includeVariables":true},
+                        "linkType":"current"}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"resources/images/transparent.gif",
+              "normal~b":"resources/images/transparent.gif",
+              "normal~c":"resources/images/transparent.gif",
+              "normal~d":"resources/images/transparent.gif"}}]}},
     "81e3124032df45c4b52c40520e5abd12":{
       "packageId":"81e3124032df45c4b52c40520e5abd12",
       "type":"Axure:Master",
@@ -1838,15 +1919,15 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open find in Current Window",
+                                "description":"Open friends in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"find.html",
+                                  "url":"friends.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
                                 "action":"setPanelState",
-                                "description":"Set FooterPanel to find",
+                                "description":"Set FooterPanel to friends",
                                 "panelsToStates":[{
                                     "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
                                     "stateInfo":{
@@ -2541,15 +2622,15 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open find in Current Window",
+                                "description":"Open friends in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"find.html",
+                                  "url":"friends.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
                                 "action":"setPanelState",
-                                "description":"Set FooterPanel to find",
+                                "description":"Set FooterPanel to friends",
                                 "panelsToStates":[{
                                     "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
                                     "stateInfo":{
@@ -3248,15 +3329,15 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open find in Current Window",
+                                "description":"Open friends in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"find.html",
+                                  "url":"friends.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
                                 "action":"setPanelState",
-                                "description":"Set FooterPanel to find",
+                                "description":"Set FooterPanel to friends",
                                 "panelsToStates":[{
                                     "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
                                     "stateInfo":{
@@ -3275,7 +3356,7 @@
                       "normal~":"resources/images/transparent.gif"}}]},
 {
                 "id":"bc049b957776425490a73ddc1a5ecb2e",
-                "label":"find",
+                "label":"friends",
                 "type":"Axure:PanelDiagram",
                 "objects":[{
                     "id":"abef65c888e44869a620d93f0f803862",
@@ -3955,15 +4036,15 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open find in Current Window",
+                                "description":"Open friends in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"find.html",
+                                  "url":"friends.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
                                 "action":"setPanelState",
-                                "description":"Set FooterPanel to find",
+                                "description":"Set FooterPanel to friends",
                                 "panelsToStates":[{
                                     "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
                                     "stateInfo":{
@@ -4658,15 +4739,15 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open find in Current Window",
+                                "description":"Open friends in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"find.html",
+                                  "url":"friends.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
                                 "action":"setPanelState",
-                                "description":"Set FooterPanel to find",
+                                "description":"Set FooterPanel to friends",
                                 "panelsToStates":[{
                                     "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
                                     "stateInfo":{
@@ -4925,28 +5006,32 @@
       "e51c5e49e7564292aec9c6d30e8b946e":{
         "scriptId":"u119"},
       "6700ff8647854ba0a42f5eb373fd6f54":{
-        "scriptId":"u120"}},
+        "scriptId":"u120"},
+      "72804bdb8ea94cafb2ff5604a5ddb9de":{
+        "scriptId":"u121"},
+      "7ae72b192ace4933b1cbb61e62e67445":{
+        "scriptId":"u122"}},
     "335dc6bc35934d56af6fc207d8e911f0":{
-      "scriptId":"u121"},
-    "1b8a365cacd4430083f7a209a60fa9c7":{
-      "scriptId":"u122"},
-    "a5d4ff6816fd4262a18771869be8906f":{
       "scriptId":"u123"},
-    "148aad8535e242edb73363bb7d493a0b":{
+    "1b8a365cacd4430083f7a209a60fa9c7":{
       "scriptId":"u124"},
-    "5df029b370624da1af78690fdc83d486":{
+    "a5d4ff6816fd4262a18771869be8906f":{
       "scriptId":"u125"},
-    "c8276729b2414e0ca69243b79fbacc24":{
+    "148aad8535e242edb73363bb7d493a0b":{
       "scriptId":"u126"},
-    "96a0e68d8b054b7a8299330e2333025f":{
+    "5df029b370624da1af78690fdc83d486":{
       "scriptId":"u127"},
-    "394f91b44bb848439b27999feaa50f35":{
+    "c8276729b2414e0ca69243b79fbacc24":{
       "scriptId":"u128"},
-    "54fafacede9743e095a2e53b4283f6e5":{
+    "96a0e68d8b054b7a8299330e2333025f":{
       "scriptId":"u129"},
-    "7839fbf281d6414d91f73de801cb7f7e":{
+    "394f91b44bb848439b27999feaa50f35":{
       "scriptId":"u130"},
-    "53c9f22977a74d73abd090e10d1fce1f":{
+    "54fafacede9743e095a2e53b4283f6e5":{
       "scriptId":"u131"},
+    "7839fbf281d6414d91f73de801cb7f7e":{
+      "scriptId":"u132"},
+    "53c9f22977a74d73abd090e10d1fce1f":{
+      "scriptId":"u133"},
     "186c8671a4f1414bad69f77b745b9bb0":{
-      "scriptId":"u132"}}});
+      "scriptId":"u134"}}});

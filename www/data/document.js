@@ -64,9 +64,13 @@
         "type":"Wireframe",
         "url":"addquote.html"},
 {
-        "pageName":"find",
+        "pageName":"friends",
         "type":"Wireframe",
-        "url":"find.html"},
+        "url":"friends.html"},
+{
+        "pageName":"search",
+        "type":"Wireframe",
+        "url":"search.html"},
 {
         "pageName":"settings",
         "type":"Wireframe",

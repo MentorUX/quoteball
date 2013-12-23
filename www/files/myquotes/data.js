@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"myquotes.html",
-  "generationDate":new Date(1387826309803.8),
+  "generationDate":new Date(1387828484454.19),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -685,7 +685,7 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/myquotes/u135.png"}}]}},
+            "normal~":"images/myquotes/u137.png"}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -1266,7 +1266,88 @@
               "normal~":"images/home/u119.png",
               "normal~b":"images/home/u1_b.png",
               "normal~c":"images/home/u1_b.png",
-              "normal~d":"images/home/u1_b.png"}}]}},
+              "normal~d":"images/home/u1_b.png"}},
+{
+            "id":"72804bdb8ea94cafb2ff5604a5ddb9de",
+            "label":"",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "fill":{
+                "fillType":"solid",
+                "color":0xFFFFFF},
+              "location":{
+                "x":280,
+                "y":0},
+              "size":{
+                "width":40,
+                "height":36},
+              "borderWidth":"-1",
+              "borderFill":{
+                "fillType":"solid",
+                "color":0xFFCCCCCC}},
+            "adaptiveStyles":{
+              "a":{
+},
+              "b":{
+                "size":{
+                  "width":480,
+                  "height":50}},
+              "c":{
+},
+              "d":{
+}},
+            "objects":[{
+                "id":"7ae72b192ace4933b1cbb61e62e67445",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "fill":{
+                    "fillType":"solid",
+                    "color":0xFFFFFF},
+                  "location":{
+                    "x":280,
+                    "y":0},
+                  "size":{
+                    "width":40,
+                    "height":36},
+                  "borderWidth":"-1",
+                  "borderFill":{
+                    "fillType":"solid",
+                    "color":0xFFCCCCCC}},
+                "adaptiveStyles":{
+                  "a":{
+},
+                  "b":{
+},
+                  "c":{
+},
+                  "d":{
+}}}],
+            "interactionMap":{
+              "onClick":{
+                "description":"OnClick",
+                "cases":[{
+                    "description":"Case 1",
+                    "isNewIfGroup":false,
+                    "actions":[{
+                        "action":"linkWindow",
+                        "description":"Open search in Current Window",
+                        "target":{
+                          "targetType":"page",
+                          "url":"search.html",
+                          "includeVariables":true},
+                        "linkType":"current"}]}]}},
+            "tabbable":true,
+            "images":{
+              "normal~":"resources/images/transparent.gif",
+              "normal~b":"resources/images/transparent.gif",
+              "normal~c":"resources/images/transparent.gif",
+              "normal~d":"resources/images/transparent.gif"}}]}},
     "81e3124032df45c4b52c40520e5abd12":{
       "packageId":"81e3124032df45c4b52c40520e5abd12",
       "type":"Axure:Master",
@@ -2001,15 +2082,15 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open find in Current Window",
+                                "description":"Open friends in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"find.html",
+                                  "url":"friends.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
                                 "action":"setPanelState",
-                                "description":"Set FooterPanel to find",
+                                "description":"Set FooterPanel to friends",
                                 "panelsToStates":[{
                                     "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
                                     "stateInfo":{
@@ -2704,15 +2785,15 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open find in Current Window",
+                                "description":"Open friends in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"find.html",
+                                  "url":"friends.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
                                 "action":"setPanelState",
-                                "description":"Set FooterPanel to find",
+                                "description":"Set FooterPanel to friends",
                                 "panelsToStates":[{
                                     "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
                                     "stateInfo":{
@@ -3411,15 +3492,15 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open find in Current Window",
+                                "description":"Open friends in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"find.html",
+                                  "url":"friends.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
                                 "action":"setPanelState",
-                                "description":"Set FooterPanel to find",
+                                "description":"Set FooterPanel to friends",
                                 "panelsToStates":[{
                                     "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
                                     "stateInfo":{
@@ -3438,7 +3519,7 @@
                       "normal~":"resources/images/transparent.gif"}}]},
 {
                 "id":"bc049b957776425490a73ddc1a5ecb2e",
-                "label":"find",
+                "label":"friends",
                 "type":"Axure:PanelDiagram",
                 "objects":[{
                     "id":"abef65c888e44869a620d93f0f803862",
@@ -4118,15 +4199,15 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open find in Current Window",
+                                "description":"Open friends in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"find.html",
+                                  "url":"friends.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
                                 "action":"setPanelState",
-                                "description":"Set FooterPanel to find",
+                                "description":"Set FooterPanel to friends",
                                 "panelsToStates":[{
                                     "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
                                     "stateInfo":{
@@ -4821,15 +4902,15 @@
                             "isNewIfGroup":false,
                             "actions":[{
                                 "action":"linkWindow",
-                                "description":"Open find in Current Window",
+                                "description":"Open friends in Current Window",
                                 "target":{
                                   "targetType":"page",
-                                  "url":"find.html",
+                                  "url":"friends.html",
                                   "includeVariables":true},
                                 "linkType":"current"},
 {
                                 "action":"setPanelState",
-                                "description":"Set FooterPanel to find",
+                                "description":"Set FooterPanel to friends",
                                 "panelsToStates":[{
                                     "panelPath":["b7da9bb0976a4d09a514079ff3c6acff"],
                                     "stateInfo":{
@@ -5088,36 +5169,40 @@
       "e51c5e49e7564292aec9c6d30e8b946e":{
         "scriptId":"u119"},
       "6700ff8647854ba0a42f5eb373fd6f54":{
-        "scriptId":"u120"}},
+        "scriptId":"u120"},
+      "72804bdb8ea94cafb2ff5604a5ddb9de":{
+        "scriptId":"u121"},
+      "7ae72b192ace4933b1cbb61e62e67445":{
+        "scriptId":"u122"}},
     "715ddfb503a444879a8dd1ad4e6664b2":{
-      "scriptId":"u121"},
-    "e5ded302303644ca8ba395df2dcb4ef2":{
-      "scriptId":"u122"},
-    "016c3061d43a43ee9425b184570968da":{
       "scriptId":"u123"},
-    "3b149a989abd4b36a4377a1cce35269c":{
+    "e5ded302303644ca8ba395df2dcb4ef2":{
       "scriptId":"u124"},
-    "91308b9ecd89415ca3fe636b19ae56af":{
+    "016c3061d43a43ee9425b184570968da":{
       "scriptId":"u125"},
-    "974ee26f2a26432ab8e235a10620a5d5":{
+    "3b149a989abd4b36a4377a1cce35269c":{
       "scriptId":"u126"},
-    "90447a2d73c1461f871bf3cdf44b3bb5":{
+    "91308b9ecd89415ca3fe636b19ae56af":{
       "scriptId":"u127"},
-    "e3ed2eb92ece4558b08947e7248f8875":{
+    "974ee26f2a26432ab8e235a10620a5d5":{
       "scriptId":"u128"},
-    "614221b0c3d8465cb71800cc9b4fae40":{
+    "90447a2d73c1461f871bf3cdf44b3bb5":{
       "scriptId":"u129"},
-    "1813ee0439e64bce85e1cc85b92b8e22":{
+    "e3ed2eb92ece4558b08947e7248f8875":{
       "scriptId":"u130"},
-    "91fae421b6124d2b8e18c85268ae5e93":{
+    "614221b0c3d8465cb71800cc9b4fae40":{
       "scriptId":"u131"},
-    "9ae3dd01df744310a94394ec040f241c":{
+    "1813ee0439e64bce85e1cc85b92b8e22":{
       "scriptId":"u132"},
-    "023e31852f2f49b5bdae26d76a9a6d96":{
+    "91fae421b6124d2b8e18c85268ae5e93":{
       "scriptId":"u133"},
-    "22aefdea61f24e5b9d765e351073a6c8":{
+    "9ae3dd01df744310a94394ec040f241c":{
       "scriptId":"u134"},
-    "0e504c4bec7949ffafdc597dab0bde0c":{
+    "023e31852f2f49b5bdae26d76a9a6d96":{
       "scriptId":"u135"},
+    "22aefdea61f24e5b9d765e351073a6c8":{
+      "scriptId":"u136"},
+    "0e504c4bec7949ffafdc597dab0bde0c":{
+      "scriptId":"u137"},
     "12ea4402ac074a84afb5ea3e52aa1369":{
-      "scriptId":"u136"}}});
+      "scriptId":"u138"}}});
