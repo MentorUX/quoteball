@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"addquote.html",
-  "generationDate":new Date(1387839220036.97),
+  "generationDate":new Date(1387920359746.16),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -182,10 +182,10 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/addquote/u125.png",
-            "normal~b":"images/addquote/u125_b.png",
-            "normal~c":"images/addquote/u125_b.png",
-            "normal~d":"images/addquote/u125_b.png"}},
+            "normal~":"images/addquote/regen/u125.png",
+            "normal~b":"images/addquote/regen/u125_b.png",
+            "normal~c":"images/addquote/regen/u125_b.png",
+            "normal~d":"images/addquote/regen/u125_b.png"}},
 {
           "id":"5df029b370624da1af78690fdc83d486",
           "label":"",
@@ -248,10 +248,10 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/addquote/u125.png",
-            "normal~b":"images/addquote/u125_b.png",
-            "normal~c":"images/addquote/u125_b.png",
-            "normal~d":"images/addquote/u125_b.png"}},
+            "normal~":"images/addquote/regen/u125.png",
+            "normal~b":"images/addquote/regen/u125_b.png",
+            "normal~c":"images/addquote/regen/u125_b.png",
+            "normal~d":"images/addquote/regen/u125_b.png"}},
 {
           "id":"96a0e68d8b054b7a8299330e2333025f",
           "label":"",
@@ -456,7 +456,7 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/home/u148.png"}},
+            "normal~":"images/addquote/regen/u131.png"}},
 {
           "id":"53c9f22977a74d73abd090e10d1fce1f",
           "label":"",
@@ -519,10 +519,10 @@
                 "d":{
 }}}],
           "images":{
-            "normal~":"images/addquote/u133.png",
-            "normal~b":"images/addquote/u125_b.png",
-            "normal~c":"images/addquote/u125_b.png",
-            "normal~d":"images/addquote/u125_b.png"}}]}},
+            "normal~":"images/addquote/regen/u133.png",
+            "normal~b":"images/addquote/regen/u125_b.png",
+            "normal~c":"images/addquote/regen/u125_b.png",
+            "normal~d":"images/addquote/regen/u125_b.png"}}]}},
   "masters":{
     "74dd9fa4ef174a4aac68bd408b906866":{
       "packageId":"74dd9fa4ef174a4aac68bd408b906866",
@@ -611,10 +611,10 @@
                   "d":{
 }}}],
             "images":{
-              "normal~":"images/home/u1.png",
-              "normal~b":"images/home/u1_b.png",
-              "normal~c":"images/home/u1_b.png",
-              "normal~d":"images/home/u1_b.png"}},
+              "normal~":"images/addquote/regen/u1.png",
+              "normal~b":"images/addquote/regen/u1_b.png",
+              "normal~c":"images/addquote/regen/u1_b.png",
+              "normal~d":"images/addquote/regen/u1_b.png"}},
 {
             "id":"766a3c30dfc24a7783792582c6706a40",
             "label":"",
@@ -669,10 +669,10 @@
                   "d":{
 }}}],
             "images":{
-              "normal~":"images/home/u3.png",
-              "normal~b":"images/home/u1_b.png",
-              "normal~c":"images/home/u1_b.png",
-              "normal~d":"images/home/u1_b.png"}},
+              "normal~":"images/addquote/regen/u3.png",
+              "normal~b":"images/addquote/regen/u1_b.png",
+              "normal~c":"images/addquote/regen/u1_b.png",
+              "normal~d":"images/addquote/regen/u1_b.png"}},
 {
             "id":"ee674a5562fc4aba8a5e2330fad40f13",
             "label":"",
@@ -739,7 +739,7 @@
                   "d":{
 }}}],
             "images":{
-              "normal~":"images/home/u107.png"}},
+              "normal~":"images/addquote/regen/u107.png"}},
 {
             "id":"4f2fb6aed3ef48cfa31c00bacc190ce4",
             "label":"",
@@ -786,7 +786,7 @@
                   "d":{
 }}}],
             "images":{
-              "normal~":"images/home/u109.png"}},
+              "normal~":"images/addquote/regen/u109.png"}},
 {
             "id":"2dbd3ee2b5e8406fb14bf99a4765e6b1",
             "label":"",
@@ -951,7 +951,7 @@
                   "d":{
 }}}],
             "images":{
-              "normal~":"images/home/u115.png"}},
+              "normal~":"images/addquote/regen/u115.png"}},
 {
             "id":"410a72c765494ac5af115b86baa4ed45",
             "label":"",
@@ -1021,10 +1021,10 @@
                         "linkType":"current"}]}]}},
             "tabbable":true,
             "images":{
-              "normal~":"images/home/u117.png",
-              "normal~b":"images/home/u1_b.png",
-              "normal~c":"images/home/u1_b.png",
-              "normal~d":"images/home/u1_b.png"}},
+              "normal~":"images/addquote/regen/u117.png",
+              "normal~b":"images/addquote/regen/u1_b.png",
+              "normal~c":"images/addquote/regen/u1_b.png",
+              "normal~d":"images/addquote/regen/u1_b.png"}},
 {
             "id":"e51c5e49e7564292aec9c6d30e8b946e",
             "label":"",
@@ -1100,10 +1100,10 @@
                         "linkType":"current"}]}]}},
             "tabbable":true,
             "images":{
-              "normal~":"images/home/u119.png",
-              "normal~b":"images/home/u1_b.png",
-              "normal~c":"images/home/u1_b.png",
-              "normal~d":"images/home/u1_b.png"}},
+              "normal~":"images/addquote/regen/u119.png",
+              "normal~b":"images/addquote/regen/u1_b.png",
+              "normal~c":"images/addquote/regen/u1_b.png",
+              "normal~d":"images/addquote/regen/u1_b.png"}},
 {
             "id":"72804bdb8ea94cafb2ff5604a5ddb9de",
             "label":"",
@@ -1297,7 +1297,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u7.png"}},
+                      "normal~":"images/addquote/regen/u7.png"}},
 {
                     "id":"3d33648afbd94ced97df13ea358e3e44",
                     "label":"",
@@ -1377,7 +1377,7 @@
                                         "compress":false}}}]}]}]}},
                     "tabbable":true,
                     "images":{
-                      "normal~":"images/home/u9.png"}},
+                      "normal~":"images/addquote/regen/u9.png"}},
 {
                     "id":"9f2fad9a5e494d35b769bd7ae4796e78",
                     "label":"",
@@ -1426,7 +1426,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u11.png"}},
+                      "normal~":"images/addquote/regen/u11.png"}},
 {
                     "id":"c80bcda215c54bae8273e0c29c3a5672",
                     "label":"",
@@ -1475,7 +1475,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u13.png"}},
+                      "normal~":"images/addquote/regen/u13.png"}},
 {
                     "id":"07b81fac2002495e90163c9f8d90a704",
                     "label":"",
@@ -1524,7 +1524,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u15.png"}},
+                      "normal~":"images/addquote/regen/u15.png"}},
 {
                     "id":"a7e76f452f394ea38f3ea02baa2535e9",
                     "label":"",
@@ -1849,7 +1849,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u23.png"}},
+                      "normal~":"images/addquote/regen/u23.png"}},
 {
                     "id":"03094a20195044689d35c7538d3f4fb3",
                     "label":"",
@@ -1996,7 +1996,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u7.png"}},
+                      "normal~":"images/addquote/regen/u7.png"}},
 {
                     "id":"7810aedd2b46445aa9bec2ab2c95771a",
                     "label":"",
@@ -2076,7 +2076,7 @@
                                         "compress":false}}}]}]}]}},
                     "tabbable":true,
                     "images":{
-                      "normal~":"images/home/u9.png"}},
+                      "normal~":"images/addquote/regen/u9.png"}},
 {
                     "id":"6ef82c23c2b043b6800ddda6970e2374",
                     "label":"",
@@ -2125,7 +2125,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u11.png"}},
+                      "normal~":"images/addquote/regen/u11.png"}},
 {
                     "id":"bc2320f4db1a46d2bf4946bba269ffb4",
                     "label":"",
@@ -2174,7 +2174,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u13.png"}},
+                      "normal~":"images/addquote/regen/u13.png"}},
 {
                     "id":"2ddd27a116a74f1f8310a511a146218d",
                     "label":"",
@@ -2223,7 +2223,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u15.png"}},
+                      "normal~":"images/addquote/regen/u15.png"}},
 {
                     "id":"66085bb8bcec4b69beafb1030b079cd0",
                     "label":"",
@@ -2503,7 +2503,7 @@
                                         "compress":false}}}]}]}]}},
                     "tabbable":true,
                     "images":{
-                      "normal~":"images/home/u41.png"}},
+                      "normal~":"images/addquote/regen/u41.png"}},
 {
                     "id":"a0ac1317cc0d48f8bc553bc80a486577",
                     "label":"",
@@ -2552,7 +2552,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u23.png"}},
+                      "normal~":"images/addquote/regen/u23.png"}},
 {
                     "id":"f734a5dba76944afa774a470e8a90245",
                     "label":"",
@@ -2699,7 +2699,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u7.png"}},
+                      "normal~":"images/addquote/regen/u7.png"}},
 {
                     "id":"b51f4b53749b44d98a37951f2e97d48b",
                     "label":"",
@@ -2779,7 +2779,7 @@
                                         "compress":false}}}]}]}]}},
                     "tabbable":true,
                     "images":{
-                      "normal~":"images/home/u9.png"}},
+                      "normal~":"images/addquote/regen/u9.png"}},
 {
                     "id":"c3c11ed95ed8451597d99e04dfbfd9f6",
                     "label":"",
@@ -2828,7 +2828,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u11.png"}},
+                      "normal~":"images/addquote/regen/u11.png"}},
 {
                     "id":"b0492abedb314729826848ddb3538fb3",
                     "label":"",
@@ -2877,7 +2877,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u13.png"}},
+                      "normal~":"images/addquote/regen/u13.png"}},
 {
                     "id":"5afc2fa195904099bdaa5e89f742c134",
                     "label":"",
@@ -2926,7 +2926,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u15.png"}},
+                      "normal~":"images/addquote/regen/u15.png"}},
 {
                     "id":"a8c8c58f610942bbb800563aee779d15",
                     "label":"",
@@ -3210,7 +3210,7 @@
                                         "compress":false}}}]}]}]}},
                     "tabbable":true,
                     "images":{
-                      "normal~":"images/home/u41.png"}},
+                      "normal~":"images/addquote/regen/u41.png"}},
 {
                     "id":"4f499622fc3242acaf734dfbdb47245c",
                     "label":"",
@@ -3259,7 +3259,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u23.png"}},
+                      "normal~":"images/addquote/regen/u23.png"}},
 {
                     "id":"1eed4c96910e456bb0778c3ae744a17a",
                     "label":"",
@@ -3406,7 +3406,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u7.png"}},
+                      "normal~":"images/addquote/regen/u7.png"}},
 {
                     "id":"b5154f820d4943b181fe43d620254f49",
                     "label":"",
@@ -3486,7 +3486,7 @@
                                         "compress":false}}}]}]}]}},
                     "tabbable":true,
                     "images":{
-                      "normal~":"images/home/u9.png"}},
+                      "normal~":"images/addquote/regen/u9.png"}},
 {
                     "id":"5f919a74b7b04a17afafd89d0a5b49e4",
                     "label":"",
@@ -3535,7 +3535,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u11.png"}},
+                      "normal~":"images/addquote/regen/u11.png"}},
 {
                     "id":"e684f5c892134c1eb4bada7bc682447f",
                     "label":"",
@@ -3584,7 +3584,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u13.png"}},
+                      "normal~":"images/addquote/regen/u13.png"}},
 {
                     "id":"5b34df2717724b95a20dcaf7e93114ab",
                     "label":"",
@@ -3633,7 +3633,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u15.png"}},
+                      "normal~":"images/addquote/regen/u15.png"}},
 {
                     "id":"2bb6cdad0ab64581a12872edd1f2d1ff",
                     "label":"",
@@ -3962,7 +3962,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u23.png"}},
+                      "normal~":"images/addquote/regen/u23.png"}},
 {
                     "id":"1dac1a82e4664d048340c684dd2318b6",
                     "label":"",
@@ -4060,7 +4060,7 @@
                                         "compress":false}}}]}]}]}},
                     "tabbable":true,
                     "images":{
-                      "normal~":"images/home/u41.png"}}]},
+                      "normal~":"images/addquote/regen/u41.png"}}]},
 {
                 "id":"a387d562838b4f2590f2d24112b54d43",
                 "label":"settings",
@@ -4113,7 +4113,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u7.png"}},
+                      "normal~":"images/addquote/regen/u7.png"}},
 {
                     "id":"d24b9b367dbe4076bda28a4ab848e6ae",
                     "label":"",
@@ -4193,7 +4193,7 @@
                                         "compress":false}}}]}]}]}},
                     "tabbable":true,
                     "images":{
-                      "normal~":"images/home/u9.png"}},
+                      "normal~":"images/addquote/regen/u9.png"}},
 {
                     "id":"6398fac8ec8e4780b6f05ef0e0585f3c",
                     "label":"",
@@ -4242,7 +4242,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u11.png"}},
+                      "normal~":"images/addquote/regen/u11.png"}},
 {
                     "id":"399633d58853436288fe61a12fddf1c4",
                     "label":"",
@@ -4291,7 +4291,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u13.png"}},
+                      "normal~":"images/addquote/regen/u13.png"}},
 {
                     "id":"d8fd23287df04ed38cf43144110e1049",
                     "label":"",
@@ -4340,7 +4340,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u15.png"}},
+                      "normal~":"images/addquote/regen/u15.png"}},
 {
                     "id":"7ec254890f0d47ce9932953d6cabcaa9",
                     "label":"",
@@ -4620,7 +4620,7 @@
                                         "compress":false}}}]}]}]}},
                     "tabbable":true,
                     "images":{
-                      "normal~":"images/home/u41.png"}},
+                      "normal~":"images/addquote/regen/u41.png"}},
 {
                     "id":"0adfd1359ef446839d49f0cfe0453909",
                     "label":"",
@@ -4669,7 +4669,7 @@
                           "d":{
 }}}],
                     "images":{
-                      "normal~":"images/home/u23.png"}},
+                      "normal~":"images/addquote/regen/u23.png"}},
 {
                     "id":"8a93574cb2734f08a87e03f65386f066",
                     "label":"",
